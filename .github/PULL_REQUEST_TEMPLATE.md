@@ -17,7 +17,6 @@ Before submitting, confirm all of the following:
 - [ ] The source code is fully and publicly available
 - [ ] No proprietary dependencies are required to run core functionality
 - [ ] The entry is placed in the most specific existing category
-- [ ] The commit message follows the Conventional Commits specification
 
 ## Entry being added or modified
 
