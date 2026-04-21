@@ -22,9 +22,9 @@
 ## Overview
 - [Web Development](#web-development)
 - [Backend / BaaS](#backend--baas)
+- [Software / SaaS](#software--saas)
 - [DevOps](#devops)
 - [Databases](#databases)
-- [SaaS (Software as a Service)](#saas-software-as-a-service)
 - [CLI Tools](#cli-tools)
 - [Mobile Apps](#mobile-apps)
 - [Self-Hosted](#self-hosted)
@@ -84,6 +84,38 @@
 - [Ionicons](https://github.com/ionic-team/ionicons) - Icon pack for Ionic and general use.
 - [Bootstrap Icons](https://github.com/twbs/icons) - Official Bootstrap icon library.
 - [React Icons](https://github.com/react-icons/react-icons) - Popular icon packs as React components.
+  
+## Backend / BaaS
+
+### Frameworks
+
+- [Hono](https://github.com/honojs/hono) - Ultrafast framework for modern runtimes (Edge, Bun, Deno, Node).
+- [Elysia](https://github.com/elysiajs/elysia) - High-performance Bun-first framework with strong typing.
+- [AdonisJS](https://github.com/adonisjs/core) - Modern Node.js framework with a TypeScript-first approach.
+- [Wasp](https://github.com/wasp-lang/wasp) - Declarative full-stack framework that generates backend automatically.
+- [LoopBack](https://github.com/loopbackio/loopback-next) - Advanced API framework based on OpenAPI.
+- [FeathersJS](https://github.com/feathersjs/feathers) - Flexible framework for REST and real-time applications.
+- [Moleculer](https://github.com/moleculerjs/moleculer) - Fast and powerful microservices framework.
+- [Midway](https://github.com/midwayjs/midway) - Node.js framework with dependency injection inspired by Spring.
+
+### Backend as a Service
+
+- [Supabase](https://github.com/supabase/supabase) - Open source Firebase alternative built on PostgreSQL.
+- [PocketBase](https://github.com/pocketbase/pocketbase) - Embedded backend with SQLite, auth, and REST API, fully open source.
+- [Parse Server](https://github.com/parse-community/parse-server) - Mature open source backend with no critical closed features.
+- [UnDB](https://github.com/undb-io/undb) - Self-hosted no-code database and BaaS (SQLite-based, Airtable-like).
+
+### API & GraphQL
+
+- [GraphQL Yoga](https://github.com/dotansimha/graphql-yoga) - Modern, lightweight GraphQL server.
+- [PostgREST](https://github.com/PostgREST/postgrest) - Instantly turns PostgreSQL into a REST API.
+- [tRPC](https://github.com/trpc/trpc) - End-to-end typesafe APIs without schemas.
+
+### Authentication & Identity
+
+- [Ory Kratos](https://github.com/ory/kratos) - Security-focused authentication system with a fully open source core.
+- [Authelia](https://github.com/authelia/authelia) - Self-hosted multi-factor authentication solution.
+- [Keycloak](https://github.com/keycloak/keycloak) - Full-featured open source IAM solution (SSO, OAuth2, OIDC, SAML) backed by Red Hat.
 
 > [!CAUTION]
 > 🚧 Working...
