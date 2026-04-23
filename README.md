@@ -1,8 +1,8 @@
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./.github/assets/banner-dark.png">
-    <source media="(prefers-color-scheme: light)" srcset="./.github/assets/banner-light.png">
-    <img alt="banner" src="./.github/assets/banner-dark.png">
+    <source media="(prefers-color-scheme: dark)" srcset=".github/assets/banner-dark.png">
+    <source media="(prefers-color-scheme: light)" srcset=".github/assets/banner-light.png">
+    <img alt="banner" src=".github/assets/banner-dark.png">
   </picture>
 
   <p>
@@ -18,6 +18,9 @@
   ![GitHub License](https://img.shields.io/github/license/hadez8877/awesome-opensource)
   
 </div>
+
+> [!CAUTION]
+> 🚧 The list is currently working. Therefore, some items are incomplete or not yet visible.
 
 ## Overview
 - [Web Development](#web-development)
@@ -164,5 +167,25 @@
 - [Docs](https://github.com/suitenumerique/docs) - Collaborative document editing platform focused on privacy and self-hosting.
 - [Wiki.js](https://github.com/requarks/wiki) - Powerful and extensible open-source wiki platform.
 
-> [!CAUTION]
-> 🚧 Working...
+## Contributing
+
+Contributions are welcome! If you'd like to contribute:
+
+1. Fork this repository and create a new branch: `add/project-name`
+2. Add your entry to the appropriate section in `README.md` following the format below.
+3. Push to the branch (`git push origin add/project-name`)
+4. Open a Pull Request with a title like `Add: Project Name` and a brief explanation of why it belongs.
+
+For more information on contributing, please refer to our [Contributing Guidelines](CONTRIBUTING.md).
+
+- ❤️ Thank you for contributing to the project! Your help is greatly appreciated.
+
+<div align="center">
+  
+  <h3>Contributors</h3>
+  
+  <a href="https://github.com/hadez8877/awesome-opensource/graphs/contributors">
+    <img src="https://contrib.rocks/image?repo=hadez8877/awesome-opensource" />
+  </a>
+
+</div>
