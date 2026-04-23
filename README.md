@@ -167,6 +167,63 @@
 - [Docs](https://github.com/suitenumerique/docs) - Collaborative document editing platform focused on privacy and self-hosting.
 - [Wiki.js](https://github.com/requarks/wiki) - Powerful and extensible open-source wiki platform.
 
+## DevOps
+
+### Containers & Virtualization
+
+- [Podman](https://github.com/containers/podman) - Daemonless container engine focused on security and OCI compatibility.
+- [LXC](https://github.com/lxc/lxc) - Lightweight Linux container runtime with low-level system container support.
+- [Incus](https://github.com/lxc/incus) - Modern community-driven container and virtual machine manager forked from LXD.
+- [containerd](https://github.com/containerd/containerd) - High-performance container runtime used by Kubernetes and Docker.
+- [CRI-O](https://github.com/cri-o/cri-o) - Kubernetes-native container runtime implementing the CRI standard.
+
+### Kubernetes & Orchestration
+
+- [Kubernetes](https://github.com/kubernetes/kubernetes) - The leading open-source container orchestration platform.
+- [k3s](https://github.com/k3s-io/k3s) - Lightweight Kubernetes distribution optimized for edge and IoT workloads.
+- [Helm](https://github.com/helm/helm) - Package manager for Kubernetes applications.
+- [Argo CD](https://github.com/argoproj/argo-cd) - Declarative GitOps continuous delivery tool for Kubernetes.
+- [Flux](https://github.com/fluxcd/flux2) - GitOps toolkit for keeping Kubernetes clusters in sync with Git repositories.
+- [Rancher](https://github.com/rancher/rancher) - Kubernetes management platform for multi-cluster operations.
+
+### CI / CD
+
+- [Jenkins](https://github.com/jenkinsci/jenkins) - Extensible automation server for CI/CD pipelines.
+- [Woodpecker CI](https://github.com/woodpecker-ci/woodpecker) - Lightweight and fully open-source CI/CD system inspired by Drone.
+- [Tekton](https://github.com/tektoncd/pipeline) - Kubernetes-native framework for creating CI/CD systems.
+- [Concourse](https://github.com/concourse/concourse) - Container-based continuous integration system with declarative pipelines.
+- [GoCD](https://github.com/gocd/gocd) - Open-source continuous delivery server focused on complex workflows.
+
+### Infrastructure as Code
+
+- [OpenTofu](https://github.com/opentofu/opentofu) - Community-driven infrastructure as code tool forked from Terraform.
+- [Pulumi](https://github.com/pulumi/pulumi) - Infrastructure as code platform using familiar programming languages.
+- [Ansible](https://github.com/ansible/ansible) - Agentless automation tool for configuration management and provisioning.
+- [Crossplane](https://github.com/crossplane/crossplane) - Kubernetes-based control plane framework for cloud infrastructure.
+- [Atlantis](https://github.com/runatlantis/atlantis) - GitOps workflow automation for Terraform and OpenTofu projects.
+
+### Monitoring & Observability
+
+- [Prometheus](https://github.com/prometheus/prometheus) - Monitoring and alerting toolkit designed for reliability and scalability.
+- [VictoriaMetrics](https://github.com/VictoriaMetrics/VictoriaMetrics) - High-performance time-series database and monitoring stack.
+- [Jaeger](https://github.com/jaegertracing/jaeger) - Distributed tracing platform for monitoring microservices.
+- [OpenTelemetry](https://github.com/open-telemetry/opentelemetry-collector) - Open standard and tooling for telemetry data collection.
+
+### Networking & Reverse Proxy
+
+- [Traefik](https://github.com/traefik/traefik) - Modern reverse proxy and ingress controller with automatic service discovery.
+- [Caddy](https://github.com/caddyserver/caddy) - Web server with automatic HTTPS and simple configuration.
+- [Nginx](https://github.com/nginx/nginx) - High-performance web server and reverse proxy.
+- [HAProxy](https://github.com/haproxy/haproxy) - Reliable high-availability load balancer and proxy server.
+- [CoreDNS](https://github.com/coredns/coredns) - Flexible and extensible DNS server commonly used in Kubernetes.
+
+### Secrets & Security
+
+- [Infisical](https://github.com/Infisical/infisical) - Open-source secrets management platform for teams and infrastructure.
+- [Step CA](https://github.com/smallstep/certificates) - Private certificate authority and automated TLS management solution.
+- [Falco](https://github.com/falcosecurity/falco) - Runtime security monitoring for containers and Kubernetes.
+- [Trivy](https://github.com/aquasecurity/trivy) - Security scanner for containers, dependencies, Kubernetes, and IaC.
+
 ## Contributing
 
 Contributions are welcome! If you'd like to contribute:
