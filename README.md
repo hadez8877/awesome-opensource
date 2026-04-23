@@ -15,7 +15,6 @@
 
   ![Awesome](https://awesome.re/badge.svg)
   ![PRs](https://img.shields.io/github/issues-pr/hadez8877/awesome-opensource)
-  ![GitHub License](https://img.shields.io/github/license/hadez8877/awesome-opensource?color=blue)
   
 </div>
 
