@@ -117,5 +117,52 @@
 - [Authelia](https://github.com/authelia/authelia) - Self-hosted multi-factor authentication solution.
 - [Keycloak](https://github.com/keycloak/keycloak) - Full-featured open source IAM solution (SSO, OAuth2, OIDC, SAML) backed by Red Hat.
 
+## Software / SaaS
+
+### Productivity & Collaboration
+
+- [AppFlowy](https://github.com/AppFlowy-IO/AppFlowy) - Open-source workspace and knowledge management platform positioned as an alternative to Notion.
+- [AFFiNE](https://github.com/toeverything/AFFiNE) - All-in-one collaborative workspace combining docs, whiteboards, and databases.
+- [Plane](https://github.com/makeplane/plane) - Open-source project management and issue tracking platform.
+- [Focalboard](https://github.com/mattermost/focalboard) - Self-hosted project and task management tool inspired by Trello and Notion.
+- [Twenty](https://github.com/twentyhq/twenty) - Modern open-source CRM platform focused on extensibility and ownership.
+- [Erxes](https://github.com/erxes/erxes) - Open-source growth marketing, sales, and customer engagement platform.
+
+### File Storage & Cloud
+
+- [Nextcloud](https://github.com/nextcloud/server) - Self-hosted productivity cloud with file sync, collaboration, and communication tools.
+- [Seafile](https://github.com/haiwen/seafile) - High-performance open-source file hosting and synchronization platform.
+- [Filestash](https://github.com/mickael-kerjean/filestash) - Modern web client for managing files across multiple storage backends.
+- [Cloudreve](https://github.com/cloudreve/Cloudreve) - Self-hosted cloud storage system supporting multiple storage providers.
+
+### Analytics & Monitoring
+
+- [Umami](https://github.com/umami-software/umami) - Privacy-focused web analytics alternative to Google Analytics.
+- [Plausible Analytics](https://github.com/plausible/analytics) - Lightweight and privacy-friendly website analytics platform.
+- [GlitchTip](https://github.com/glitchtip/glitchtip-backend) - Open-source error tracking platform compatible with Sentry SDKs.
+- [OpenReplay](https://github.com/openreplay/openreplay) - Session replay and product analytics platform for debugging user issues.
+- [Signoz](https://github.com/SigNoz/signoz) - Open-source observability platform for metrics, traces, and logs.
+
+### Communication & Support
+
+- [Chatwoot](https://github.com/chatwoot/chatwoot) - Customer engagement and support platform with live chat and omnichannel inboxes.
+- [Papercups](https://github.com/papercups-io/papercups) - Open-source live chat and customer messaging platform.
+- [Typebot](https://github.com/baptisteArno/typebot.io) - Conversational form builder for creating interactive chat-style workflows.
+- [Formbricks](https://github.com/formbricks/formbricks) - Open-source experience management and product feedback platform.
+
+### Automation & Internal Tools
+
+- [n8n](https://github.com/n8n-io/n8n) - Workflow automation platform with self-hosting and extensible integrations.
+- [ToolJet](https://github.com/ToolJet/ToolJet) - Low-code platform for building internal tools and admin panels.
+- [Appsmith](https://github.com/appsmithorg/appsmith) - Open-source framework for creating internal applications rapidly.
+- [Budibase](https://github.com/Budibase/budibase) - Low-code platform for internal tools, forms, and operational dashboards.
+
+### Documentation & Knowledge Bases
+
+- [Outline](https://github.com/outline/outline) - Collaborative team knowledge base and documentation platform.
+- [Documenso](https://github.com/documenso/documenso) - Open-source document signing platform as an alternative to DocuSign.
+- [Docs](https://github.com/suitenumerique/docs) - Collaborative document editing platform focused on privacy and self-hosting.
+- [Wiki.js](https://github.com/requarks/wiki) - Powerful and extensible open-source wiki platform.
+
 > [!CAUTION]
 > 🚧 Working...
