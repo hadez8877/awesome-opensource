@@ -224,6 +224,56 @@
 - [Falco](https://github.com/falcosecurity/falco) - Runtime security monitoring for containers and Kubernetes.
 - [Trivy](https://github.com/aquasecurity/trivy) - Security scanner for containers, dependencies, Kubernetes, and IaC.
 
+## Databases
+
+### Relational Databases
+- [PostgreSQL](https://github.com/postgres/postgres) - Advanced open-source relational database known for reliability, extensibility, and SQL compliance.
+- [MariaDB](https://github.com/MariaDB/server) - Community-driven relational database forked from MySQL with strong open-source governance.
+- [SQLite](https://github.com/sqlite/sqlite) - Lightweight embedded relational database widely used in applications and mobile devices.
+- [CockroachDB](https://github.com/cockroachdb/cockroach) - Distributed SQL database focused on scalability and fault tolerance.
+- [TiDB](https://github.com/pingcap/tidb) - Distributed MySQL-compatible database designed for HTAP and cloud-native workloads.
+- [YugabyteDB](https://github.com/yugabyte/yugabyte-db) - High-performance distributed PostgreSQL-compatible database for scalable applications.
+- [DuckDB](https://github.com/duckdb/duckdb) - In-process analytical database designed for fast OLAP workloads.
+- [ClickHouse](https://github.com/ClickHouse/ClickHouse) - High-performance column-oriented database for analytics and observability.
+- [FoundationDB](https://github.com/apple/foundationdb) - Distributed transactional key-value database designed for strong consistency.
+- [RisingWave](https://github.com/risingwavelabs/risingwave) - Distributed SQL streaming database compatible with PostgreSQL.
+- [LibSQL](https://github.com/tursodatabase/libsql) - Open-source fork of SQLite focused on distributed and embedded workloads.
+
+### NoSQL Databases
+- [CouchDB](https://github.com/apache/couchdb) - Distributed JSON document database with replication and offline-first capabilities.
+- [Cassandra](https://github.com/apache/cassandra) - Highly scalable wide-column database built for high availability.
+- [RethinkDB](https://github.com/rethinkdb/rethinkdb) - Real-time distributed database with changefeed support.
+- [ArangoDB](https://github.com/arangodb/arangodb) - Multi-model database supporting graph, document, and key-value data models.
+- [FerretDB](https://github.com/FerretDB/FerretDB) - Open-source MongoDB alternative built on PostgreSQL.
+
+### Key-Value & Cache Databases
+- [Valkey](https://github.com/valkey-io/valkey) - Community-driven Redis fork focused on fully open-source development.
+- [Dragonfly](https://github.com/dragonflydb/dragonfly) - Modern in-memory datastore compatible with Redis and Memcached APIs.
+- [etcd](https://github.com/etcd-io/etcd) - Distributed key-value store used for Kubernetes coordination and service discovery.
+- [Apache Ignite](https://github.com/apache/ignite) - Distributed in-memory database and caching platform.
+
+### Time-Series Databases
+- [QuestDB](https://github.com/questdb/questdb) - High-performance time-series database focused on fast SQL analytics.
+- [TDengine](https://github.com/taosdata/TDengine) - Time-series platform designed for IoT, industrial, and monitoring data.
+
+### Graph Databases
+- [Dgraph](https://github.com/hypermodeinc/dgraph) - Distributed graph database with GraphQL-native APIs.
+
+### Search & Analytics Engines
+- [OpenSearch](https://github.com/opensearch-project/OpenSearch) - Community-driven search and analytics engine forked from Elasticsearch.
+- [Meilisearch](https://github.com/meilisearch/meilisearch) - Fast and developer-friendly search engine with typo tolerance.
+- [Typesense](https://github.com/typesense/typesense) - Open-source instant search engine focused on simplicity and performance.
+- [Sonic](https://github.com/valeriansaliou/sonic) - Lightweight and schema-less search backend optimized for speed.
+- [Manticore Search](https://github.com/manticoresoftware/manticoresearch) - Full-text search engine designed for high-performance indexing and querying.
+
+### Vector Databases
+- [Qdrant](https://github.com/qdrant/qdrant) - Vector similarity search engine for AI and semantic search applications.
+- [Milvus](https://github.com/milvus-io/milvus) - Scalable vector database built for machine learning embeddings and AI workloads.
+- [Weaviate](https://github.com/weaviate/weaviate) - Open-source vector search engine with GraphQL and AI-native capabilities.
+- [Chroma](https://github.com/chroma-core/chroma) - Lightweight embedding database designed for LLM applications.
+- [LanceDB](https://github.com/lancedb/lancedb) - Embedded vector database optimized for AI applications and local-first workflows.
+- [SurrealDB](https://github.com/surrealdb/surrealdb) - Multi-model database combining document, graph, and relational features with vector support.
+
 ## Contributing
 
 Contributions are welcome! If you'd like to contribute:
