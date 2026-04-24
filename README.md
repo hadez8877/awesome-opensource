@@ -23,6 +23,8 @@
 > 🚧 The list is currently working. Therefore, some items are incomplete or not yet visible.
 
 ## Overview
+
+<!--lint disable awesome-list-item-->
 - [Web Development](#web-development)
 - [Backend / BaaS](#backend--baas)
 - [Software / SaaS](#software--saas)
