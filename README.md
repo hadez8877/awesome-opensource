@@ -276,6 +276,60 @@
 - [LanceDB](https://github.com/lancedb/lancedb) - Embedded vector database optimized for AI applications and local-first workflows.
 - [SurrealDB](https://github.com/surrealdb/surrealdb) - Multi-model database combining document, graph, and relational features with vector support.
 
+## CLI Tools
+
+### Shells & Terminal Environments
+- [Fish Shell](https://github.com/fish-shell/fish-shell) - User-friendly smart shell with autosuggestions and modern defaults.
+- [Nushell](https://github.com/nushell/nushell) - Modern shell built around structured data instead of plain text.
+- [Warp](https://github.com/warpdotdev/Warp) - Rust-based modern terminal with AI and collaborative features.
+- [Zellij](https://github.com/zellij-org/zellij) - Terminal workspace and multiplexer focused on usability and extensibility.
+- [tmux](https://github.com/tmux/tmux) - Terminal multiplexer for managing persistent sessions and panes.
+- [WezTerm](https://github.com/wez/wezterm) - GPU-accelerated cross-platform terminal emulator written in Rust.
+
+### File Management & Navigation
+- [yazi](https://github.com/sxyazi/yazi) - Blazing fast terminal file manager written in Rust.
+- [ranger](https://github.com/ranger/ranger) - Console file manager with Vim-style keybindings.
+- [nnn](https://github.com/jarun/nnn) - Lightweight and extremely fast terminal file browser.
+- [broot](https://github.com/Canop/broot) - Interactive directory tree navigator with fuzzy search.
+- [fzf](https://github.com/junegunn/fzf) - General-purpose fuzzy finder for the command line.
+- [zoxide](https://github.com/ajeetdsouza/zoxide) - Smarter `cd` command inspired by z and powered by frecency.
+
+### System Monitoring & Utilities
+- [btop](https://github.com/aristocratos/btop) - Modern and visually rich resource monitor for Linux, macOS, and BSD.
+- [htop](https://github.com/htop-dev/htop) - Interactive process viewer and system monitor.
+- [bottom](https://github.com/ClementTsang/bottom) - Cross-platform graphical process and system monitor inspired by htop.
+- [dua](https://github.com/Byron/dua-cli) - Fast disk usage analyzer with an interactive terminal UI.
+- [dust](https://github.com/bootandy/dust) - More intuitive replacement for `du` written in Rust.
+- [procs](https://github.com/dalance/procs) - Modern replacement for `ps` with colored and structured output.
+
+### Developer Tools
+- [bat](https://github.com/sharkdp/bat) - `cat` clone with syntax highlighting and Git integration.
+- [ripgrep](https://github.com/BurntSushi/ripgrep) - Extremely fast recursive search tool respecting `.gitignore`.
+- [fd](https://github.com/sharkdp/fd) - Simple, fast, and user-friendly alternative to `find`.
+- [delta](https://github.com/dandavison/delta) - Syntax-highlighting pager for Git and diff outputs.
+- [hyperfine](https://github.com/sharkdp/hyperfine) - Command-line benchmarking tool with statistical analysis.
+- [jq](https://github.com/jqlang/jq) - Lightweight and flexible JSON processor for the terminal.
+- [yq](https://github.com/mikefarah/yq) - Portable YAML, JSON, XML, and TOML processor inspired by jq.
+- [xh](https://github.com/ducaale/xh) - Friendly and fast HTTP client designed as an alternative to HTTPie.
+- [httpie](https://github.com/httpie/cli) - Human-friendly command-line HTTP client for APIs and web services.
+- [lazygit](https://github.com/jesseduffield/lazygit) - Simple terminal UI for Git operations.
+- [lazydocker](https://github.com/jesseduffield/lazydocker) - Terminal UI for Docker and container management.
+
+### Package Managers & Runtimes
+- [Homebrew](https://github.com/Homebrew/brew) - Popular package manager for macOS and Linux.
+- [pnpm](https://github.com/pnpm/pnpm) - Fast and disk space-efficient package manager for JavaScript.
+- [Bun](https://github.com/oven-sh/bun) - Fast JavaScript runtime, package manager, and bundler.
+- [Deno](https://github.com/denoland/deno) - Secure JavaScript and TypeScript runtime built with Rust.
+- [asdf](https://github.com/asdf-vm/asdf) - Extendable version manager supporting multiple runtimes and tools.
+
+### Productivity & Workflow
+- [Taskwarrior](https://github.com/GothenburgBitFactory/taskwarrior) - Powerful CLI task management and productivity tool.
+- [Glow](https://github.com/charmbracelet/glow) - Render Markdown files beautifully in the terminal.
+- [gum](https://github.com/charmbracelet/gum) - Tool for building glamorous shell scripts and terminal workflows.
+- [xh](https://github.com/ducaale/xh) - Friendly and fast HTTP client designed as an alternative to HTTPie.
+- [atuin](https://github.com/atuinsh/atuin) - Shell history sync and search engine with encrypted storage.
+- [wtfutil](https://github.com/wtfutil/wtf) - Personal terminal dashboard for displaying developer information.
+
 ## Contributing
 
 Contributions are welcome! If you'd like to contribute:
