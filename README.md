@@ -54,7 +54,7 @@
 - [loading-ui](https://github.com/turbostarter/loading-ui) - Beautiful open-source loading states, skeletons, and animated placeholders built for modern React apps with Tailwind CSS.
 - [Dotmatrix](https://github.com/zzzzshawn/matrix) - Reusable dotmatrix-style loading animation components installable via shadcn registry or manual copy.
 - [Headless UI](https://github.com/tailwindlabs/headlessui) - Fully accessible unstyled UI primitives designed for Tailwind CSS.
-- [8bitcn](https://github.com/8bitcn/8bitcn-ui) - Retro 8-bit styled open-source UI component library.
+- [8bitcn](https://github.com/TheOrcDev/8bitcn-ui) - Retro 8-bit styled open-source UI component library.
 - [LangUI](https://github.com/CommandCodeAI/langui) - Open-source Tailwind CSS components for AI and GPT-style interfaces.
 
 ### React UI libraries
