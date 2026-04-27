@@ -52,6 +52,7 @@
 - [uiverse](https://github.com/uiverse-io/uiverse) - Community-driven open-source UI elements built with HTML and CSS.
 - [shadcn/ui](https://github.com/shadcn-ui/ui) - Copy-paste open-source UI components for React built on Tailwind CSS.
 - [loading-ui](https://github.com/turbostarter/loading-ui) - Beautiful open-source loading states, skeletons, and animated placeholders built for modern React apps with Tailwind CSS.
+- [Dotmatrix](https://github.com/zzzzshawn/matrix) - Reusable dotmatrix-style loading animation components installable via shadcn registry or manual copy.
 - [Headless UI](https://github.com/tailwindlabs/headlessui) - Fully accessible unstyled UI primitives designed for Tailwind CSS.
 - [8bitcn](https://github.com/8bitcn/8bitcn-ui) - Retro 8-bit styled open-source UI component library.
 - [LangUI](https://github.com/langui-dev/langui) - Open-source Tailwind CSS components for AI and GPT-style interfaces.
