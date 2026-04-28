@@ -19,9 +19,6 @@
   
 </div>
 
-> [!CAUTION]
-> 🚧 The list is currently working. Therefore, some items are incomplete or not yet visible.
-
 ## Overview
 
 <!--lint disable awesome-list-item-->
@@ -328,7 +325,6 @@
 - [Taskwarrior](https://github.com/GothenburgBitFactory/taskwarrior) - Powerful CLI task management and productivity tool.
 - [Glow](https://github.com/charmbracelet/glow) - Render Markdown files beautifully in the terminal.
 - [gum](https://github.com/charmbracelet/gum) - Tool for building glamorous shell scripts and terminal workflows.
-- [xh](https://github.com/ducaale/xh) - Friendly and fast HTTP client designed as an alternative to HTTPie.
 - [atuin](https://github.com/atuinsh/atuin) - Shell history sync and search engine with encrypted storage.
 - [wtfutil](https://github.com/wtfutil/wtf) - Personal terminal dashboard for displaying developer information.
 
@@ -465,8 +461,71 @@
 - [Gitea](https://github.com/go-gitea/gitea) - Simple, lightweight, and self-hosted Git service.
 - [GitLab CE](https://github.com/gitlabhq/gitlabhq) - Complete DevOps platform with source control and CI/CD features.
 - [Onedev](https://github.com/theonedev/onedev) - All-in-one Git server with CI/CD and issue tracking.
-- [Plane](https://github.com/makeplane/plane) - Open-source project management platform suitable for self-hosted teams.
 
+## Security
+
+### Vulnerability Scanning & Analysis
+
+- [Grype](https://github.com/anchore/grype) - Vulnerability scanner for container images and filesystems.
+- [Dependency-Track](https://github.com/DependencyTrack/dependency-track) - Software supply chain security platform for SBOM analysis and vulnerability tracking.
+- [OWASP Dependency-Check](https://github.com/dependency-check/DependencyCheck) - Tool for detecting vulnerable dependencies in software projects.
+- [Clair](https://github.com/quay/clair) - Static analysis tool for identifying vulnerabilities in container images.
+- [Semgrep](https://github.com/semgrep/semgrep) - Static analysis tool for finding security issues in source code.
+- [OpenSCAP](https://github.com/OpenSCAP/openscap) - Security compliance and vulnerability scanning framework implementing SCAP standards.
+
+### Network Security & Monitoring
+
+- [Suricata](https://github.com/OISF/suricata) - High-performance network IDS, IPS, and network security monitoring engine.
+- [Zeek](https://github.com/zeek/zeek) - Powerful network analysis framework for monitoring and security visibility.
+- [Wazuh](https://github.com/wazuh/wazuh) - Open-source XDR and SIEM platform for threat detection and compliance.
+- [CrowdSec](https://github.com/crowdsecurity/crowdsec) - Collaborative IPS and threat intelligence platform protecting servers and applications.
+- [Security Onion](https://github.com/Security-Onion-Solutions/securityonion) - Linux distribution for intrusion detection, enterprise security monitoring, and log management.
+- [Snort](https://github.com/snort3/snort3) - Widely used open-source intrusion prevention and detection system.
+
+### Secrets Management & Encryption
+
+- [HashiCorp Vault](https://github.com/hashicorp/vault) - Secrets management and encryption platform for protecting sensitive infrastructure data.
+- [Sealed Secrets](https://github.com/bitnami-labs/sealed-secrets) - Kubernetes controller for managing encrypted secrets safely in Git repositories.
+- [SOPS](https://github.com/getsops/sops) - Tool for encrypting and managing structured configuration files and secrets.
+- [age](https://github.com/FiloSottile/age) - Simple, modern, and secure file encryption tool.
+- [Cryptomator](https://github.com/cryptomator/cryptomator) - Client-side encrypted cloud storage solution focused on privacy.
+
+### Privacy & Anonymity
+
+- [Tor](https://github.com/torproject/tor) - Anonymous overlay network for protecting privacy and resisting surveillance.
+- [LibreWolf](https://github.com/librewolf-community/browser) - Privacy-focused Firefox fork with hardened defaults and telemetry removal.
+- [Arkenfox user.js](https://github.com/arkenfox/user.js) - Hardened Firefox configuration focused on privacy and security.
+- [GrapheneOS](https://github.com/GrapheneOS/platform_manifest) - Privacy and security-focused Android-based mobile operating system.
+- [OpenSnitch](https://github.com/evilsocket/opensnitch) - Application firewall and outbound connection monitor for Linux.
+
+### Reverse Engineering & Pentesting
+
+- [Metasploit Framework](https://github.com/rapid7/metasploit-framework) - Penetration testing framework for security auditing and exploit development.
+- [Nmap](https://github.com/nmap/nmap) - Network discovery and security auditing utility.
+- [Wireshark](https://github.com/wireshark/wireshark) - Network protocol analyzer for troubleshooting and packet inspection.
+- [Ghidra](https://github.com/NationalSecurityAgency/ghidra) - Software reverse engineering suite developed by the NSA.
+- [sqlmap](https://github.com/sqlmapproject/sqlmap) - Automated SQL injection and database takeover tool.
+- [OWASP ZAP](https://github.com/zaproxy/zaproxy) - Open-source web application security scanner maintained by OWASP.
+- [Amass](https://github.com/owasp-amass/amass) - Attack surface mapping and external asset discovery tool.
+- [Responder](https://github.com/lgandx/Responder) - LLMNR, NBT-NS, and MDNS poisoner commonly used in internal network assessments.
+
+### Endpoint & Runtime Security
+
+- [Osquery](https://github.com/osquery/osquery) - Operating system instrumentation framework exposing system data through SQL.
+- [OpenEDR](https://github.com/ComodoSecurity/openedr) - Endpoint detection and response platform for monitoring and threat analysis.
+- [Lynis](https://github.com/CISOfy/lynis) - Security auditing and hardening tool for Unix-based systems.
+- [Chkrootkit](https://github.com/Magentron/chkrootkit) - Toolset for detecting rootkits on Unix systems.
+- [Wazero](https://github.com/tetratelabs/wazero) - Secure WebAssembly runtime for sandboxed application execution.
+
+### Container & Kubernetes Security
+
+- [Kube-bench](https://github.com/aquasecurity/kube-bench) - CIS Kubernetes benchmark compliance checker.
+- [Kube-hunter](https://github.com/aquasecurity/kube-hunter) - Kubernetes penetration testing and security auditing tool.
+- [Kubescape](https://github.com/kubescape/kubescape) - Kubernetes security platform for risk analysis and compliance scanning.
+- [Dockle](https://github.com/goodwithtech/dockle) - Container image linter focused on security best practices.
+- [Kyverno](https://github.com/kyverno/kyverno) - Kubernetes-native policy engine for security, governance, and compliance.
+- [Chainguard Images](https://github.com/chainguard-images/images) - Minimal and hardened container images focused on supply chain security.
+  
 ## Contributing
 
 Contributions are welcome! If you'd like to contribute:
