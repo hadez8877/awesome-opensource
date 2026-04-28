@@ -398,6 +398,74 @@
 - [Kvaesitso](https://github.com/MM2-0/Kvaesitso) - Launcher focused on search and productivity.
 - [Neo Launcher](https://github.com/NeoApplications/Neo-Launcher) - Fork of Lawnchair with enhanced customization.
 
+## Self-Hosted
+
+### Homelab & Server Management
+
+- [CasaOS](https://github.com/IceWhaleTech/CasaOS) - Simple and beginner-friendly home cloud operating system for self-hosted apps.
+- [Umbrel](https://github.com/getumbrel/umbrel) - Personal server platform for running self-hosted applications and services.
+- [Cosmos Server](https://github.com/azukaar/Cosmos-Server) - Self-hosted portal for managing apps, reverse proxy, and authentication in one interface.
+- [YunoHost](https://github.com/YunoHost/yunohost) - Debian-based self-hosting platform focused on simplicity and privacy.
+- [CapRover](https://github.com/caprover/caprover) - Lightweight self-hosted PaaS platform for deploying web applications with Docker.
+- [Coolify](https://github.com/coollabsio/coolify) - Open-source self-hostable alternative to Heroku, Netlify, and Vercel.
+- [Dokploy](https://github.com/Dokploy/dokploy) - Modern self-hosted deployment platform built for Docker and VPS environments.
+
+### Media Servers & Streaming
+
+- [Jellyfin](https://github.com/jellyfin/jellyfin) - Fully open-source media server for movies, TV shows, music, and live TV.
+- [Navidrome](https://github.com/navidrome/navidrome) - Lightweight self-hosted music streaming server compatible with Subsonic clients.
+- [Audiobookshelf](https://github.com/advplyr/audiobookshelf) - Self-hosted audiobook and podcast server with modern apps and metadata support.
+- [Tube Archivist](https://github.com/tubearchivist/tubearchivist) - Self-hosted YouTube media server and video archiving platform.
+- [Owncast](https://github.com/owncast/owncast) - Self-hosted live streaming server with chat and federation support.
+- [Azuracast](https://github.com/AzuraCast/AzuraCast) - Web radio management suite for self-hosted internet radio stations.
+
+### Password Managers & Authentication
+
+- [Vaultwarden](https://github.com/dani-garcia/vaultwarden) - Lightweight Bitwarden-compatible password manager server written in Rust.
+- [Passbolt](https://github.com/passbolt/passbolt_api) - Open-source password manager designed for team collaboration.
+- [Authentik](https://github.com/goauthentik/authentik) - Self-hosted identity provider and authentication platform.
+- [Kanidm](https://github.com/kanidm/kanidm) - Modern identity management server focused on security and simplicity.
+- [LLDAP](https://github.com/lldap/lldap) - Lightweight LDAP server for small teams and homelab setups.
+
+### Photos & File Management
+
+- [Immich](https://github.com/immich-app/immich) - High-performance self-hosted photo and video backup solution inspired by Google Photos.
+- [PhotoPrism](https://github.com/photoprism/photoprism) - AI-powered self-hosted photo management application.
+- [Piwigo](https://github.com/Piwigo/Piwigo) - Open-source photo gallery platform with plugin support.
+- [File Browser](https://github.com/filebrowser/filebrowser) - Web-based file manager for managing files on remote servers.
+- [Syncthing](https://github.com/syncthing/syncthing) - Decentralized continuous file synchronization application.
+
+### RSS, Read-It-Later & Knowledge
+
+- [FreshRSS](https://github.com/FreshRSS/FreshRSS) - Lightweight and self-hosted RSS feed aggregator.
+- [Miniflux](https://github.com/miniflux/v2) - Minimalist RSS reader focused on performance and simplicity.
+- [Wallabag](https://github.com/wallabag/wallabag) - Self-hosted read-it-later application for saving web articles.
+- [Karakeep](https://github.com/karakeep-app/karakeep) - Modern self-hosted bookmarking and knowledge management platform.
+- [Hoarder](https://github.com/hoarder-app/hoarder) - Self-hosted bookmark manager with AI-assisted organization.
+
+### DNS, Networking & Privacy
+
+- [Pi-hole](https://github.com/pi-hole/pi-hole) - Network-wide ad blocker and DNS sinkhole for improving privacy.
+- [AdGuard Home](https://github.com/AdguardTeam/AdGuardHome) - Self-hosted DNS server with ad and tracker blocking.
+- [Technitium DNS Server](https://github.com/TechnitiumSoftware/DnsServer) - Powerful open-source DNS server with modern protocol support.
+- [Headscale](https://github.com/juanfont/headscale) - Open-source self-hosted coordination server compatible with Tailscale clients.
+- [NetBird](https://github.com/netbirdio/netbird) - WireGuard-based secure networking platform for private connectivity.
+
+### Monitoring & Uptime
+
+- [Uptime Kuma](https://github.com/louislam/uptime-kuma) - Self-hosted uptime monitoring tool with status pages and notifications.
+- [Beszel](https://github.com/henrygd/beszel) - Lightweight server monitoring platform with Docker support.
+- [Netdata](https://github.com/netdata/netdata) - Real-time infrastructure monitoring and troubleshooting platform.
+- [Checkmk](https://github.com/Checkmk/checkmk) - Comprehensive IT monitoring solution for servers, containers, and networks.
+
+### Developer Platforms & Git Services
+
+- [Forgejo](https://github.com/forgejo/forgejo) - Community-driven lightweight Git hosting platform forked from Gitea.
+- [Gitea](https://github.com/go-gitea/gitea) - Simple, lightweight, and self-hosted Git service.
+- [GitLab CE](https://github.com/gitlabhq/gitlabhq) - Complete DevOps platform with source control and CI/CD features.
+- [Onedev](https://github.com/theonedev/onedev) - All-in-one Git server with CI/CD and issue tracking.
+- [Plane](https://github.com/makeplane/plane) - Open-source project management platform suitable for self-hosted teams.
+
 ## Contributing
 
 Contributions are welcome! If you'd like to contribute:
