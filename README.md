@@ -337,6 +337,7 @@
 ### Media & Music
 - [PixelPlayer](https://github.com/theovilardo/PixelPlayer) - Privacy-first Android music player built with Material 3.
 - [SpotiFLAC-Mobile](https://github.com/spotiflacapp/SpotiFLAC-Mobile) - Open-source mobile companion for managing personal music libraries.
+- [Metrolist](https://github.com/MetrolistGroup/Metrolist) - Feature-rich YouTube Music client for Android with offline playback, synced lyrics, and Material 3 design.
 - [InnerTune](https://github.com/z-huang/InnerTune) - Modern YouTube Music client for Android.
 - [RiMusic](https://github.com/fast4x/RiMusic) - Beautiful Android music player powered by YouTube Music.
 - [ViMusic](https://github.com/vfsfitvnm/ViMusic) - Lightweight open-source music streaming app for Android.
