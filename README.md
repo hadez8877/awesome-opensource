@@ -332,6 +332,72 @@
 - [atuin](https://github.com/atuinsh/atuin) - Shell history sync and search engine with encrypted storage.
 - [wtfutil](https://github.com/wtfutil/wtf) - Personal terminal dashboard for displaying developer information.
 
+## Mobile Apps
+
+### Media & Music
+- [PixelPlayer](https://github.com/theovilardo/PixelPlayer) - Privacy-first Android music player built with Material 3.
+- [SpotiFLAC-Mobile](https://github.com/spotiflacapp/SpotiFLAC-Mobile) - Open-source mobile companion for managing personal music libraries.
+- [InnerTune](https://github.com/z-huang/InnerTune) - Modern YouTube Music client for Android.
+- [RiMusic](https://github.com/fast4x/RiMusic) - Beautiful Android music player powered by YouTube Music.
+- [ViMusic](https://github.com/vfsfitvnm/ViMusic) - Lightweight open-source music streaming app for Android.
+- [Auxio](https://github.com/OxygenCobalt/Auxio) - Local Android music player focused on simplicity and performance.
+- [Gramophone](https://github.com/FoedusProgramme/Gramophone) - Material You inspired local music player for Android.
+- [Retro Music](https://github.com/RetroMusicPlayer/RetroMusicPlayer) - Stylish Android music player with modern UI.
+- [Symphony](https://github.com/zyrouge/symphony) - Elegant and lightweight Flutter-based music player.
+- [Vinyl Music Player](https://github.com/VinylMusicPlayer/VinylMusicPlayer) - Fork of Phonograph with classic Android music player experience.
+
+### Video & Streaming
+- [NewPipe](https://github.com/TeamNewPipe/NewPipe) - Lightweight YouTube frontend for Android without Google dependencies.
+- [LibreTube](https://github.com/libre-tube/LibreTube) - Privacy-focused YouTube client using Piped.
+- [Grayjay](https://github.com/futo-org/grayjay-android) - Unified media platform supporting multiple content sources.
+- [Jellyfin Android](https://github.com/jellyfin/jellyfin-android) - Android client for the Jellyfin media server.
+- [Seal](https://github.com/JunkFood02/Seal) - Video and audio downloader powered by yt-dlp.
+- [Aniyomi](https://github.com/aniyomiorg/aniyomi) - Anime streaming and manga reader forked from Mihon.
+- [Mihon](https://github.com/mihonapp/mihon) - Open-source manga reader for Android.
+
+### Productivity & Notes
+- [Joplin](https://github.com/laurent22/joplin) - Note-taking and task management application with sync support.
+- [Notesnook](https://github.com/streetwriters/notesnook) - Privacy-focused encrypted note-taking app.
+- [Standard Notes](https://github.com/standardnotes/app) - End-to-end encrypted notes application.
+- [Tasks.org](https://github.com/tasks/tasks) - Open-source task management app for Android.
+- [Logseq](https://github.com/logseq/logseq) - Knowledge management and outlining application.
+- [Markor](https://github.com/gsantner/markor) - Markdown editor and note-taking app for Android.
+- [Quillpad](https://github.com/quillpad/quillpad) - Minimal Material You note-taking app.
+
+### Messaging & Communication
+- [Element](https://github.com/element-hq/element-android) - Matrix-based secure messaging application.
+- [Session](https://github.com/session-foundation/session-android) - Privacy-focused encrypted messenger without phone numbers.
+- [Molly](https://github.com/mollyim/mollyim-android) - Hardened Signal fork for Android.
+- [Briar](https://github.com/briar/briar) - Peer-to-peer encrypted messaging app.
+- [K-9 Mail](https://github.com/thunderbird/thunderbird-android) - Open-source email client for Android.
+- [FairEmail](https://github.com/M66B/FairEmail) - Privacy-oriented email client with extensive customization.
+
+### Browsers & Internet
+- [Firefox for Android](https://github.com/mozilla-mobile/firefox-android) - Open-source mobile browser developed by Mozilla.
+- [Cromite](https://github.com/uazo/cromite) - Privacy-focused Chromium fork with ad blocking.
+- [Mull](https://github.com/Divested-Mobile/Mull-Fenix) - Hardened Firefox fork for Android privacy.
+- [Fulguris](https://github.com/Slion/Fulguris) - Lightweight privacy-focused Android browser.
+- [Infinity for Reddit](https://github.com/Docile-Alligator/Infinity-For-Reddit) - Open-source Reddit client for Android.
+
+### File Management & Utilities
+- [Material Files](https://github.com/zhanghai/MaterialFiles) - Material Design file manager for Android.
+- [SD Maid SE](https://github.com/d4rken-org/sdmaid-se) - Android system cleaning and maintenance utility.
+- [Neo Store](https://github.com/NeoApplications/Neo-Store) - Modern F-Droid client for Android.
+- [Obtainium](https://github.com/ImranR98/Obtainium) - App updater directly from GitHub and other sources.
+- [Termux](https://github.com/termux/termux-app) - Android terminal emulator and Linux environment.
+
+### Password Managers & Security
+- [Bitwarden](https://github.com/bitwarden/android) - Open-source password manager for Android.
+- [KeePassDX](https://github.com/Kunzisoft/KeePassDX) - KeePass-compatible password manager.
+- [Aegis](https://github.com/beemdevelopment/Aegis) - Secure two-factor authentication app.
+- [Proton Pass](https://github.com/protonpass/android-pass) - Password manager developed by Proton.
+- [Authenticator Pro](https://github.com/jamie-mh/AuthenticatorPro) - Two-factor authentication app with backups.
+
+### Launchers & Customization
+- [Lawnchair](https://github.com/LawnchairLauncher/lawnchair) - Pixel-inspired customizable Android launcher.
+- [Kvaesitso](https://github.com/MM2-0/Kvaesitso) - Launcher focused on search and productivity.
+- [Neo Launcher](https://github.com/NeoApplications/Neo-Launcher) - Fork of Lawnchair with enhanced customization.
+
 ## Contributing
 
 Contributions are welcome! If you'd like to contribute:
