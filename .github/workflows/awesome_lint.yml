@@ -1,4 +1,4 @@
-name: awesome_lint
+name: Lint Awesome List
 
 on:
   pull_request:
