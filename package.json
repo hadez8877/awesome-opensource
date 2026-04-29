@@ -1,0 +1,24 @@
+{
+  "name": "awesome-opensource",
+  "version": "0.0.0",
+  "description": "A list of powerful open-source projects for web, backend, CLI, and mobile.",
+  "scripts": {
+    "fmt": "prettier --write .",
+    "build": "tsc --noEmit && tsup",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "prepare": "husky"
+  },
+  "type": "module",
+  "author": "Fabricio Pasapera Viera (@Hadez)",
+  "devDependencies": {
+    "@types/node": "^25.6.0",
+    "husky": "^9.1.7",
+    "prettier": "^3.8.3",
+    "tsup": "^8.5.1",
+    "typescript": "~5.9.3",
+    "vitest": "^4.1.5"
+  },
+  "license": "MIT",
+  "packageManager": "pnpm@10.33.2"
+}
