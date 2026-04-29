@@ -1,1 +1,1 @@
-pnpm fmt && pnpm test
+pnpm run lint && pnpm run test

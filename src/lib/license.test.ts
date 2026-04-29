@@ -97,9 +97,9 @@ describe("isMitLicense", () => {
   });
 
   it("returns true for valid MIT license text using smart quotes", () => {
-    expect(
-      isMitLicense(readLicenseFile("mit-license-with-smart-quotes")),
-    ).toBe(true);
+    expect(isMitLicense(readLicenseFile("mit-license-with-smart-quotes"))).toBe(
+      true,
+    );
   });
 
   it("returns false for Apache 2.0 license text", () => {

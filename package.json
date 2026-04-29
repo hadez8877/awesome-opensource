@@ -3,7 +3,9 @@
   "version": "0.0.0",
   "description": "A list of powerful open-source projects for web, backend, CLI, and mobile.",
   "scripts": {
-    "fmt": "prettier --write .",
+    "lint": "prettier --check .",
+    "format": "prettier --write .",
+    "fmt": "pnpm run format",
     "build": "tsc --noEmit && tsup",
     "test": "vitest run",
     "test:watch": "vitest",
