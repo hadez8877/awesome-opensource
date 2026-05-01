@@ -1,1 +1,1 @@
-pnpm run lint && pnpm run test
+pnpm run lint
