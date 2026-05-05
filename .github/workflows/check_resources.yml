@@ -23,7 +23,7 @@ jobs:
           package-manager-cache: false
 
       - name: Install dependencies
-        uses: ./actions/pnpmCache
+        uses: ./.github/actions/pnpmCache
 
       - name: Checking if resources are sorted
         run: pnpm sort-resources
