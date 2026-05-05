@@ -5,8 +5,8 @@
  * @returns {string[]} An array of unique URLs found in the content.
  */
 export function extractUrls(readmeContent) {
-  const urlRegex = /https?:\/\/[^\s\)\]]+/g;
-  const urls = readmeContent.match(urlRegex) || [];
+  const httpUrlPattern = /https?:\/\/[^\s\)\]]+/g;
+  const foundUrls = readmeContent.match(httpUrlPattern) || [];
 
-  return [...new Set(urls)];
+  return [...new Set(foundUrls)];
 }

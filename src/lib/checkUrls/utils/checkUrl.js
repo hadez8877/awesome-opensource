@@ -9,15 +9,15 @@ export async function checkUrl(url) {
     const controller = new AbortController();
     const timeout = setTimeout(() => controller.abort(), 10000);
 
-    const response = await fetch(url, {
+    const httpResponse = await fetch(url, {
       method: "HEAD",
       redirect: "follow",
       signal: controller.signal,
     });
 
     clearTimeout(timeout);
-    return { url, status: response.ok, statusCode: response.status };
-  } catch (error) {
-    return { url, status: false, error: error.message };
+    return { url, status: httpResponse.ok, statusCode: httpResponse.status };
+  } catch (fetchError) {
+    return { url, status: false, error: fetchError.message };
   }
 }

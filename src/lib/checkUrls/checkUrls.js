@@ -40,20 +40,20 @@ export async function checkUrls() {
 
   const results = await Promise.all(newUrls.map(checkUrl));
 
-  const valid = results.filter((r) => r.status).length;
-  const invalid = results.filter((r) => !r.status).length;
+  const validUrlsCount = results.filter((result) => result.status).length;
+  const invalidUrlsCount = results.filter((result) => !result.status).length;
 
-  for (const r of results) {
-    if (!r.status) {
+  for (const result of results) {
+    if (!result.status) {
       await logger.error(
-        `The URL ${r.url} is not working (${r.error || r.statusCode})`,
+        `The URL ${result.url} is not working (${result.error || result.statusCode})`,
       );
     }
   }
 
   log(
-    `${label("results")}  Found ${valid} valid URLs and ${invalid} invalid URLs`,
+    `${label("results")}  Found ${validUrlsCount} valid URLs and ${invalidUrlsCount} invalid URLs`,
   );
 
-  if (invalid > 0) process.exit(1);
+  if (invalidUrlsCount > 0) process.exit(1);
 }
