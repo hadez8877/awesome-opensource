@@ -87,14 +87,14 @@ export const logger = {
  * @type {string[]}
  */
 const COLORS = [
-  "#883AE3",
-  "#7B30E7",
-  "#6B22EF",
-  "#5711F8",
-  "#3640FC",
-  "#2387F1",
-  "#3DA9A3",
-  "#47DA93",
+  "#FC60A8",
+  "#FF5F9E",
+  "#FF3CAC",
+  "#CC2BDE",
+  "#9B5DE5",
+  "#00BBF9",
+  "#00F5D4",
+  "#05F89E",
 ].reverse();
 
 /**
