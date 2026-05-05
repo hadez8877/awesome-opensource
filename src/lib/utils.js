@@ -59,7 +59,7 @@ export const logger = {
    */
   error: async (message) => {
     await sleep(100);
-    log(`${label("error", color.bgRed)}  ${message}`);
+    log(`${label("err", color.bgRed)}  ${message}`);
   },
   /**
    * Log a warning message
@@ -67,7 +67,7 @@ export const logger = {
    */
   warning: async (message) => {
     await sleep(100);
-    log(`${label("warning", color.bgYellow)}  ${message}`);
+    log(`${label("warn", color.bgYellow)}  ${message}`);
   },
   /**
    * Log a success message

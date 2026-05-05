@@ -1,5 +1,5 @@
 import path from "node:path";
-import { tasks, label, c } from "../utils.js";
+import { tasks, logger } from "../utils.js";
 import fs from "node:fs/promises";
 import { sortLists } from "./utils/sortLists.js";
 
@@ -39,13 +39,11 @@ export async function check() {
         const sorted = sortLists(original);
 
         if (original !== sorted)
-          throw new Error(
-            `${label("err", c.bgRed)}  Whoops! Resources are not sorted :(`,
-          );
+          throw new Error("Whoops! Resources are not sorted :(");
       },
 
-      onError(error) {
-        console.error(`\n${error.message}\n`);
+      async onError(err) {
+        await logger.error(err.message);
         process.exit(1);
       },
     },
