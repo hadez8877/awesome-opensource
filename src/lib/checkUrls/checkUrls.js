@@ -21,6 +21,13 @@ export async function checkUrls() {
 
   let mainContent = getReadmeFromBranch(baseBranch);
   console.log("mainContent from baseBranch:", mainContent ? "found" : "null");
+  if (!mainContent) {
+    mainContent = getReadmeFromBranch(`origin/${baseBranch}`);
+    console.log(
+      "mainContent from origin/baseBranch:",
+      mainContent ? "found" : "null",
+    );
+  }
   if (!mainContent && isPush) {
     mainContent = getReadmeFromBranch("origin/main");
     console.log(
