@@ -9,7 +9,7 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "sort-resources": "node src/sort-resources.js",
-    "check-resources": "node src/check-resources.js",
+    "check-urls": "node src/check-urls.js",
     "prepare": "husky"
   },
   "type": "module",
