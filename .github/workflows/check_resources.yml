@@ -16,6 +16,10 @@ jobs:
         with:
           fetch-depth: 0
           fetch-tags: true
+          ref: ${{ github.head_ref }}
+
+      - name: Fetch base branch
+        run: git fetch origin ${{ github.base_ref }} || true
 
       - name: Install Node.js v24
         uses: actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f # v6
