@@ -28,7 +28,11 @@ export { color as c };
  * @param {Function} t - The text color function to use
  * @returns {string} The colored label
  */
-export const label = (text, c = color.bgHex("#FC60A8"), t = color.whiteBright) => c(` ${t(text)} `);
+export const label = (
+  text,
+  c = color.bgHex("#FC60A8"),
+  t = color.whiteBright,
+) => c(` ${t(text)} `);
 
 /**
  * Log a message to the console

@@ -7,6 +7,6 @@
 export function extractUrls(readmeContent) {
   const urlRegex = /https?:\/\/[^\s\)\]]+/g;
   const urls = readmeContent.match(urlRegex) || [];
-  
+
   return [...new Set(urls)];
 }
