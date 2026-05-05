@@ -5,7 +5,7 @@ runs:
   steps:
     - name: Set up swap space
       if: runner.os == 'Linux'
-      uses: pierotofy/set-swap-space@v1.0
+      uses: pierotofy/set-swap-space@49819abfb41bd9b44fb781159c033dba90353a7c # v1.0
       with:
         swap-size-gb: 10
 
