@@ -12,17 +12,18 @@ import { getReadmeFromBranch } from "./utils/getReadmeFromBranch.js";
 export async function checkUrls() {
   await logger.info("Starting URL check process...");
 
-  const baseBranch = process.env.GITHUB_BASE_REF
-    ? process.env.GITHUB_BASE_REF
-    : "origin/main";
+  const isPush = !process.env.GITHUB_BASE_REF;
+  const baseBranch = isPush ? "HEAD^" : process.env.GITHUB_BASE_REF;
 
-  const mainContent = await getReadmeFromBranch(baseBranch);
+  let mainContent = getReadmeFromBranch(baseBranch);
+  if (!mainContent && isPush) mainContent = getReadmeFromBranch("origin/main");
+
   if (!mainContent) {
     await logger.error(`Sorry, could not fetch ${baseBranch} branch`);
     process.exit(1);
   }
 
-  const currentContent = await getReadmeFromBranch("HEAD");
+  const currentContent = getReadmeFromBranch("HEAD");
   if (!currentContent) {
     await logger.error("Sorry, could not fetch current branch");
     process.exit(1);
