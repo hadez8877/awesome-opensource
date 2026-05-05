@@ -15,11 +15,22 @@ export async function checkUrls() {
   const isPush = !process.env.GITHUB_BASE_REF;
   const baseBranch = isPush ? "HEAD^" : process.env.GITHUB_BASE_REF;
 
+  console.log("GITHUB_BASE_REF:", process.env.GITHUB_BASE_REF);
+  console.log("isPush:", isPush);
+  console.log("baseBranch:", baseBranch);
+
   let mainContent = getReadmeFromBranch(baseBranch);
-  if (!mainContent && isPush) mainContent = getReadmeFromBranch("origin/main");
+  console.log("mainContent from baseBranch:", mainContent ? "found" : "null");
+  if (!mainContent && isPush) {
+    mainContent = getReadmeFromBranch("origin/main");
+    console.log(
+      "mainContent from origin/main:",
+      mainContent ? "found" : "null",
+    );
+  }
 
   if (!mainContent) {
-    await logger.error(`Sorry, could not fetch ${baseBranch} branch`);
+    console.log("Error: could not fetch baseBranch, isPush=", isPush);
     process.exit(1);
   }
 
