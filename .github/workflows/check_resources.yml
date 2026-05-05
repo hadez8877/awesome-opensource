@@ -1,0 +1,32 @@
+name: Check Resources to Add
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  check-resources:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6
+        with:
+          fetch-depth: 0
+
+      - name: Install Node.js v24
+        uses: actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f # v6
+        with:
+          node-version: 24
+          package-manager-cache: false
+
+      - name: Install dependencies
+        uses: ./actions/pnpmCache
+
+      - name: Checking if resources are sorted
+        run: pnpm sort-resources
+
+      - name: Validate URLs
+        run: pnpm check-urls
