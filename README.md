@@ -43,6 +43,12 @@
 - [VSCodium](https://github.com/VSCodium/vscodium) - A fully open source distribution of VS Code without proprietary components.
 - [Zed](https://github.com/zed-industries/zed) - A high-performance collaborative editor gaining rapid adoption.
 
+### Design Tools
+
+- [Excalidraw](https://github.com/excalidraw/excalidraw) - Virtual whiteboard for sketching hand-drawn style diagrams with real-time collaboration and infinite canvas.
+- [open-pencil](https://github.com/open-pencil/open-pencil) - AI-native Figma-compatible design editor with headless CLI, MCP server, and design-to-code export.
+- [Open Design](https://github.com/nexu-io/open-design) - Local-first AI design tool with 19 skills and 71 brand-grade design systems for generating web, mobile, and slide artifacts.
+
 ### UI Components
 
 - [8bitcn](https://github.com/TheOrcDev/8bitcn-ui) - Retro 8-bit styled open-source UI component library.
