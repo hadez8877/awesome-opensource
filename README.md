@@ -483,8 +483,8 @@
 ### Design Tools
 
 - [Excalidraw](https://github.com/excalidraw/excalidraw) - Virtual whiteboard for sketching hand-drawn style diagrams with real-time collaboration and infinite canvas.
-- [open-pencil](https://github.com/open-pencil/open-pencil) - AI-native Figma-compatible design editor with headless CLI, MCP server, and design-to-code export.
 - [Open Design](https://github.com/nexu-io/open-design) - Local-first AI design tool with 19 skills and 71 brand-grade design systems for generating web, mobile, and slide artifacts.
+- [open-pencil](https://github.com/open-pencil/open-pencil) - AI-native Figma-compatible design editor with headless CLI, MCP server, and design-to-code export.
 
 ### Icons
 
