@@ -1,4 +1,4 @@
-import { label, log, logger } from "../utils.js";
+import { logger } from "../utils.js";
 import { extractUrls } from "./utils/extractUrls.js";
 import { checkUrl } from "./utils/checkUrl.js";
 import { getReadmeFromBranch } from "./utils/getReadmeFromBranch.js";
@@ -13,41 +13,38 @@ export async function checkUrls() {
   await logger.info("Starting URL check process...");
 
   const isPush = !process.env.GITHUB_BASE_REF;
-  const baseBranch = isPush ? "HEAD^" : process.env.GITHUB_BASE_REF;
+  const base = isPush ? "HEAD^" : process.env.GITHUB_BASE_REF;
 
-  let mainContent = getReadmeFromBranch(baseBranch);
-  if (!mainContent) {
-    mainContent = getReadmeFromBranch(`origin/${baseBranch}`);
-  }
-  if (!mainContent && isPush) {
-    mainContent = getReadmeFromBranch("origin/main");
-  }
+  let main = getReadmeFromBranch(base);
 
-  if (!mainContent) {
-    await logger.error(`Sorry, could not fetch ${baseBranch} branch`);
+  if (!main) main = getReadmeFromBranch(`origin/${base}`);
+  if (!main && isPush) main = getReadmeFromBranch("origin/main");
+
+  if (!main) {
+    await logger.error(`Sorry, could not fetch ${base} branch`);
     process.exit(1);
   }
 
-  const currentContent = getReadmeFromBranch("HEAD");
-  if (!currentContent) {
+  const current = getReadmeFromBranch("HEAD");
+
+  if (!current) {
     await logger.error("Sorry, could not fetch current branch");
     process.exit(1);
   }
 
-  const mainUrls = extractUrls(mainContent);
-  const currentUrls = extractUrls(currentContent);
+  const mainUrls = extractUrls(main);
+  const currentUrls = extractUrls(current);
 
   const newUrls = currentUrls.filter((url) => !mainUrls.includes(url));
 
-  if (newUrls.length === 0)
-    return await logger.success("Look! No new URLs to check!");
+  if (!newUrls.length) return logger.success("Look! No new URLs to check!");
 
-  await logger.info(`Found ${newUrls.length} new URLs to check:`);
+  await logger.info(`Found ${newUrls.length} new URLs to check`);
 
   const results = await Promise.all(newUrls.map(checkUrl));
 
-  const validUrlsCount = results.filter((result) => result.status).length;
-  const invalidUrlsCount = results.filter((result) => !result.status).length;
+  const validCount = results.filter((r) => r.status).length;
+  const invalidCount = results.length - validCount;
 
   for (const result of results) {
     if (!result.status) {
@@ -57,9 +54,12 @@ export async function checkUrls() {
     }
   }
 
-  log(
-    `${label("results")}  Found ${validUrlsCount} valid URLs and ${invalidUrlsCount} invalid URLs`,
-  );
+  if (invalidCount > 0) {
+    await logger.error(
+      `Found ${invalidCount} invalid URLs. Please fix them before merging.`,
+    );
+    process.exit(1);
+  }
 
-  if (invalidUrlsCount > 0) process.exit(1);
+  await logger.success(`All ${validCount} new URLs are valid!`);
 }
