@@ -31,7 +31,7 @@ jobs:
         uses: ./.github/actions/pnpmCache
 
       - name: Checking if resources are sorted
-        run: pnpm sort-resources
+        run: pnpm sort-resources --check
 
       - name: Validate URLs
         run: pnpm check-urls
