@@ -45,6 +45,16 @@ A project must meet **all** of the following:
 2. Add your entry to the appropriate section in `README.md` following the format below.
 3. Open a Pull Request with a title like `Add: Project Name` and a brief explanation of why it belongs.
 
+**Important:** Before opening a pull request, you **must** run:
+
+```
+# Sort entries alphabetically
+pnpm sort-resources
+
+# Validate all repository URLs
+pnpm check-urls
+```
+
 ### Commit Convention
  
 This project follows the [Conventional Commits](https://www.conventionalcommits.org/) specification (Angular style). All commits must use one of the following types:
