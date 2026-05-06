@@ -32,69 +32,6 @@
 - [Software / SaaS](#software--saas)
 - [Web Development](#web-development)
 
-## Web Development
-
-### Code Editors
-
-- [Eclipse Theia](https://github.com/eclipse-theia/theia) - A flexible open source IDE platform used in cloud and desktop environments.
-- [Helix](https://github.com/helix-editor/helix) - A fast-growing modal editor with built-in LSP support and modern defaults.
-- [Neovim](https://github.com/neovim/neovim) - A highly popular, extensible Vim-based editor focused on performance and modern workflows.
-- [Visual Studio Code](https://github.com/microsoft/vscode) - The most widely used open source code editor with a massive extension ecosystem.
-- [VSCodium](https://github.com/VSCodium/vscodium) - A fully open source distribution of VS Code without proprietary components.
-- [Zed](https://github.com/zed-industries/zed) - A high-performance collaborative editor gaining rapid adoption.
-
-### Design Tools
-
-- [Excalidraw](https://github.com/excalidraw/excalidraw) - Virtual whiteboard for sketching hand-drawn style diagrams with real-time collaboration and infinite canvas.
-- [open-pencil](https://github.com/open-pencil/open-pencil) - AI-native Figma-compatible design editor with headless CLI, MCP server, and design-to-code export.
-- [Open Design](https://github.com/nexu-io/open-design) - Local-first AI design tool with 19 skills and 71 brand-grade design systems for generating web, mobile, and slide artifacts.
-
-### UI Components
-
-- [8bitcn](https://github.com/TheOrcDev/8bitcn-ui) - Retro 8-bit styled open-source UI component library.
-- [Dotmatrix](https://github.com/zzzzshawn/matrix) - Reusable dotmatrix-style loading animation components installable via shadcn registry or manual copy.
-- [Flowbite](https://github.com/themesberg/flowbite) - Open-source UI component library based on Tailwind CSS with interactive elements.
-- [Headless UI](https://github.com/tailwindlabs/headlessui) - Fully accessible unstyled UI primitives designed for Tailwind CSS.
-- [LangUI](https://github.com/CommandCodeAI/langui) - Open-source Tailwind CSS components for AI and GPT-style interfaces.
-- [loading-ui](https://github.com/turbostarter/loading-ui) - Beautiful open-source loading states, skeletons, and animated placeholders built for modern React apps with Tailwind CSS.
-- [shadcn/ui](https://github.com/shadcn-ui/ui) - Copy-paste open-source UI components for React built on Tailwind CSS.
-- [uiverse](https://github.com/uiverse-io/uiverse) - Community-driven open-source UI elements built with HTML and CSS.
-
-### React UI libraries
-
-- [Ant Design](https://github.com/ant-design/ant-design) - An enterprise-class design system with robust and consistent React components.
-- [Chakra UI](https://github.com/chakra-ui/chakra-ui) - A modular library focused on accessibility and great developer experience.
-- [Material-UI (MUI)](https://github.com/mui/material-ui) - A React component library based on Material Design, highly customizable and widely adopted.
-- [NativeBase](https://github.com/GeekyAnts/NativeBase) - A utility-first component system for building consistent UIs across mobile and web.
-- [PrimeReact](https://github.com/primefaces/primereact) - A comprehensive suite of rich, flexible, and design-agnostic React UI components.
-- [React Bootstrap](https://github.com/react-bootstrap/react-bootstrap) - Bootstrap components rebuilt for React without jQuery dependency.
-- [Semantic UI React](https://github.com/Semantic-Org/Semantic-UI-React) - The official React integration for Semantic UI with declarative components.
-
-### Vue UI Libraries
-
-- [Quasar](https://github.com/quasarframework/quasar) - Full-featured Vue framework for building SPAs, SSR, mobile and desktop apps.
-- [Vuetify](https://github.com/vuetifyjs/vuetify) - Material Design component framework for Vue with a large ecosystem.
-
-### Angular UI libraries
-
-- [Angular Material](https://github.com/angular/components) - A Material Design component library for Angular maintained by Google.
-- [PrimeNG](https://github.com/primefaces/primeng) - A rich Angular UI component library with high performance and extensive customization options.
-- [Taiga UI](https://github.com/taiga-family/taiga-ui) - A powerful open source Angular UI kit with a large set of components and tools.
-- [TailAdmin Angular](https://github.com/TailAdmin/angular) - An open-source Angular admin dashboard template built with Tailwind CSS.
-
-### Icons
-
-- [Bootstrap Icons](https://github.com/twbs/icons) - Official Bootstrap icon library.
-- [Boxicons](https://github.com/atisawd/boxicons) - Simple and flexible icon library.
-- [css.gg](https://github.com/astrit/css.gg) - Open-source CSS and SVG icon system.
-- [Feather Icons](https://github.com/feathericons/feather) - Minimal and clean open-source icons.
-- [Heroicons](https://github.com/tailwindlabs/heroicons) - Official Tailwind CSS icon set (outline & solid).
-- [Ionicons](https://github.com/ionic-team/ionicons) - Icon pack for Ionic and general use.
-- [React Icons](https://github.com/react-icons/react-icons) - Popular icon packs as React components.
-- [Remix Icon](https://github.com/Remix-Design/RemixIcon) - System-style open-source icon library.
-- [Simple Icons](https://github.com/simple-icons/simple-icons) - Brand and logo icons in SVG format.
-- [Tabler Icons](https://github.com/tabler/tabler-icons) - Large, consistent and actively maintained icon set.
-  
 ## Backend / BaaS
 
 ### Frameworks
@@ -127,52 +64,108 @@
 - [Keycloak](https://github.com/keycloak/keycloak) - Full-featured open source IAM solution (SSO, OAuth2, OIDC, SAML) backed by Red Hat.
 - [Ory Kratos](https://github.com/ory/kratos) - Security-focused authentication system with a fully open source core.
 
-## Software / SaaS
+## CLI Tools
 
-### Productivity & Collaboration
+### Shells & Terminal Environments
+- [Fish Shell](https://github.com/fish-shell/fish-shell) - User-friendly smart shell with autosuggestions and modern defaults.
+- [Nushell](https://github.com/nushell/nushell) - Modern shell built around structured data instead of plain text.
+- [tmux](https://github.com/tmux/tmux) - Terminal multiplexer for managing persistent sessions and panes.
+- [Warp](https://github.com/warpdotdev/Warp) - Rust-based modern terminal with AI and collaborative features.
+- [WezTerm](https://github.com/wez/wezterm) - GPU-accelerated cross-platform terminal emulator written in Rust.
+- [Zellij](https://github.com/zellij-org/zellij) - Terminal workspace and multiplexer focused on usability and extensibility.
 
-- [AFFiNE](https://github.com/toeverything/AFFiNE) - All-in-one collaborative workspace combining docs, whiteboards, and databases.
-- [AppFlowy](https://github.com/AppFlowy-IO/AppFlowy) - Open-source workspace and knowledge management platform positioned as an alternative to Notion.
-- [Erxes](https://github.com/erxes/erxes) - Open-source growth marketing, sales, and customer engagement platform.
-- [Focalboard](https://github.com/mattermost/focalboard) - Self-hosted project and task management tool inspired by Trello and Notion.
-- [Plane](https://github.com/makeplane/plane) - Open-source project management and issue tracking platform.
-- [Twenty](https://github.com/twentyhq/twenty) - Modern open-source CRM platform focused on extensibility and ownership.
+### File Management & Navigation
+- [broot](https://github.com/Canop/broot) - Interactive directory tree navigator with fuzzy search.
+- [fzf](https://github.com/junegunn/fzf) - General-purpose fuzzy finder for the command line.
+- [nnn](https://github.com/jarun/nnn) - Lightweight and extremely fast terminal file browser.
+- [ranger](https://github.com/ranger/ranger) - Console file manager with Vim-style keybindings.
+- [yazi](https://github.com/sxyazi/yazi) - Blazing fast terminal file manager written in Rust.
+- [zoxide](https://github.com/ajeetdsouza/zoxide) - Smarter `cd` command inspired by z and powered by frecency.
 
-### File Storage & Cloud
+### System Monitoring & Utilities
+- [bottom](https://github.com/ClementTsang/bottom) - Cross-platform graphical process and system monitor inspired by htop.
+- [btop](https://github.com/aristocratos/btop) - Modern and visually rich resource monitor for Linux, macOS, and BSD.
+- [dua](https://github.com/Byron/dua-cli) - Fast disk usage analyzer with an interactive terminal UI.
+- [dust](https://github.com/bootandy/dust) - More intuitive replacement for `du` written in Rust.
+- [htop](https://github.com/htop-dev/htop) - Interactive process viewer and system monitor.
+- [procs](https://github.com/dalance/procs) - Modern replacement for `ps` with colored and structured output.
 
-- [Cloudreve](https://github.com/cloudreve/Cloudreve) - Self-hosted cloud storage system supporting multiple storage providers.
-- [Filestash](https://github.com/mickael-kerjean/filestash) - Modern web client for managing files across multiple storage backends.
-- [Nextcloud](https://github.com/nextcloud/server) - Self-hosted productivity cloud with file sync, collaboration, and communication tools.
-- [Seafile](https://github.com/haiwen/seafile) - High-performance open-source file hosting and synchronization platform.
+### Developer Tools
+- [bat](https://github.com/sharkdp/bat) - `cat` clone with syntax highlighting and Git integration.
+- [delta](https://github.com/dandavison/delta) - Syntax-highlighting pager for Git and diff outputs.
+- [fd](https://github.com/sharkdp/fd) - Simple, fast, and user-friendly alternative to `find`.
+- [httpie](https://github.com/httpie/cli) - Human-friendly command-line HTTP client for APIs and web services.
+- [hyperfine](https://github.com/sharkdp/hyperfine) - Command-line benchmarking tool with statistical analysis.
+- [jq](https://github.com/jqlang/jq) - Lightweight and flexible JSON processor for the terminal.
+- [lazydocker](https://github.com/jesseduffield/lazydocker) - Terminal UI for Docker and container management.
+- [lazygit](https://github.com/jesseduffield/lazygit) - Simple terminal UI for Git operations.
+- [ripgrep](https://github.com/BurntSushi/ripgrep) - Extremely fast recursive search tool respecting `.gitignore`.
+- [xh](https://github.com/ducaale/xh) - Friendly and fast HTTP client designed as an alternative to HTTPie.
+- [yq](https://github.com/mikefarah/yq) - Portable YAML, JSON, XML, and TOML processor inspired by jq.
 
-### Analytics & Monitoring
+### Package Managers & Runtimes
+- [asdf](https://github.com/asdf-vm/asdf) - Extendable version manager supporting multiple runtimes and tools.
+- [Bun](https://github.com/oven-sh/bun) - Fast JavaScript runtime, package manager, and bundler.
+- [Deno](https://github.com/denoland/deno) - Secure JavaScript and TypeScript runtime built with Rust.
+- [Homebrew](https://github.com/Homebrew/brew) - Popular package manager for macOS and Linux.
+- [pnpm](https://github.com/pnpm/pnpm) - Fast and disk space-efficient package manager for JavaScript.
 
-- [GlitchTip](https://github.com/glitchtip/glitchtip-backend) - Open-source error tracking platform compatible with Sentry SDKs.
-- [OpenReplay](https://github.com/openreplay/openreplay) - Session replay and product analytics platform for debugging user issues.
-- [Plausible Analytics](https://github.com/plausible/analytics) - Lightweight and privacy-friendly website analytics platform.
-- [Signoz](https://github.com/SigNoz/signoz) - Open-source observability platform for metrics, traces, and logs.
-- [Umami](https://github.com/umami-software/umami) - Privacy-focused web analytics alternative to Google Analytics.
+### Productivity & Workflow
+- [atuin](https://github.com/atuinsh/atuin) - Shell history sync and search engine with encrypted storage.
+- [Glow](https://github.com/charmbracelet/glow) - Render Markdown files beautifully in the terminal.
+- [gum](https://github.com/charmbracelet/gum) - Tool for building glamorous shell scripts and terminal workflows.
+- [Taskwarrior](https://github.com/GothenburgBitFactory/taskwarrior) - Powerful CLI task management and productivity tool.
+- [wtfutil](https://github.com/wtfutil/wtf) - Personal terminal dashboard for displaying developer information.
 
-### Communication & Support
+## Databases
 
-- [Chatwoot](https://github.com/chatwoot/chatwoot) - Customer engagement and support platform with live chat and omnichannel inboxes.
-- [Formbricks](https://github.com/formbricks/formbricks) - Open-source experience management and product feedback platform.
-- [Papercups](https://github.com/papercups-io/papercups) - Open-source live chat and customer messaging platform.
-- [Typebot](https://github.com/baptisteArno/typebot.io) - Conversational form builder for creating interactive chat-style workflows.
+### Relational Databases
+- [ClickHouse](https://github.com/ClickHouse/ClickHouse) - High-performance column-oriented database for analytics and observability.
+- [CockroachDB](https://github.com/cockroachdb/cockroach) - Distributed SQL database focused on scalability and fault tolerance.
+- [DuckDB](https://github.com/duckdb/duckdb) - In-process analytical database designed for fast OLAP workloads.
+- [FoundationDB](https://github.com/apple/foundationdb) - Distributed transactional key-value database designed for strong consistency.
+- [LibSQL](https://github.com/tursodatabase/libsql) - Open-source fork of SQLite focused on distributed and embedded workloads.
+- [MariaDB](https://github.com/MariaDB/server) - Community-driven relational database forked from MySQL with strong open-source governance.
+- [PostgreSQL](https://github.com/postgres/postgres) - Advanced open-source relational database known for reliability, extensibility, and SQL compliance.
+- [RisingWave](https://github.com/risingwavelabs/risingwave) - Distributed SQL streaming database compatible with PostgreSQL.
+- [SQLite](https://github.com/sqlite/sqlite) - Lightweight embedded relational database widely used in applications and mobile devices.
+- [TiDB](https://github.com/pingcap/tidb) - Distributed MySQL-compatible database designed for HTAP and cloud-native workloads.
+- [YugabyteDB](https://github.com/yugabyte/yugabyte-db) - High-performance distributed PostgreSQL-compatible database for scalable applications.
 
-### Automation & Internal Tools
+### NoSQL Databases
+- [ArangoDB](https://github.com/arangodb/arangodb) - Multi-model database supporting graph, document, and key-value data models.
+- [Cassandra](https://github.com/apache/cassandra) - Highly scalable wide-column database built for high availability.
+- [CouchDB](https://github.com/apache/couchdb) - Distributed JSON document database with replication and offline-first capabilities.
+- [FerretDB](https://github.com/FerretDB/FerretDB) - Open-source MongoDB alternative built on PostgreSQL.
+- [RethinkDB](https://github.com/rethinkdb/rethinkdb) - Real-time distributed database with changefeed support.
 
-- [Appsmith](https://github.com/appsmithorg/appsmith) - Open-source framework for creating internal applications rapidly.
-- [Budibase](https://github.com/Budibase/budibase) - Low-code platform for internal tools, forms, and operational dashboards.
-- [n8n](https://github.com/n8n-io/n8n) - Workflow automation platform with self-hosting and extensible integrations.
-- [ToolJet](https://github.com/ToolJet/ToolJet) - Low-code platform for building internal tools and admin panels.
+### Key-Value & Cache Databases
+- [Apache Ignite](https://github.com/apache/ignite) - Distributed in-memory database and caching platform.
+- [Dragonfly](https://github.com/dragonflydb/dragonfly) - Modern in-memory datastore compatible with Redis and Memcached APIs.
+- [etcd](https://github.com/etcd-io/etcd) - Distributed key-value store used for Kubernetes coordination and service discovery.
+- [Valkey](https://github.com/valkey-io/valkey) - Community-driven Redis fork focused on fully open-source development.
 
-### Documentation & Knowledge Bases
+### Time-Series Databases
+- [QuestDB](https://github.com/questdb/questdb) - High-performance time-series database focused on fast SQL analytics.
+- [TDengine](https://github.com/taosdata/TDengine) - Time-series platform designed for IoT, industrial, and monitoring data.
 
-- [Docs](https://github.com/suitenumerique/docs) - Collaborative document editing platform focused on privacy and self-hosting.
-- [Documenso](https://github.com/documenso/documenso) - Open-source document signing platform as an alternative to DocuSign.
-- [Outline](https://github.com/outline/outline) - Collaborative team knowledge base and documentation platform.
-- [Wiki.js](https://github.com/requarks/wiki) - Powerful and extensible open-source wiki platform.
+### Graph Databases
+- [Dgraph](https://github.com/hypermodeinc/dgraph) - Distributed graph database with GraphQL-native APIs.
+
+### Search & Analytics Engines
+- [Manticore Search](https://github.com/manticoresoftware/manticoresearch) - Full-text search engine designed for high-performance indexing and querying.
+- [Meilisearch](https://github.com/meilisearch/meilisearch) - Fast and developer-friendly search engine with typo tolerance.
+- [OpenSearch](https://github.com/opensearch-project/OpenSearch) - Community-driven search and analytics engine forked from Elasticsearch.
+- [Sonic](https://github.com/valeriansaliou/sonic) - Lightweight and schema-less search backend optimized for speed.
+- [Typesense](https://github.com/typesense/typesense) - Open-source instant search engine focused on simplicity and performance.
+
+### Vector Databases
+- [Chroma](https://github.com/chroma-core/chroma) - Lightweight embedding database designed for LLM applications.
+- [LanceDB](https://github.com/lancedb/lancedb) - Embedded vector database optimized for AI applications and local-first workflows.
+- [Milvus](https://github.com/milvus-io/milvus) - Scalable vector database built for machine learning embeddings and AI workloads.
+- [Qdrant](https://github.com/qdrant/qdrant) - Vector similarity search engine for AI and semantic search applications.
+- [SurrealDB](https://github.com/surrealdb/surrealdb) - Multi-model database combining document, graph, and relational features with vector support.
+- [Weaviate](https://github.com/weaviate/weaviate) - Open-source vector search engine with GraphQL and AI-native capabilities.
 
 ## DevOps
 
@@ -230,109 +223,6 @@
 - [Infisical](https://github.com/Infisical/infisical) - Open-source secrets management platform for teams and infrastructure.
 - [Step CA](https://github.com/smallstep/certificates) - Private certificate authority and automated TLS management solution.
 - [Trivy](https://github.com/aquasecurity/trivy) - Security scanner for containers, dependencies, Kubernetes, and IaC.
-
-## Databases
-
-### Relational Databases
-- [ClickHouse](https://github.com/ClickHouse/ClickHouse) - High-performance column-oriented database for analytics and observability.
-- [CockroachDB](https://github.com/cockroachdb/cockroach) - Distributed SQL database focused on scalability and fault tolerance.
-- [DuckDB](https://github.com/duckdb/duckdb) - In-process analytical database designed for fast OLAP workloads.
-- [FoundationDB](https://github.com/apple/foundationdb) - Distributed transactional key-value database designed for strong consistency.
-- [LibSQL](https://github.com/tursodatabase/libsql) - Open-source fork of SQLite focused on distributed and embedded workloads.
-- [MariaDB](https://github.com/MariaDB/server) - Community-driven relational database forked from MySQL with strong open-source governance.
-- [PostgreSQL](https://github.com/postgres/postgres) - Advanced open-source relational database known for reliability, extensibility, and SQL compliance.
-- [RisingWave](https://github.com/risingwavelabs/risingwave) - Distributed SQL streaming database compatible with PostgreSQL.
-- [SQLite](https://github.com/sqlite/sqlite) - Lightweight embedded relational database widely used in applications and mobile devices.
-- [TiDB](https://github.com/pingcap/tidb) - Distributed MySQL-compatible database designed for HTAP and cloud-native workloads.
-- [YugabyteDB](https://github.com/yugabyte/yugabyte-db) - High-performance distributed PostgreSQL-compatible database for scalable applications.
-
-### NoSQL Databases
-- [ArangoDB](https://github.com/arangodb/arangodb) - Multi-model database supporting graph, document, and key-value data models.
-- [Cassandra](https://github.com/apache/cassandra) - Highly scalable wide-column database built for high availability.
-- [CouchDB](https://github.com/apache/couchdb) - Distributed JSON document database with replication and offline-first capabilities.
-- [FerretDB](https://github.com/FerretDB/FerretDB) - Open-source MongoDB alternative built on PostgreSQL.
-- [RethinkDB](https://github.com/rethinkdb/rethinkdb) - Real-time distributed database with changefeed support.
-
-### Key-Value & Cache Databases
-- [Apache Ignite](https://github.com/apache/ignite) - Distributed in-memory database and caching platform.
-- [Dragonfly](https://github.com/dragonflydb/dragonfly) - Modern in-memory datastore compatible with Redis and Memcached APIs.
-- [etcd](https://github.com/etcd-io/etcd) - Distributed key-value store used for Kubernetes coordination and service discovery.
-- [Valkey](https://github.com/valkey-io/valkey) - Community-driven Redis fork focused on fully open-source development.
-
-### Time-Series Databases
-- [QuestDB](https://github.com/questdb/questdb) - High-performance time-series database focused on fast SQL analytics.
-- [TDengine](https://github.com/taosdata/TDengine) - Time-series platform designed for IoT, industrial, and monitoring data.
-
-### Graph Databases
-- [Dgraph](https://github.com/hypermodeinc/dgraph) - Distributed graph database with GraphQL-native APIs.
-
-### Search & Analytics Engines
-- [Manticore Search](https://github.com/manticoresoftware/manticoresearch) - Full-text search engine designed for high-performance indexing and querying.
-- [Meilisearch](https://github.com/meilisearch/meilisearch) - Fast and developer-friendly search engine with typo tolerance.
-- [OpenSearch](https://github.com/opensearch-project/OpenSearch) - Community-driven search and analytics engine forked from Elasticsearch.
-- [Sonic](https://github.com/valeriansaliou/sonic) - Lightweight and schema-less search backend optimized for speed.
-- [Typesense](https://github.com/typesense/typesense) - Open-source instant search engine focused on simplicity and performance.
-
-### Vector Databases
-- [Chroma](https://github.com/chroma-core/chroma) - Lightweight embedding database designed for LLM applications.
-- [LanceDB](https://github.com/lancedb/lancedb) - Embedded vector database optimized for AI applications and local-first workflows.
-- [Milvus](https://github.com/milvus-io/milvus) - Scalable vector database built for machine learning embeddings and AI workloads.
-- [Qdrant](https://github.com/qdrant/qdrant) - Vector similarity search engine for AI and semantic search applications.
-- [SurrealDB](https://github.com/surrealdb/surrealdb) - Multi-model database combining document, graph, and relational features with vector support.
-- [Weaviate](https://github.com/weaviate/weaviate) - Open-source vector search engine with GraphQL and AI-native capabilities.
-
-## CLI Tools
-
-### Shells & Terminal Environments
-- [Fish Shell](https://github.com/fish-shell/fish-shell) - User-friendly smart shell with autosuggestions and modern defaults.
-- [Nushell](https://github.com/nushell/nushell) - Modern shell built around structured data instead of plain text.
-- [tmux](https://github.com/tmux/tmux) - Terminal multiplexer for managing persistent sessions and panes.
-- [Warp](https://github.com/warpdotdev/Warp) - Rust-based modern terminal with AI and collaborative features.
-- [WezTerm](https://github.com/wez/wezterm) - GPU-accelerated cross-platform terminal emulator written in Rust.
-- [Zellij](https://github.com/zellij-org/zellij) - Terminal workspace and multiplexer focused on usability and extensibility.
-
-### File Management & Navigation
-- [broot](https://github.com/Canop/broot) - Interactive directory tree navigator with fuzzy search.
-- [fzf](https://github.com/junegunn/fzf) - General-purpose fuzzy finder for the command line.
-- [nnn](https://github.com/jarun/nnn) - Lightweight and extremely fast terminal file browser.
-- [ranger](https://github.com/ranger/ranger) - Console file manager with Vim-style keybindings.
-- [yazi](https://github.com/sxyazi/yazi) - Blazing fast terminal file manager written in Rust.
-- [zoxide](https://github.com/ajeetdsouza/zoxide) - Smarter `cd` command inspired by z and powered by frecency.
-
-### System Monitoring & Utilities
-- [bottom](https://github.com/ClementTsang/bottom) - Cross-platform graphical process and system monitor inspired by htop.
-- [btop](https://github.com/aristocratos/btop) - Modern and visually rich resource monitor for Linux, macOS, and BSD.
-- [dua](https://github.com/Byron/dua-cli) - Fast disk usage analyzer with an interactive terminal UI.
-- [dust](https://github.com/bootandy/dust) - More intuitive replacement for `du` written in Rust.
-- [htop](https://github.com/htop-dev/htop) - Interactive process viewer and system monitor.
-- [procs](https://github.com/dalance/procs) - Modern replacement for `ps` with colored and structured output.
-
-### Developer Tools
-- [bat](https://github.com/sharkdp/bat) - `cat` clone with syntax highlighting and Git integration.
-- [delta](https://github.com/dandavison/delta) - Syntax-highlighting pager for Git and diff outputs.
-- [fd](https://github.com/sharkdp/fd) - Simple, fast, and user-friendly alternative to `find`.
-- [httpie](https://github.com/httpie/cli) - Human-friendly command-line HTTP client for APIs and web services.
-- [hyperfine](https://github.com/sharkdp/hyperfine) - Command-line benchmarking tool with statistical analysis.
-- [jq](https://github.com/jqlang/jq) - Lightweight and flexible JSON processor for the terminal.
-- [lazydocker](https://github.com/jesseduffield/lazydocker) - Terminal UI for Docker and container management.
-- [lazygit](https://github.com/jesseduffield/lazygit) - Simple terminal UI for Git operations.
-- [ripgrep](https://github.com/BurntSushi/ripgrep) - Extremely fast recursive search tool respecting `.gitignore`.
-- [xh](https://github.com/ducaale/xh) - Friendly and fast HTTP client designed as an alternative to HTTPie.
-- [yq](https://github.com/mikefarah/yq) - Portable YAML, JSON, XML, and TOML processor inspired by jq.
-
-### Package Managers & Runtimes
-- [asdf](https://github.com/asdf-vm/asdf) - Extendable version manager supporting multiple runtimes and tools.
-- [Bun](https://github.com/oven-sh/bun) - Fast JavaScript runtime, package manager, and bundler.
-- [Deno](https://github.com/denoland/deno) - Secure JavaScript and TypeScript runtime built with Rust.
-- [Homebrew](https://github.com/Homebrew/brew) - Popular package manager for macOS and Linux.
-- [pnpm](https://github.com/pnpm/pnpm) - Fast and disk space-efficient package manager for JavaScript.
-
-### Productivity & Workflow
-- [atuin](https://github.com/atuinsh/atuin) - Shell history sync and search engine with encrypted storage.
-- [Glow](https://github.com/charmbracelet/glow) - Render Markdown files beautifully in the terminal.
-- [gum](https://github.com/charmbracelet/gum) - Tool for building glamorous shell scripts and terminal workflows.
-- [Taskwarrior](https://github.com/GothenburgBitFactory/taskwarrior) - Powerful CLI task management and productivity tool.
-- [wtfutil](https://github.com/wtfutil/wtf) - Personal terminal dashboard for displaying developer information.
 
 ## Mobile Apps
 
@@ -401,6 +291,70 @@
 - [Lawnchair](https://github.com/LawnchairLauncher/lawnchair) - Pixel-inspired customizable Android launcher.
 - [Neo Launcher](https://github.com/NeoApplications/Neo-Launcher) - Fork of Lawnchair with enhanced customization.
 
+## Security
+
+### Vulnerability Scanning & Analysis
+
+- [Clair](https://github.com/quay/clair) - Static analysis tool for identifying vulnerabilities in container images.
+- [Dependency-Track](https://github.com/DependencyTrack/dependency-track) - Software supply chain security platform for SBOM analysis and vulnerability tracking.
+- [Grype](https://github.com/anchore/grype) - Vulnerability scanner for container images and filesystems.
+- [OpenSCAP](https://github.com/OpenSCAP/openscap) - Security compliance and vulnerability scanning framework implementing SCAP standards.
+- [OWASP Dependency-Check](https://github.com/dependency-check/DependencyCheck) - Tool for detecting vulnerable dependencies in software projects.
+- [Semgrep](https://github.com/semgrep/semgrep) - Static analysis tool for finding security issues in source code.
+
+### Network Security & Monitoring
+
+- [CrowdSec](https://github.com/crowdsecurity/crowdsec) - Collaborative IPS and threat intelligence platform protecting servers and applications.
+- [Security Onion](https://github.com/Security-Onion-Solutions/securityonion) - Linux distribution for intrusion detection, enterprise security monitoring, and log management.
+- [Snort](https://github.com/snort3/snort3) - Widely used open-source intrusion prevention and detection system.
+- [Suricata](https://github.com/OISF/suricata) - High-performance network IDS, IPS, and network security monitoring engine.
+- [Wazuh](https://github.com/wazuh/wazuh) - Open-source XDR and SIEM platform for threat detection and compliance.
+- [Zeek](https://github.com/zeek/zeek) - Powerful network analysis framework for monitoring and security visibility.
+
+### Secrets Management & Encryption
+
+- [age](https://github.com/FiloSottile/age) - Simple, modern, and secure file encryption tool.
+- [Cryptomator](https://github.com/cryptomator/cryptomator) - Client-side encrypted cloud storage solution focused on privacy.
+- [HashiCorp Vault](https://github.com/hashicorp/vault) - Secrets management and encryption platform for protecting sensitive infrastructure data.
+- [Sealed Secrets](https://github.com/bitnami-labs/sealed-secrets) - Kubernetes controller for managing encrypted secrets safely in Git repositories.
+- [SOPS](https://github.com/getsops/sops) - Tool for encrypting and managing structured configuration files and secrets.
+
+### Privacy & Anonymity
+
+- [Arkenfox user.js](https://github.com/arkenfox/user.js) - Hardened Firefox configuration focused on privacy and security.
+- [GrapheneOS](https://github.com/GrapheneOS/platform_manifest) - Privacy and security-focused Android-based mobile operating system.
+- [LibreWolf](https://github.com/librewolf-community/browser) - Privacy-focused Firefox fork with hardened defaults and telemetry removal.
+- [OpenSnitch](https://github.com/evilsocket/opensnitch) - Application firewall and outbound connection monitor for Linux.
+- [Tor](https://github.com/torproject/tor) - Anonymous overlay network for protecting privacy and resisting surveillance.
+
+### Reverse Engineering & Pentesting
+
+- [Amass](https://github.com/owasp-amass/amass) - Attack surface mapping and external asset discovery tool.
+- [Ghidra](https://github.com/NationalSecurityAgency/ghidra) - Software reverse engineering suite developed by the NSA.
+- [Metasploit Framework](https://github.com/rapid7/metasploit-framework) - Penetration testing framework for security auditing and exploit development.
+- [Nmap](https://github.com/nmap/nmap) - Network discovery and security auditing utility.
+- [OWASP ZAP](https://github.com/zaproxy/zaproxy) - Open-source web application security scanner maintained by OWASP.
+- [Responder](https://github.com/lgandx/Responder) - LLMNR, NBT-NS, and MDNS poisoner commonly used in internal network assessments.
+- [sqlmap](https://github.com/sqlmapproject/sqlmap) - Automated SQL injection and database takeover tool.
+- [Wireshark](https://github.com/wireshark/wireshark) - Network protocol analyzer for troubleshooting and packet inspection.
+
+### Endpoint & Runtime Security
+
+- [Chkrootkit](https://github.com/Magentron/chkrootkit) - Toolset for detecting rootkits on Unix systems.
+- [Lynis](https://github.com/CISOfy/lynis) - Security auditing and hardening tool for Unix-based systems.
+- [OpenEDR](https://github.com/ComodoSecurity/openedr) - Endpoint detection and response platform for monitoring and threat analysis.
+- [Osquery](https://github.com/osquery/osquery) - Operating system instrumentation framework exposing system data through SQL.
+- [Wazero](https://github.com/tetratelabs/wazero) - Secure WebAssembly runtime for sandboxed application execution.
+
+### Container & Kubernetes Security
+
+- [Chainguard Images](https://github.com/chainguard-images/images) - Minimal and hardened container images focused on supply chain security.
+- [Dockle](https://github.com/goodwithtech/dockle) - Container image linter focused on security best practices.
+- [Kube-bench](https://github.com/aquasecurity/kube-bench) - CIS Kubernetes benchmark compliance checker.
+- [Kube-hunter](https://github.com/aquasecurity/kube-hunter) - Kubernetes penetration testing and security auditing tool.
+- [Kubescape](https://github.com/kubescape/kubescape) - Kubernetes security platform for risk analysis and compliance scanning.
+- [Kyverno](https://github.com/kyverno/kyverno) - Kubernetes-native policy engine for security, governance, and compliance.
+
 ## Self-Hosted
 
 ### Homelab & Server Management
@@ -468,70 +422,116 @@
 - [GitLab CE](https://github.com/gitlabhq/gitlabhq) - Complete DevOps platform with source control and CI/CD features.
 - [Onedev](https://github.com/theonedev/onedev) - All-in-one Git server with CI/CD and issue tracking.
 
-## Security
+## Software / SaaS
 
-### Vulnerability Scanning & Analysis
+### Productivity & Collaboration
 
-- [Clair](https://github.com/quay/clair) - Static analysis tool for identifying vulnerabilities in container images.
-- [Dependency-Track](https://github.com/DependencyTrack/dependency-track) - Software supply chain security platform for SBOM analysis and vulnerability tracking.
-- [Grype](https://github.com/anchore/grype) - Vulnerability scanner for container images and filesystems.
-- [OpenSCAP](https://github.com/OpenSCAP/openscap) - Security compliance and vulnerability scanning framework implementing SCAP standards.
-- [OWASP Dependency-Check](https://github.com/dependency-check/DependencyCheck) - Tool for detecting vulnerable dependencies in software projects.
-- [Semgrep](https://github.com/semgrep/semgrep) - Static analysis tool for finding security issues in source code.
+- [AFFiNE](https://github.com/toeverything/AFFiNE) - All-in-one collaborative workspace combining docs, whiteboards, and databases.
+- [AppFlowy](https://github.com/AppFlowy-IO/AppFlowy) - Open-source workspace and knowledge management platform positioned as an alternative to Notion.
+- [Erxes](https://github.com/erxes/erxes) - Open-source growth marketing, sales, and customer engagement platform.
+- [Focalboard](https://github.com/mattermost/focalboard) - Self-hosted project and task management tool inspired by Trello and Notion.
+- [Plane](https://github.com/makeplane/plane) - Open-source project management and issue tracking platform.
+- [Twenty](https://github.com/twentyhq/twenty) - Modern open-source CRM platform focused on extensibility and ownership.
 
-### Network Security & Monitoring
+### File Storage & Cloud
 
-- [CrowdSec](https://github.com/crowdsecurity/crowdsec) - Collaborative IPS and threat intelligence platform protecting servers and applications.
-- [Security Onion](https://github.com/Security-Onion-Solutions/securityonion) - Linux distribution for intrusion detection, enterprise security monitoring, and log management.
-- [Snort](https://github.com/snort3/snort3) - Widely used open-source intrusion prevention and detection system.
-- [Suricata](https://github.com/OISF/suricata) - High-performance network IDS, IPS, and network security monitoring engine.
-- [Wazuh](https://github.com/wazuh/wazuh) - Open-source XDR and SIEM platform for threat detection and compliance.
-- [Zeek](https://github.com/zeek/zeek) - Powerful network analysis framework for monitoring and security visibility.
+- [Cloudreve](https://github.com/cloudreve/Cloudreve) - Self-hosted cloud storage system supporting multiple storage providers.
+- [Filestash](https://github.com/mickael-kerjean/filestash) - Modern web client for managing files across multiple storage backends.
+- [Nextcloud](https://github.com/nextcloud/server) - Self-hosted productivity cloud with file sync, collaboration, and communication tools.
+- [Seafile](https://github.com/haiwen/seafile) - High-performance open-source file hosting and synchronization platform.
 
-### Secrets Management & Encryption
+### Analytics & Monitoring
 
-- [age](https://github.com/FiloSottile/age) - Simple, modern, and secure file encryption tool.
-- [Cryptomator](https://github.com/cryptomator/cryptomator) - Client-side encrypted cloud storage solution focused on privacy.
-- [HashiCorp Vault](https://github.com/hashicorp/vault) - Secrets management and encryption platform for protecting sensitive infrastructure data.
-- [Sealed Secrets](https://github.com/bitnami-labs/sealed-secrets) - Kubernetes controller for managing encrypted secrets safely in Git repositories.
-- [SOPS](https://github.com/getsops/sops) - Tool for encrypting and managing structured configuration files and secrets.
+- [GlitchTip](https://github.com/glitchtip/glitchtip-backend) - Open-source error tracking platform compatible with Sentry SDKs.
+- [OpenReplay](https://github.com/openreplay/openreplay) - Session replay and product analytics platform for debugging user issues.
+- [Plausible Analytics](https://github.com/plausible/analytics) - Lightweight and privacy-friendly website analytics platform.
+- [Signoz](https://github.com/SigNoz/signoz) - Open-source observability platform for metrics, traces, and logs.
+- [Umami](https://github.com/umami-software/umami) - Privacy-focused web analytics alternative to Google Analytics.
 
-### Privacy & Anonymity
+### Communication & Support
 
-- [Arkenfox user.js](https://github.com/arkenfox/user.js) - Hardened Firefox configuration focused on privacy and security.
-- [GrapheneOS](https://github.com/GrapheneOS/platform_manifest) - Privacy and security-focused Android-based mobile operating system.
-- [LibreWolf](https://github.com/librewolf-community/browser) - Privacy-focused Firefox fork with hardened defaults and telemetry removal.
-- [OpenSnitch](https://github.com/evilsocket/opensnitch) - Application firewall and outbound connection monitor for Linux.
-- [Tor](https://github.com/torproject/tor) - Anonymous overlay network for protecting privacy and resisting surveillance.
+- [Chatwoot](https://github.com/chatwoot/chatwoot) - Customer engagement and support platform with live chat and omnichannel inboxes.
+- [Formbricks](https://github.com/formbricks/formbricks) - Open-source experience management and product feedback platform.
+- [Papercups](https://github.com/papercups-io/papercups) - Open-source live chat and customer messaging platform.
+- [Typebot](https://github.com/baptisteArno/typebot.io) - Conversational form builder for creating interactive chat-style workflows.
 
-### Reverse Engineering & Pentesting
+### Automation & Internal Tools
 
-- [Amass](https://github.com/owasp-amass/amass) - Attack surface mapping and external asset discovery tool.
-- [Ghidra](https://github.com/NationalSecurityAgency/ghidra) - Software reverse engineering suite developed by the NSA.
-- [Metasploit Framework](https://github.com/rapid7/metasploit-framework) - Penetration testing framework for security auditing and exploit development.
-- [Nmap](https://github.com/nmap/nmap) - Network discovery and security auditing utility.
-- [OWASP ZAP](https://github.com/zaproxy/zaproxy) - Open-source web application security scanner maintained by OWASP.
-- [Responder](https://github.com/lgandx/Responder) - LLMNR, NBT-NS, and MDNS poisoner commonly used in internal network assessments.
-- [sqlmap](https://github.com/sqlmapproject/sqlmap) - Automated SQL injection and database takeover tool.
-- [Wireshark](https://github.com/wireshark/wireshark) - Network protocol analyzer for troubleshooting and packet inspection.
+- [Appsmith](https://github.com/appsmithorg/appsmith) - Open-source framework for creating internal applications rapidly.
+- [Budibase](https://github.com/Budibase/budibase) - Low-code platform for internal tools, forms, and operational dashboards.
+- [n8n](https://github.com/n8n-io/n8n) - Workflow automation platform with self-hosting and extensible integrations.
+- [ToolJet](https://github.com/ToolJet/ToolJet) - Low-code platform for building internal tools and admin panels.
 
-### Endpoint & Runtime Security
+### Documentation & Knowledge Bases
 
-- [Chkrootkit](https://github.com/Magentron/chkrootkit) - Toolset for detecting rootkits on Unix systems.
-- [Lynis](https://github.com/CISOfy/lynis) - Security auditing and hardening tool for Unix-based systems.
-- [OpenEDR](https://github.com/ComodoSecurity/openedr) - Endpoint detection and response platform for monitoring and threat analysis.
-- [Osquery](https://github.com/osquery/osquery) - Operating system instrumentation framework exposing system data through SQL.
-- [Wazero](https://github.com/tetratelabs/wazero) - Secure WebAssembly runtime for sandboxed application execution.
+- [Docs](https://github.com/suitenumerique/docs) - Collaborative document editing platform focused on privacy and self-hosting.
+- [Documenso](https://github.com/documenso/documenso) - Open-source document signing platform as an alternative to DocuSign.
+- [Outline](https://github.com/outline/outline) - Collaborative team knowledge base and documentation platform.
+- [Wiki.js](https://github.com/requarks/wiki) - Powerful and extensible open-source wiki platform.
 
-### Container & Kubernetes Security
+## Web Development
 
-- [Chainguard Images](https://github.com/chainguard-images/images) - Minimal and hardened container images focused on supply chain security.
-- [Dockle](https://github.com/goodwithtech/dockle) - Container image linter focused on security best practices.
-- [Kube-bench](https://github.com/aquasecurity/kube-bench) - CIS Kubernetes benchmark compliance checker.
-- [Kube-hunter](https://github.com/aquasecurity/kube-hunter) - Kubernetes penetration testing and security auditing tool.
-- [Kubescape](https://github.com/kubescape/kubescape) - Kubernetes security platform for risk analysis and compliance scanning.
-- [Kyverno](https://github.com/kyverno/kyverno) - Kubernetes-native policy engine for security, governance, and compliance.
-  
+### Code Editors
+
+- [Eclipse Theia](https://github.com/eclipse-theia/theia) - A flexible open source IDE platform used in cloud and desktop environments.
+- [Helix](https://github.com/helix-editor/helix) - A fast-growing modal editor with built-in LSP support and modern defaults.
+- [Neovim](https://github.com/neovim/neovim) - A highly popular, extensible Vim-based editor focused on performance and modern workflows.
+- [Visual Studio Code](https://github.com/microsoft/vscode) - The most widely used open source code editor with a massive extension ecosystem.
+- [VSCodium](https://github.com/VSCodium/vscodium) - A fully open source distribution of VS Code without proprietary components.
+- [Zed](https://github.com/zed-industries/zed) - A high-performance collaborative editor gaining rapid adoption.
+
+### Design Tools
+
+- [Excalidraw](https://github.com/excalidraw/excalidraw) - Virtual whiteboard for sketching hand-drawn style diagrams with real-time collaboration and infinite canvas.
+- [open-pencil](https://github.com/open-pencil/open-pencil) - AI-native Figma-compatible design editor with headless CLI, MCP server, and design-to-code export.
+- [Open Design](https://github.com/nexu-io/open-design) - Local-first AI design tool with 19 skills and 71 brand-grade design systems for generating web, mobile, and slide artifacts.
+
+### Icons
+
+- [Bootstrap Icons](https://github.com/twbs/icons) - Official Bootstrap icon library.
+- [Boxicons](https://github.com/atisawd/boxicons) - Simple and flexible icon library.
+- [css.gg](https://github.com/astrit/css.gg) - Open-source CSS and SVG icon system.
+- [Feather Icons](https://github.com/feathericons/feather) - Minimal and clean open-source icons.
+- [Heroicons](https://github.com/tailwindlabs/heroicons) - Official Tailwind CSS icon set (outline & solid).
+- [Ionicons](https://github.com/ionic-team/ionicons) - Icon pack for Ionic and general use.
+- [React Icons](https://github.com/react-icons/react-icons) - Popular icon packs as React components.
+- [Remix Icon](https://github.com/Remix-Design/RemixIcon) - System-style open-source icon library.
+- [Simple Icons](https://github.com/simple-icons/simple-icons) - Brand and logo icons in SVG format.
+- [Tabler Icons](https://github.com/tabler/tabler-icons) - Large, consistent and actively maintained icon set.
+
+### UI Components
+
+- [8bitcn](https://github.com/TheOrcDev/8bitcn-ui) - Retro 8-bit styled open-source UI component library.
+- [Dotmatrix](https://github.com/zzzzshawn/matrix) - Reusable dotmatrix-style loading animation components installable via shadcn registry or manual copy.
+- [Flowbite](https://github.com/themesberg/flowbite) - Open-source UI component library based on Tailwind CSS with interactive elements.
+- [Headless UI](https://github.com/tailwindlabs/headlessui) - Fully accessible unstyled UI primitives designed for Tailwind CSS.
+- [LangUI](https://github.com/CommandCodeAI/langui) - Open-source Tailwind CSS components for AI and GPT-style interfaces.
+- [loading-ui](https://github.com/turbostarter/loading-ui) - Beautiful open-source loading states, skeletons, and animated placeholders built for modern React apps with Tailwind CSS.
+- [shadcn/ui](https://github.com/shadcn-ui/ui) - Copy-paste open-source UI components for React built on Tailwind CSS.
+- [uiverse](https://github.com/uiverse-io/uiverse) - Community-driven open-source UI elements built with HTML and CSS.
+
+### React UI libraries
+
+- [Ant Design](https://github.com/ant-design/ant-design) - An enterprise-class design system with robust and consistent React components.
+- [Chakra UI](https://github.com/chakra-ui/chakra-ui) - A modular library focused on accessibility and great developer experience.
+- [Material-UI (MUI)](https://github.com/mui/material-ui) - A React component library based on Material Design, highly customizable and widely adopted.
+- [NativeBase](https://github.com/GeekyAnts/NativeBase) - A utility-first component system for building consistent UIs across mobile and web.
+- [PrimeReact](https://github.com/primefaces/primereact) - A comprehensive suite of rich, flexible, and design-agnostic React UI components.
+- [React Bootstrap](https://github.com/react-bootstrap/react-bootstrap) - Bootstrap components rebuilt for React without jQuery dependency.
+- [Semantic UI React](https://github.com/Semantic-Org/Semantic-UI-React) - The official React integration for Semantic UI with declarative components.
+
+### Vue UI Libraries
+
+- [Quasar](https://github.com/quasarframework/quasar) - Full-featured Vue framework for building SPAs, SSR, mobile and desktop apps.
+- [Vuetify](https://github.com/vuetifyjs/vuetify) - Material Design component framework for Vue with a large ecosystem.
+
+### Angular UI libraries
+
+- [Angular Material](https://github.com/angular/components) - A Material Design component library for Angular maintained by Google.
+- [PrimeNG](https://github.com/primefaces/primeng) - A rich Angular UI component library with high performance and extensive customization options.
+- [Taiga UI](https://github.com/taiga-family/taiga-ui) - A powerful open source Angular UI kit with a large set of components and tools.
+- [TailAdmin Angular](https://github.com/TailAdmin/angular) - An open-source Angular admin dashboard template built with Tailwind CSS.
+
 ## Contributing
 
 Contributions are welcome! If you'd like to contribute:
