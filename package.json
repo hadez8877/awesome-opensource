@@ -1,26 +1,27 @@
 {
-  "name": "awesome-opensource",
-  "version": "0.0.0",
-  "description": "A list of powerful open-source projects for web, backend, CLI, and mobile.",
-  "scripts": {
-    "lint": "prettier --check .",
-    "format": "prettier --write .",
-    "fmt": "pnpm run format",
-    "sort-resources": "node src/sort-resources.js",
-    "check-urls": "node src/check-urls.js",
-    "prepare": "husky"
-  },
-  "type": "module",
-  "author": "Fabricio Pasapera Viera (@Hadez)",
-  "devDependencies": {
-    "husky": "^9.1.7",
-    "prettier": "^3.8.3"
-  },
-  "license": "MIT",
-  "packageManager": "pnpm@10.33.4",
-  "dependencies": {
-    "chalk": "^5.6.2",
-    "log-update": "^5.0.1",
-    "sisteransi": "^1.0.5"
-  }
+	"name": "awesome-opensource",
+	"version": "0.0.0",
+	"description": "A list of powerful open-source projects for web, backend, CLI, and mobile.",
+	"scripts": {
+		"lint": "prettier --check .",
+		"format": "prettier --write .",
+		"fmt": "pnpm run format",
+		"sort-resources": "node src/sort-resources.js",
+		"check-urls": "node src/check-urls.js",
+		"prepare": "husky"
+	},
+	"type": "module",
+	"author": "Fabricio Pasapera Viera (@Hadez)",
+	"devDependencies": {
+		"husky": "^9.1.7",
+		"prettier": "^3.8.3",
+		"prettier-plugin-organize-imports": "^4.3.0"
+	},
+	"license": "MIT",
+	"packageManager": "pnpm@10.33.4",
+	"dependencies": {
+		"chalk": "^5.6.2",
+		"log-update": "^5.0.1",
+		"sisteransi": "^1.0.5"
+	}
 }

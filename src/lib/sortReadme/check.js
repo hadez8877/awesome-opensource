@@ -1,9 +1,9 @@
-import path from "node:path";
-import { tasks, logger } from "../utils.js";
-import fs from "node:fs/promises";
-import { sortLists } from "./utils/sortLists.js";
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import { logger, tasks } from '../utils.js';
+import { sortLists } from './utils/sortLists.js';
 
-const readmePath = path.join(process.cwd(), "README.md");
+const readmePath = path.join(process.cwd(), 'README.md');
 
 /**
  * Checks whether README.md resources are alphabetically sorted.
@@ -13,39 +13,38 @@ const readmePath = path.join(process.cwd(), "README.md");
  * @returns {Promise<void>}
  */
 export async function check() {
-  const labels = {
-    start: "Checking resource sorting...",
-    end: "🎉 Good! Your PR is correctly sorted",
-  };
+	const labels = {
+		start: 'Checking resource sorting...',
+		end: '🎉 Good! Your PR is correctly sorted',
+	};
 
-  await tasks(labels, [
-    {
-      start: "Reading README.md...",
-      pending: "Waiting to read README.md...",
-      end: "README.md loaded successfully",
+	await tasks(labels, [
+		{
+			start: 'Reading README.md...',
+			pending: 'Waiting to read README.md...',
+			end: 'README.md loaded successfully',
 
-      async while() {
-        await fs.access(readmePath);
-      },
-    },
-    {
-      start: "Validating resource order...",
-      pending: "Checking if resources are sorted...",
-      end: "Resources are sorted correctly",
+			async while() {
+				await fs.access(readmePath);
+			},
+		},
+		{
+			start: 'Validating resource order...',
+			pending: 'Checking if resources are sorted...',
+			end: 'Resources are sorted correctly',
 
-      async while() {
-        const original = await fs.readFile(readmePath, "utf8");
+			async while() {
+				const original = await fs.readFile(readmePath, 'utf8');
 
-        const sorted = sortLists(original);
+				const sorted = sortLists(original);
 
-        if (original !== sorted)
-          throw new Error("Whoops! Resources are not sorted :(");
-      },
+				if (original !== sorted) throw new Error('Whoops! Resources are not sorted :(');
+			},
 
-      async onError(err) {
-        await logger.error(err.message);
-        process.exit(1);
-      },
-    },
-  ]);
+			async onError(err) {
+				await logger.error(err.message);
+				process.exit(1);
+			},
+		},
+	]);
 }

@@ -1,3 +1,3 @@
-import { checkUrls } from "./lib/checkUrls/checkUrls.js";
+import { checkUrls } from './lib/checkUrls/checkUrls.js';
 
 await checkUrls();

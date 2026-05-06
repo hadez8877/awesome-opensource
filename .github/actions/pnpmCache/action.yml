@@ -1,7 +1,7 @@
-name: "pnpm install"
-description: "Run pnpm install with cache enabled"
+name: 'pnpm install'
+description: 'Run pnpm install with cache enabled'
 runs:
-  using: "composite"
+  using: 'composite'
   steps:
     - name: Set up swap space
       if: runner.os == 'Linux'
@@ -39,4 +39,4 @@ runs:
       run: |
         pnpm install --frozen-lockfile --prefer-offline --loglevel error
       env:
-        HUSKY: "0"
+        HUSKY: '0'

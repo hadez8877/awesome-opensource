@@ -10,13 +10,13 @@
  * @returns {string} Lowercased sorting key.
  */
 export function getSortKey(line) {
-  const trimmed = line.trimStart();
+	const trimmed = line.trimStart();
 
-  const linkMatch = trimmed.match(/^[-*]\s+\[([^\]]+)\]/);
+	const linkMatch = trimmed.match(/^[-*]\s+\[([^\]]+)\]/);
 
-  if (linkMatch) {
-    return linkMatch[1].trim().toLowerCase();
-  }
+	if (linkMatch) {
+		return linkMatch[1].trim().toLowerCase();
+	}
 
-  return trimmed.replace(/^[-*]\s+/, "").toLowerCase();
+	return trimmed.replace(/^[-*]\s+/, '').toLowerCase();
 }

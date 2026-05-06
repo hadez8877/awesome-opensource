@@ -1,7 +1,7 @@
-import color from "chalk";
-import readline from "readline";
-import { createLogUpdate } from "log-update";
-import { erase, cursor } from "sisteransi";
+import color from 'chalk';
+import { createLogUpdate } from 'log-update';
+import readline from 'readline';
+import { cursor, erase } from 'sisteransi';
 
 let stdout = process.stdout;
 /**
@@ -9,7 +9,7 @@ let stdout = process.stdout;
  * @param {typeof process.stdout} writable - The writable stream to use
  */
 export function setStdout(writable) {
-  stdout = writable;
+	stdout = writable;
 }
 
 /**
@@ -28,17 +28,13 @@ export { color as c };
  * @param {Function} t - The text color function to use
  * @returns {string} The colored label
  */
-export const label = (
-  text,
-  c = color.bgHex("#FC60A8"),
-  t = color.whiteBright,
-) => c(` ${t(text)} `);
+export const label = (text, c = color.bgHex('#FC60A8'), t = color.whiteBright) => c(` ${t(text)} `);
 
 /**
  * Log a message to the console
  * @param {string} message - The message to log
  */
-export const log = (message) => stdout.write(message + "\n\n");
+export const log = (message) => stdout.write(message + '\n\n');
 
 /**
  * Logger utility for consistent logging across the application
@@ -49,38 +45,38 @@ export const log = (message) => stdout.write(message + "\n\n");
  * @property {Function} warning - Log a warning message
  */
 export const logger = {
-  /**
-   * Log an info message
-   * @param {string} message - The message to log
-   */
-  info: async (message) => {
-    await sleep(100);
-    log(`${label("info", color.bgBlue)}  ${message}`);
-  },
-  /**
-   * Log an error message
-   * @param {string} message - The message to log
-   */
-  error: async (message) => {
-    await sleep(100);
-    log(`${label("err", color.bgRed)}  ${message}`);
-  },
-  /**
-   * Log a warning message
-   * @param {string} message - The message to log
-   */
-  warning: async (message) => {
-    await sleep(100);
-    log(`${label("warn", color.bgYellow)}  ${message}`);
-  },
-  /**
-   * Log a success message
-   * @param {string} message - The message to log
-   */
-  success: async (message) => {
-    await sleep(100);
-    log(`${label("success", color.bgGreen)}  ${message}`);
-  },
+	/**
+	 * Log an info message
+	 * @param {string} message - The message to log
+	 */
+	info: async (message) => {
+		await sleep(100);
+		log(`${label('info', color.bgBlue)}  ${message}`);
+	},
+	/**
+	 * Log an error message
+	 * @param {string} message - The message to log
+	 */
+	error: async (message) => {
+		await sleep(100);
+		log(`${label('err', color.bgRed)}  ${message}`);
+	},
+	/**
+	 * Log a warning message
+	 * @param {string} message - The message to log
+	 */
+	warning: async (message) => {
+		await sleep(100);
+		log(`${label('warn', color.bgYellow)}  ${message}`);
+	},
+	/**
+	 * Log a success message
+	 * @param {string} message - The message to log
+	 */
+	success: async (message) => {
+		await sleep(100);
+		log(`${label('success', color.bgGreen)}  ${message}`);
+	},
 };
 
 /**
@@ -90,16 +86,7 @@ export const logger = {
  *
  * @type {string[]}
  */
-const COLORS = [
-  "#FC60A8",
-  "#FF5F9E",
-  "#FF3CAC",
-  "#CC2BDE",
-  "#9B5DE5",
-  "#00BBF9",
-  "#00F5D4",
-  "#05F89E",
-].reverse();
+const COLORS = ['#FC60A8', '#FF5F9E', '#FF3CAC', '#CC2BDE', '#9B5DE5', '#00BBF9', '#00F5D4', '#05F89E'].reverse();
 
 /**
  * Expanded gradient frame sequence used to build the animation.
@@ -113,10 +100,10 @@ const COLORS = [
  * @type {string[]}
  */
 const FULL_FRAMES = [
-  ...Array.from({ length: COLORS.length - 1 }, () => COLORS[0]),
-  ...COLORS,
-  ...Array.from({ length: COLORS.length - 1 }, () => COLORS[COLORS.length - 1]),
-  ...[...COLORS].reverse(),
+	...Array.from({ length: COLORS.length - 1 }, () => COLORS[0]),
+	...COLORS,
+	...Array.from({ length: COLORS.length - 1 }, () => COLORS[COLORS.length - 1]),
+	...[...COLORS].reverse(),
 ];
 
 /**
@@ -126,15 +113,15 @@ const FULL_FRAMES = [
  * @returns {string[]} Gradient frame colors.
  */
 const frame = (offset = 0) => {
-  const frames = FULL_FRAMES.slice(offset, offset + (COLORS.length - 2));
+	const frames = FULL_FRAMES.slice(offset, offset + (COLORS.length - 2));
 
-  if (frames.length < COLORS.length - 2) {
-    const filled = new Array(COLORS.length - frames.length - 2).fill(COLORS[0]);
+	if (frames.length < COLORS.length - 2) {
+		const filled = new Array(COLORS.length - frames.length - 2).fill(COLORS[0]);
 
-    frames.push(...filled);
-  }
+		frames.push(...filled);
+	}
 
-  return frames;
+	return frames;
 };
 
 /**
@@ -154,9 +141,7 @@ const GRADIENT = [...FULL_FRAMES.map((_, i) => frame(i))].reverse();
  * @returns {string[]} Animated terminal frames.
  */
 function getGradientAnimFrames() {
-  return GRADIENT.map(
-    (colors) => " " + colors.map((g) => color.hex(g)("█")).join(""),
-  );
+	return GRADIENT.map((colors) => ' ' + colors.map((g) => color.hex(g)('█')).join(''));
 }
 
 /**
@@ -178,117 +163,114 @@ function getGradientAnimFrames() {
  *   stop: () => void
  * }>} Spinner controller.
  */
-async function gradient(
-  text,
-  { stdin = process.stdin, stdout = process.stdout } = {},
-) {
-  const logUpdate = createLogUpdate(stdout);
+async function gradient(text, { stdin = process.stdin, stdout = process.stdout } = {}) {
+	const logUpdate = createLogUpdate(stdout);
 
-  let i = 0;
-  const frames = getGradientAnimFrames();
+	let i = 0;
+	const frames = getGradientAnimFrames();
 
-  /** @type {NodeJS.Timeout | undefined} */
-  let interval;
+	/** @type {NodeJS.Timeout | undefined} */
+	let interval;
 
-  const rl = readline.createInterface({
-    input: stdin,
-    escapeCodeTimeout: 50,
-  });
+	const rl = readline.createInterface({
+		input: stdin,
+		escapeCodeTimeout: 50,
+	});
 
-  readline.emitKeypressEvents(stdin, rl);
+	readline.emitKeypressEvents(stdin, rl);
 
-  if (stdin.isTTY) {
-    stdin.setRawMode(true);
-  }
+	if (stdin.isTTY) {
+		stdin.setRawMode(true);
+	}
 
-  /**
-   * Handles keyboard input while the spinner is active.
-   *
-   * @param {string} char - Pressed character.
-   */
-  const keypress = (char) => {
-    if (char === "\x03") {
-      spinner.stop();
-      process.exit(0);
-    }
+	/**
+	 * Handles keyboard input while the spinner is active.
+	 *
+	 * @param {string} char - Pressed character.
+	 */
+	const keypress = (char) => {
+		if (char === '\x03') {
+			spinner.stop();
+			process.exit(0);
+		}
 
-    if (stdin.isTTY) {
-      stdin.setRawMode(true);
-    }
+		if (stdin.isTTY) {
+			stdin.setRawMode(true);
+		}
 
-    stdout.write(cursor.hide + erase.lines(text.split("\n").length));
-  };
+		stdout.write(cursor.hide + erase.lines(text.split('\n').length));
+	};
 
-  /** @type {() => void} */
-  let refresh = () => {};
+	/** @type {() => void} */
+	let refresh = () => {};
 
-  let done = false;
+	let done = false;
 
-  const spinner = {
-    /**
-     * Starts the spinner animation loop.
-     */
-    start() {
-      stdout.write(cursor.hide);
+	const spinner = {
+		/**
+		 * Starts the spinner animation loop.
+		 */
+		start() {
+			stdout.write(cursor.hide);
 
-      stdin.on("keypress", keypress);
+			stdin.on('keypress', keypress);
 
-      logUpdate(`${frames[0]}  ${text}`);
+			logUpdate(`${frames[0]}  ${text}`);
 
-      const loop = async () => {
-        if (done) return;
+			const loop = async () => {
+				if (done) return;
 
-        if (i < frames.length - 1) {
-          i++;
-        } else {
-          i = 0;
-        }
+				if (i < frames.length - 1) {
+					i++;
+				} else {
+					i = 0;
+				}
 
-        const currentFrame = frames[i];
+				const currentFrame = frames[i];
 
-        refresh = () => logUpdate(`${currentFrame}  ${text}`);
+				refresh = () => logUpdate(`${currentFrame}  ${text}`);
 
-        refresh();
+				refresh();
 
-        if (!done) {
-          await sleep(90);
-        }
+				if (!done) {
+					await sleep(90);
+				}
 
-        loop();
-      };
+				loop();
+			};
 
-      loop();
-    },
+			loop();
+		},
 
-    /**
-     * Updates spinner display text.
-     *
-     * @param {string} value - New spinner text.
-     */
-    update(value) {
-      text = value;
-      refresh();
-    },
+		/**
+		 * Updates spinner display text.
+		 *
+		 * @param {string} value - New spinner text.
+		 */
+		update(value) {
+			text = value;
+			refresh();
+		},
 
-    /**
-     * Stops the spinner and cleans terminal resources.
-     */
-    stop() {
-      done = true;
+		/**
+		 * Stops the spinner and cleans terminal resources.
+		 */
+		stop() {
+			done = true;
 
-      stdin.removeListener("keypress", keypress);
+			stdin.removeListener('keypress', keypress);
 
-      clearInterval(interval);
+			clearInterval(interval);
 
-      logUpdate.clear();
+			logUpdate.clear();
 
-      rl.close();
-    },
-  };
+			rl.close();
+		},
+	};
 
-  spinner.start();
+	spinner.start();
 
-  return spinner;
+	return spinner;
 }
 
 /**
@@ -305,31 +287,31 @@ async function gradient(
  * @returns {Promise<void>}
  */
 export async function spinner(
-  { start, end, onError, while: update = () => sleep(100) },
-  { stdin = process.stdin, stdout = process.stdout } = {},
+	{ start, end, onError, while: update = () => sleep(100) },
+	{ stdin = process.stdin, stdout = process.stdout } = {},
 ) {
-  const loading = await gradient(start, {
-    stdin,
-    stdout,
-  });
+	const loading = await gradient(start, {
+		stdin,
+		stdout,
+	});
 
-  const action = update();
+	const action = update();
 
-  const tooSlow = Object.create(null);
+	const tooSlow = Object.create(null);
 
-  try {
-    const result = await Promise.race([sleep(500).then(() => tooSlow), action]);
+	try {
+		const result = await Promise.race([sleep(500).then(() => tooSlow), action]);
 
-    if (result === tooSlow) {
-      await action;
-    }
+		if (result === tooSlow) {
+			await action;
+		}
 
-    stdout.write(`${" ".repeat(5)} ${color.green("✔")}  ${color.green(end)}\n`);
-  } catch (error) {
-    onError?.(error);
-  } finally {
-    loading.stop();
-  }
+		stdout.write(`${' '.repeat(5)} ${color.green('✔')}  ${color.green(end)}\n`);
+	} catch (error) {
+		onError?.(error);
+	} finally {
+		loading.stop();
+	}
 }
 
 /**
@@ -355,19 +337,19 @@ const TASK_INDENT = 5;
  * @returns {string} Formatted terminal output.
  */
 function formatTask(task, state) {
-  switch (state) {
-    case "start":
-      return `${" ".repeat(TASK_INDENT + 3)} ${color.cyan(`▶ ${task.start}`)}`;
+	switch (state) {
+		case 'start':
+			return `${' '.repeat(TASK_INDENT + 3)} ${color.cyan(`▶ ${task.start}`)}`;
 
-    case "pending":
-      return `${" ".repeat(TASK_INDENT + 3)} ${color.dim(`□ ${task.pending}`)}`;
+		case 'pending':
+			return `${' '.repeat(TASK_INDENT + 3)} ${color.dim(`□ ${task.pending}`)}`;
 
-    case "success":
-      return `${" ".repeat(TASK_INDENT + 3)} ${color.green(`✔ ${task.end}`)}`;
+		case 'success':
+			return `${' '.repeat(TASK_INDENT + 3)} ${color.green(`✔ ${task.end}`)}`;
 
-    case "end":
-      return `${" ".repeat(TASK_INDENT + 3)} ${color.dim(`■ ${task.end}`)}`;
-  }
+		case 'end':
+			return `${' '.repeat(TASK_INDENT + 3)} ${color.dim(`■ ${task.end}`)}`;
+	}
 }
 
 /**
@@ -393,83 +375,79 @@ function formatTask(task, state) {
  * @param {NodeJS.WriteStream} [options.stdout=process.stdout] - Output stream.
  * @returns {Promise<void>}
  */
-export async function tasks(
-  { start, end },
-  tasks,
-  { stdin = process.stdin, stdout = process.stdout } = {},
-) {
-  /** @type {string[]} */
-  const text = Array.from({ length: tasks.length + 1 }, () => "");
+export async function tasks({ start, end }, tasks, { stdin = process.stdin, stdout = process.stdout } = {}) {
+	/** @type {string[]} */
+	const text = Array.from({ length: tasks.length + 1 }, () => '');
 
-  text[0] = start;
+	text[0] = start;
 
-  tasks.forEach((task, i) => {
-    const state = i === 0 ? "start" : "pending";
-    text[i + 1] = formatTask(task, state);
-  });
+	tasks.forEach((task, i) => {
+		const state = i === 0 ? 'start' : 'pending';
+		text[i + 1] = formatTask(task, state);
+	});
 
-  const loading = await gradient(text.join("\n"), {
-    stdin,
-    stdout,
-  });
+	const loading = await gradient(text.join('\n'), {
+		stdin,
+		stdout,
+	});
 
-  /**
-   * Refreshes terminal task rendering.
-   */
-  const refresh = () => loading.update(text.join("\n"));
+	/**
+	 * Refreshes terminal task rendering.
+	 */
+	const refresh = () => loading.update(text.join('\n'));
 
-  let i = 0;
+	let i = 0;
 
-  /** @type {NodeJS.Timeout[]} */
-  const timeouts = [];
+	/** @type {NodeJS.Timeout[]} */
+	const timeouts = [];
 
-  for (const task of tasks) {
-    i++;
+	for (const task of tasks) {
+		i++;
 
-    text[i] = formatTask(task, "start");
+		text[i] = formatTask(task, 'start');
 
-    refresh();
+		refresh();
 
-    const action = task.while();
+		const action = task.while();
 
-    try {
-      await action;
+		try {
+			await action;
 
-      text[i] = formatTask(task, "success");
+			text[i] = formatTask(task, 'success');
 
-      refresh();
+			refresh();
 
-      const active = { i, task };
+			const active = { i, task };
 
-      timeouts.push(
-        setTimeout(() => {
-          const { i, task } = active;
+			timeouts.push(
+				setTimeout(() => {
+					const { i, task } = active;
 
-          text[i] = formatTask(task, "end");
+					text[i] = formatTask(task, 'end');
 
-          refresh();
-        }, TASK_SUCCESS_FLASH),
-      );
-    } catch (error) {
-      loading.stop();
+					refresh();
+				}, TASK_SUCCESS_FLASH),
+			);
+		} catch (error) {
+			loading.stop();
 
-      task.onError?.(error);
-    }
-  }
+			task.onError?.(error);
+		}
+	}
 
-  for (const timeout of timeouts) {
-    clearTimeout(timeout);
-  }
+	for (const timeout of timeouts) {
+		clearTimeout(timeout);
+	}
 
-  await sleep(TASK_SUCCESS_FLASH);
+	await sleep(TASK_SUCCESS_FLASH);
 
-  loading.stop();
+	loading.stop();
 
-  text[0] = `${" ".repeat(TASK_INDENT)} ${color.green("✔")}  ${color.green(end)}`;
+	text[0] = `${' '.repeat(TASK_INDENT)} ${color.green('✔')}  ${color.green(end)}`;
 
-  tasks.forEach((task, i) => {
-    text[i + 1] = formatTask(task, "end");
-  });
+	tasks.forEach((task, i) => {
+		text[i + 1] = formatTask(task, 'end');
+	});
 
-  console.log(text.join("\n"));
+	console.log(text.join('\n'));
 }

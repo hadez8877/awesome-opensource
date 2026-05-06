@@ -1,6 +1,6 @@
-import { isBulletLine } from "./isBulletLine.js";
-import { getIndent } from "./getIndent.js";
-import { getSortKey } from "./getSortKey.js";
+import { getIndent } from './getIndent.js';
+import { getSortKey } from './getSortKey.js';
+import { isBulletLine } from './isBulletLine.js';
 
 /**
  * Sorts markdown lists in the given content
@@ -8,47 +8,43 @@ import { getSortKey } from "./getSortKey.js";
  * @returns {string}
  */
 export function sortLists(content) {
-  const lines = content.split(/\r?\n/);
+	const lines = content.split(/\r?\n/);
 
-  /** @type {string[]} */
-  const output = [];
+	/** @type {string[]} */
+	const output = [];
 
-  let index = 0;
+	let index = 0;
 
-  while (index < lines.length) {
-    const line = lines[index];
+	while (index < lines.length) {
+		const line = lines[index];
 
-    if (isBulletLine(line)) {
-      const indent = getIndent(line);
-      const start = index;
+		if (isBulletLine(line)) {
+			const indent = getIndent(line);
+			const start = index;
 
-      index++;
+			index++;
 
-      while (
-        index < lines.length &&
-        isBulletLine(lines[index]) &&
-        getIndent(lines[index]) === indent
-      ) {
-        index++;
-      }
+			while (index < lines.length && isBulletLine(lines[index]) && getIndent(lines[index]) === indent) {
+				index++;
+			}
 
-      const block = lines.slice(start, index);
+			const block = lines.slice(start, index);
 
-      if (block.length > 1) {
-        block.sort((a, b) =>
-          getSortKey(a).localeCompare(getSortKey(b), "en", {
-            sensitivity: "base",
-          }),
-        );
-      }
+			if (block.length > 1) {
+				block.sort((a, b) =>
+					getSortKey(a).localeCompare(getSortKey(b), 'en', {
+						sensitivity: 'base',
+					}),
+				);
+			}
 
-      output.push(...block);
-      continue;
-    }
+			output.push(...block);
+			continue;
+		}
 
-    output.push(line);
-    index++;
-  }
+		output.push(line);
+		index++;
+	}
 
-  return output.join("\n");
+	return output.join('\n');
 }

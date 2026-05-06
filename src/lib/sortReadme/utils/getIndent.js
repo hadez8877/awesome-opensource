@@ -5,6 +5,6 @@
  * @returns {string} Leading whitespace indentation.
  */
 export function getIndent(line) {
-  const match = line.match(/^(\s*)[-*]\s+/);
-  return match?.[1] ?? "";
+	const match = line.match(/^(\s*)[-*]\s+/);
+	return match?.[1] ?? '';
 }
