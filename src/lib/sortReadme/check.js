@@ -1,6 +1,6 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
-import { logger, tasks } from '../utils.js';
+import { logger, sendSeasonalMessage, tasks } from '../utils.js';
 import { sortLists } from './utils/sortLists.js';
 
 const readmePath = path.join(process.cwd(), 'README.md');
@@ -13,6 +13,8 @@ const readmePath = path.join(process.cwd(), 'README.md');
  * @returns {Promise<void>}
  */
 export async function check() {
+	sendSeasonalMessage();
+
 	const labels = {
 		start: 'Checking resource sorting...',
 		end: '🎉 Good! Your PR is correctly sorted',

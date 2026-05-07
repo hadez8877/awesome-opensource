@@ -1,7 +1,7 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 
-import { tasks } from '../utils.js';
+import { sendSeasonalMessage, tasks } from '../utils.js';
 import { sortLists } from './utils/sortLists.js';
 
 const readmePath = path.join(process.cwd(), 'README.md');
@@ -15,6 +15,8 @@ const readmePath = path.join(process.cwd(), 'README.md');
  * @returns {Promise<void>}
  */
 export async function sortReadme() {
+	sendSeasonalMessage();
+
 	/** @type {string} */
 	let original = '';
 

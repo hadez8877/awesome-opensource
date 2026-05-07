@@ -28,7 +28,7 @@ export { color as c };
  * @param {Function} t - The text color function to use
  * @returns {string} The colored label
  */
-export const label = (text, c = color.bgHex('#FC60A8'), t = color.whiteBright) => c(` ${t(text)} `);
+export const label = (text = 'awesome', c = color.bgHex('#FC60A8'), t = color.whiteBright) => c(` ${t(text)} `);
 
 /**
  * Log a message to the console
@@ -450,4 +450,124 @@ export async function tasks({ start, end }, tasks, { stdin = process.stdin, stdo
 	});
 
 	console.log(text.join('\n'));
+}
+
+/**
+ * Gets the current season based on the date
+ * @returns {'new-year'| 'spooky' | 'holiday' | undefined} The current season
+ */
+function getSeason() {
+	const date = new Date();
+	const month = date.getMonth() + 1;
+	const day = date.getDate() + 1;
+
+	if (month === 1 && day <= 7) {
+		return 'new-year';
+	}
+	if (month === 10 && day > 7) {
+		return 'spooky';
+	}
+	if (month === 12 && day > 7 && day < 25) {
+		return 'holiday';
+	}
+}
+
+/**
+ * Randomizes the content
+ * @param {string | string[]} content - The content to randomize
+ * @returns {string[]} The randomized content
+ */
+function randomize(content) {
+	if (Array.isArray(content)) return content[Math.floor(Math.random() * content.length)];
+	return content;
+}
+
+export function sendSeasonalMessage() {
+	const season = getSeason();
+	switch (season) {
+		case 'new-year': {
+			const year = new Date().getFullYear();
+
+			const newYearMessages = [
+				`Hi! I hope you are enjoying this New Year ${year}`,
+				`Happy New Year! May your code be clean and your bugs be few!`,
+				`Welcome to ${year}! Let's build something amazing!`,
+				`New Year, new open source contributions! Let's make an impact!`,
+				`Kickstart ${year} by building an awesome open source project!`,
+				`Time to contribute to the open source community this year!`,
+				`Let's make ${year} the year of great open source software!`,
+			];
+			const newYearMessage = randomize(newYearMessages);
+
+			log(label() + '  ' + newYearMessage);
+		}
+		case 'spooky':
+			const spookyMessages = [
+				`Boo! Just kidding. Let's create something awesome!`,
+				`Spooky season! Let's build something scary-good!`,
+				`No ghosts here, just clean open source code!`,
+				`Treat yourself to a new open source project this Halloween!`,
+				`Don't be afraid of bugs - let's squash them together!`,
+				`Witching you a productive coding session!`,
+				`Ghouls just wanna have fun coding!`,
+				`Frighteningly good open source projects await!`,
+				`Creepin' it real with clean code practices!`,
+				`Bone-chillingly beautiful commits coming through!`,
+			];
+			const spookyMessage = randomize(spookyMessages);
+
+			log(label() + '  ' + spookyMessage);
+		case 'holiday':
+			const holidayMessages = [
+				`'Tis the season to code and create.`,
+				`Jingle all the way through your project creation journey!`,
+				`Bells are ringing, and so are your creative ideas!`,
+				`Let's make the open source world our winter wonderland!`,
+				`It's time to start a brand new project!`,
+				`Let's unwrap the magic of open source together!`,
+				`Hope you're enjoying the holiday season!`,
+				`I'm dreaming of a brand new project!`,
+				`No better holiday gift than a new open source contribution!`,
+				`Your creativity is the gift that keeps on giving!`,
+				`Spread open source joy this holiday season!`,
+				`Santa's bringing you a fresh project to build!`,
+				`Deck the halls with lines of code!`,
+				`Winter is coming... time to cozy up with some coding!`,
+				`Give the gift of open source this year!`,
+			];
+			const holidayMessage = randomize(holidayMessages);
+
+			log(label() + '  ' + holidayMessage);
+		case undefined:
+		default:
+			const messages = [
+				`Let's discover awesome open source projects.`,
+				`I'll be your assistant today.`,
+				`Let's curate an awesome list!`,
+				`Let's organize something great!`,
+				`Let's find something fast!`,
+				`Let's explore the open source ecosystem.`,
+				`Let's make open source weird!`,
+				`Let's make open source a better place!`,
+				`Let's discover new projects!`,
+				`We're glad to have you on board.`,
+				`Keeping the internet weird since 2021.`,
+				`Initiating discovery sequence...`,
+				`Initiating discovery sequence... right... now!`,
+				`Awaiting further instructions.`,
+				`Ready to explore open source?`,
+				`Let's discover amazing open source projects!`,
+				`Your contributions can change the world.`,
+				`Curating the future, one resource at a time.`,
+				`Open source is better together.`,
+				`Let's make something the community will love!`,
+				`Ready to discover new resources?`,
+				`Let's share something worth exploring.`,
+				`Exploring the open source universe!`,
+				`Your next open source discovery starts here.`,
+			];
+			const message = randomize(messages);
+
+			log(label() + '  ' + message);
+	}
 }

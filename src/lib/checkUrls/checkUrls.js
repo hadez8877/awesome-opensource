@@ -1,4 +1,4 @@
-import { logger } from '../utils.js';
+import { logger, sendSeasonalMessage } from '../utils.js';
 import { checkUrl } from './utils/checkUrl.js';
 import { extractUrls } from './utils/extractUrls.js';
 import { getReadmeFromBranch } from './utils/getReadmeFromBranch.js';
@@ -10,7 +10,7 @@ import { getReadmeFromBranch } from './utils/getReadmeFromBranch.js';
  * @returns {Promise<void>} Exits with code 1 if invalid URLs are found.
  */
 export async function checkUrls() {
-	await logger.info('Starting URL check process...');
+	sendSeasonalMessage();
 
 	const isPush = !process.env.GITHUB_BASE_REF;
 	const base = isPush ? 'HEAD^' : process.env.GITHUB_BASE_REF;
