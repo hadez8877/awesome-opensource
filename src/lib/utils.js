@@ -26,9 +26,10 @@ export { color as c };
  * @param {string} text - The text to display in the label
  * @param {Function} c - The color function to use
  * @param {Function} t - The text color function to use
- * @returns {string} The colored label
+ * @returns {string} The colored label or plain text if in CI
  */
-export const label = (text = 'awesome', c = color.bgHex('#FC60A8'), t = color.whiteBright) => c(` ${t(text)} `);
+export const label = (text = 'awesome', c = color.bgHex('#FC60A8'), t = color.whiteBright) =>
+	process.env.isCI ? `[${text}]` : c(` ${t(text)} `);
 
 /**
  * Log a message to the console

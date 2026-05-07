@@ -8,12 +8,13 @@
 		"fmt": "pnpm run format",
 		"sort-resources": "node src/sort-resources.js",
 		"check-urls": "node src/check-urls.js",
-		"prepare": "husky"
+		"prepare": "is-ci || husky"
 	},
 	"type": "module",
 	"author": "Fabricio Pasapera Viera (@Hadez)",
 	"devDependencies": {
 		"husky": "^9.1.7",
+		"is-ci": "^4.1.0",
 		"prettier": "^3.8.3",
 		"prettier-plugin-organize-imports": "^4.3.0"
 	},
