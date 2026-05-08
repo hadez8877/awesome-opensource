@@ -1,0 +1,44 @@
+# GitHub Issue Labels
+- name: bug
+  color: d73a4a
+  description: 'Something is not working'
+- name: perf
+  color: 7c80d6
+  description: 'Performance optimization and profiling tools'
+
+# Resource labels
+- name: 'resources:backend'
+  color: FC60A8
+  description: 'Backend as a Service, frameworks, APIs, authentication & identity'
+- name: 'resources:cli-tools'
+  color: FC60A8
+  description: 'Command-line tools, shells, terminals, package managers & productivity'
+- name: 'resources:databases'
+  color: FC60A8
+  description: 'Relational, NoSQL, time-series, vector & graph databases'
+- name: 'resources:devops'
+  color: FC60A8
+  description: 'Containers, Kubernetes, CI/CD, IaC, monitoring & observability'
+- name: 'resources:mobile-apps'
+  color: FC60A8
+  description: 'Android & iOS apps, browsers, media players, messengers & utilities'
+- name: 'resources:security'
+  color: FC60A8
+  description: 'Security tools, vulnerability scanning, encryption & privacy'
+- name: 'resources:self-hosted'
+  color: FC60A8
+  description: 'Self-hosted services, homelab apps, media servers & Git platforms'
+- name: 'resources:software'
+  color: FC60A8
+  description: 'SaaS alternatives, CRM, analytics, automation & productivity tools'
+- name: 'resources:web-development'
+  color: FC60A8
+  description: 'Web frameworks, UI libraries, code editors & design tools'
+
+# Script labels (CI/CD automation)
+- name: 'scripts:check-urls'
+  color: FFCC00
+  description: 'Validate that all resource URLs are working and accessible'
+- name: 'scripts:sort-resources'
+  color: FFCC00
+  description: 'Sort resources alphabetically within each category'
