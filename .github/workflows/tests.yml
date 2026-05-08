@@ -2,7 +2,10 @@ name: Tests
 
 on:
   pull_request:
-    branches: [main]
+    branches:
+      - main
+    paths:
+      - 'README.md'
 
 jobs:
   check-resources:
@@ -26,7 +29,7 @@ jobs:
         uses: ./.github/actions/pnpmCache
 
       - name: Checking if resources are sorted
-        run: pnpm sort-resources --check
+        run: pnpm sort-resources --check-mode
 
       - name: Validate URLs
         run: pnpm check-urls

@@ -2,7 +2,10 @@ name: Lint Awesome List
 
 on:
   pull_request:
-    branches: [main]
+    branches:
+      - main
+    paths:
+      - 'README.md'
 
 jobs:
   lint:

@@ -5,19 +5,20 @@
  * @returns {Promise<{url: string, status: boolean, statusCode?: number, error?: string}>} The result of the check.
  */
 export async function checkUrl(url) {
-	try {
-		const controller = new AbortController();
-		const timeout = setTimeout(() => controller.abort(), 10000);
+	const controller = new AbortController();
+	const timeout = setTimeout(() => controller.abort(), 10000);
 
+	try {
 		const httpResponse = await fetch(url, {
 			method: 'HEAD',
 			redirect: 'follow',
 			signal: controller.signal,
 		});
 
-		clearTimeout(timeout);
 		return { url, status: httpResponse.ok, statusCode: httpResponse.status };
 	} catch (fetchError) {
 		return { url, status: false, error: fetchError.message };
+	} finally {
+		clearTimeout(timeout);
 	}
 }

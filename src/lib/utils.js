@@ -501,8 +501,9 @@ export function sendSeasonalMessage() {
 			const newYearMessage = randomize(newYearMessages);
 
 			log(label() + '  ' + newYearMessage);
+			break;
 		}
-		case 'spooky':
+		case 'spooky': {
 			const spookyMessages = [
 				`Boo! Just kidding. Let's create something awesome!`,
 				`Spooky season! Let's build something scary-good!`,
@@ -518,7 +519,9 @@ export function sendSeasonalMessage() {
 			const spookyMessage = randomize(spookyMessages);
 
 			log(label() + '  ' + spookyMessage);
-		case 'holiday':
+			break;
+		}
+		case 'holiday': {
 			const holidayMessages = [
 				`'Tis the season to code and create.`,
 				`Jingle all the way through your project creation journey!`,
@@ -539,8 +542,10 @@ export function sendSeasonalMessage() {
 			const holidayMessage = randomize(holidayMessages);
 
 			log(label() + '  ' + holidayMessage);
+			break;
+		}
 		case undefined:
-		default:
+		default: {
 			const messages = [
 				`Let's discover awesome open source projects.`,
 				`I'll be your assistant today.`,
@@ -570,5 +575,7 @@ export function sendSeasonalMessage() {
 			const message = randomize(messages);
 
 			log(label() + '  ' + message);
+			break;
+		}
 	}
 }

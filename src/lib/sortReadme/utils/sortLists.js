@@ -3,9 +3,17 @@ import { getSortKey } from './getSortKey.js';
 import { isBulletLine } from './isBulletLine.js';
 
 /**
- * Sorts markdown lists in the given content
- * @param {string} content
- * @returns {string}
+ * Sorts markdown bullet lists in the given content alphabetically.
+ *
+ * Only contiguous bullet blocks with the same indentation level are sorted together.
+ * Sorting is case-insensitive and uses locale-aware comparison.
+ *
+ * @param {string} content - The markdown content to sort
+ * @returns {string} The content with sorted bullet lists
+ * @example
+ * const input = '- Apple\n- Banana\n- Apple\n';
+ * const output = sortLists(input);
+ * // Returns: '- Apple\n- Apple\n- Banana\n'
  */
 export function sortLists(content) {
 	const lines = content.split(/\r?\n/);

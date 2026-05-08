@@ -4,10 +4,18 @@ import { extractUrls } from './utils/extractUrls.js';
 import { getReadmeFromBranch } from './utils/getReadmeFromBranch.js';
 
 /**
- * Checks for broken URLs in a PR by comparing the HEAD branch
- * against the base branch. Only validates new URLs added in the PR.
+ * Checks for broken URLs in a PR by comparing the HEAD branch against the base branch.
  *
- * @returns {Promise<void>} Exits with code 1 if invalid URLs are found.
+ * Only validates new URLs added in the PR (not present in the base branch).
+ * Uses environment variables to determine if running in a PR or push context:
+ * - In PR: compares against GITHUB_BASE_REF
+ * - In push: compares against HEAD^ or origin/main
+ *
+ * @returns {Promise<void>} Exits with code 1 if invalid URLs are found, 0 otherwise.
+ * @example
+ * // In GitHub Actions workflow
+ * - name: Check URLs
+ *   run: node src/check-urls.js
  */
 export async function checkUrls() {
 	sendSeasonalMessage();
@@ -15,17 +23,17 @@ export async function checkUrls() {
 	const isPush = !process.env.GITHUB_BASE_REF;
 	const base = isPush ? 'HEAD^' : process.env.GITHUB_BASE_REF;
 
-	let main = getReadmeFromBranch(base);
+	let main = await getReadmeFromBranch(base);
 
-	if (!main) main = getReadmeFromBranch(`origin/${base}`);
-	if (!main && isPush) main = getReadmeFromBranch('origin/main');
+	if (!main) main = await getReadmeFromBranch(`origin/${base}`);
+	if (!main && isPush) main = await getReadmeFromBranch('origin/main');
 
 	if (!main) {
 		await logger.error(`Sorry, could not fetch ${base} branch`);
 		process.exit(1);
 	}
 
-	const current = getReadmeFromBranch('HEAD');
+	const current = await getReadmeFromBranch('HEAD');
 
 	if (!current) {
 		await logger.error('Sorry, could not fetch current branch');
@@ -41,7 +49,11 @@ export async function checkUrls() {
 
 	await logger.info(`Found ${newUrls.length} new URLs to check`);
 
-	const results = await Promise.all(newUrls.map(checkUrl));
+	const settledResults = await Promise.allSettled(newUrls.map(checkUrl));
+
+	const results = settledResults.map((result) =>
+		result.status === 'fulfilled' ? result.value : { url: '', status: false, error: result.reason },
+	);
 
 	const validCount = results.filter((r) => r.status).length;
 	const invalidCount = results.length - validCount;
