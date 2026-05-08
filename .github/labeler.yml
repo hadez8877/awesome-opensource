@@ -1,0 +1,131 @@
+resources:backend:
+  - changed-files:
+      - any-glob-to-any-file:
+          - 'README.md'
+          - 'src/i18n/**'
+    all-of-contain:
+      - '### Backend / BaaS'
+      - '### API & GraphQL'
+      - '### Authentication & Identity'
+      - '### Backend as a Service'
+      - '### Frameworks'
+
+resources:cli-tools:
+  - changed-files:
+      - any-glob-to-any-file:
+          - 'README.md'
+          - 'src/i18n/**'
+    all-of-contain:
+      - '## CLI Tools'
+      - '### Developer Tools'
+      - '### File Management & Navigation'
+      - '### Package Managers & Runtimes'
+      - '### Productivity & Workflow'
+      - '### Shells & Terminal Environments'
+      - '### System Monitoring & Utilities'
+
+resources:databases:
+  - changed-files:
+      - any-glob-to-any-file:
+          - 'README.md'
+          - 'src/i18n/**'
+    all-of-contain:
+      - '## Databases'
+      - '### Graph Databases'
+      - '### Key-Value & Cache Databases'
+      - '### NoSQL Databases'
+      - '### Relational Databases'
+      - '### Search & Analytics Engines'
+      - '### Time-Series Databases'
+      - '### Vector Databases'
+
+resources:devops:
+  - changed-files:
+      - any-glob-to-any-file:
+          - 'README.md'
+          - 'src/i18n/**'
+    all-of-contain:
+      - '## DevOps'
+      - '### Containers & Virtualization'
+      - '### Kubernetes & Orchestration'
+      - '### CI / CD'
+      - '### Infrastructure as Code'
+      - '### Monitoring & Observability'
+      - '### Networking & Reverse Proxy'
+      - '### Secrets & Security'
+
+resources:mobile-apps:
+  - changed-files:
+      - any-glob-to-any-file:
+          - 'README.md'
+          - 'src/i18n/**'
+    all-of-contain:
+      - '## Mobile Apps'
+      - '### Browsers & Internet'
+      - '### File Management & Utilities'
+      - '### Launchers & Customization'
+      - '### Media & Music'
+      - '### Messaging & Communication'
+      - '### Password Managers & Security'
+      - '### Productivity & Notes'
+      - '### Video & Streaming'
+
+resources:security:
+  - changed-files:
+      - any-glob-to-any-file:
+          - 'README.md'
+          - 'src/i18n/**'
+    all-of-contain:
+      - '## Security'
+      - '### Container & Kubernetes Security'
+      - '### Endpoint & Runtime Security'
+      - '### Network Security & Monitoring'
+      - '### Privacy & Anonymity'
+      - '### Reverse Engineering & Pentesting'
+      - '### Secrets Management & Encryption'
+      - '### Vulnerability Scanning & Analysis'
+
+resources:self-hosted:
+  - changed-files:
+      - any-glob-to-any-file:
+          - 'README.md'
+          - 'src/i18n/**'
+    all-of-contain:
+      - '## Self-Hosted'
+      - '### Developer Platforms & Git Services'
+      - '### DNS, Networking & Privacy'
+      - '### Homelab & Server Management'
+      - '### Media Servers & Streaming'
+      - '### Monitoring & Uptime'
+      - '### Password Managers & Authentication'
+      - '### Photos & File Management'
+      - '### RSS, Read-It-Later & Knowledge'
+
+resources:software:
+  - changed-files:
+      - any-glob-to-any-file:
+          - 'README.md'
+          - 'src/i18n/**'
+    all-of-contain:
+      - '## Software / SaaS'
+      - '### Analytics & Monitoring'
+      - '### Automation & Internal Tools'
+      - '### Communication & Support'
+      - '### Documentation & Knowledge Bases'
+      - '### File Storage & Cloud'
+      - '### Productivity & Collaboration'
+
+resources:web-development:
+  - changed-files:
+      - any-glob-to-any-file:
+          - 'README.md'
+          - 'src/i18n/**'
+    all-of-contain:
+      - '## Web Development'
+      - '### Angular UI libraries'
+      - '### Code Editors'
+      - '### Design Tools'
+      - '### Icons'
+      - '### React UI libraries'
+      - '### UI Components'
+      - '### Vue UI Libraries'
