@@ -2,7 +2,6 @@ resources:backend:
   - changed-files:
       - any-glob-to-any-file:
           - 'README.md'
-          - 'src/i18n/**'
     all-of-contain:
       - '### Backend / BaaS'
       - '### API & GraphQL'
