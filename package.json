@@ -19,7 +19,7 @@
 		"prettier-plugin-organize-imports": "^4.3.0"
 	},
 	"license": "MIT",
-	"packageManager": "pnpm@11.0.9",
+	"packageManager": "pnpm@11.1.1",
 	"dependencies": {
 		"chalk": "^5.6.2",
 		"log-update": "^5.0.1",
