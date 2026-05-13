@@ -501,6 +501,7 @@
 - [Feather Icons](https://github.com/feathericons/feather) - Minimal and clean open-source icons.
 - [Heroicons](https://github.com/tailwindlabs/heroicons) - Official Tailwind CSS icon set (outline & solid).
 - [Ionicons](https://github.com/ionic-team/ionicons) - Icon pack for Ionic and general use.
+- [Lucide Animated](https://github.com/pqoqubbw/icons) - Beautifully crafted collection of animated React icons built with Motion and Lucide.
 - [React Icons](https://github.com/react-icons/react-icons) - Popular icon packs as React components.
 - [Remix Icon](https://github.com/Remix-Design/RemixIcon) - System-style open-source icon library.
 - [Simple Icons](https://github.com/simple-icons/simple-icons) - Brand and logo icons in SVG format.
