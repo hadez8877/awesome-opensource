@@ -9,7 +9,7 @@
  * // Returns: ['https://github.com', 'https://npmjs.com']
  */
 export function extractUrls(readmeContent) {
-	const httpUrlPattern = /https?:\/\/[^\s\)\]]+/;
+	const httpUrlPattern = /https?:\/\/[^\s\)\]]+/g;
 	const foundUrls = readmeContent.match(httpUrlPattern) ?? [];
 
 	return [...new Set(foundUrls)];
