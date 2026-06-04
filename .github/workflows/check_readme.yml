@@ -23,7 +23,7 @@ jobs:
           node-version: 24.16.0
 
       - name: Setup PNPM
-        uses: ./github/actions/setup-pnpm
+        uses: ./.github/actions/setup-pnpm
 
       - name: Check URLs
         run: pnpm run check-urls
