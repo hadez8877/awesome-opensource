@@ -13,7 +13,6 @@ resources:cli-tools:
   - changed-files:
       - any-glob-to-any-file:
           - 'README.md'
-          - 'src/i18n/**'
     all-of-contain:
       - '## CLI Tools'
       - '### Developer Tools'
@@ -26,8 +25,7 @@ resources:cli-tools:
 resources:databases:
   - changed-files:
       - any-glob-to-any-file:
-          - 'README.md'
-          - 'src/i18n/**'
+          - 'README.md'          
     all-of-contain:
       - '## Databases'
       - '### Graph Databases'
@@ -41,8 +39,7 @@ resources:databases:
 resources:devops:
   - changed-files:
       - any-glob-to-any-file:
-          - 'README.md'
-          - 'src/i18n/**'
+          - 'README.md'          
     all-of-contain:
       - '## DevOps'
       - '### Containers & Virtualization'
@@ -57,7 +54,6 @@ resources:mobile-apps:
   - changed-files:
       - any-glob-to-any-file:
           - 'README.md'
-          - 'src/i18n/**'
     all-of-contain:
       - '## Mobile Apps'
       - '### Browsers & Internet'
@@ -72,8 +68,7 @@ resources:mobile-apps:
 resources:security:
   - changed-files:
       - any-glob-to-any-file:
-          - 'README.md'
-          - 'src/i18n/**'
+          - 'README.md'          
     all-of-contain:
       - '## Security'
       - '### Container & Kubernetes Security'
@@ -88,7 +83,6 @@ resources:self-hosted:
   - changed-files:
       - any-glob-to-any-file:
           - 'README.md'
-          - 'src/i18n/**'
     all-of-contain:
       - '## Self-Hosted'
       - '### Developer Platforms & Git Services'
@@ -103,8 +97,7 @@ resources:self-hosted:
 resources:software:
   - changed-files:
       - any-glob-to-any-file:
-          - 'README.md'
-          - 'src/i18n/**'
+          - 'README.md'         
     all-of-contain:
       - '## Software / SaaS'
       - '### Analytics & Monitoring'
@@ -118,7 +111,6 @@ resources:web-development:
   - changed-files:
       - any-glob-to-any-file:
           - 'README.md'
-          - 'src/i18n/**'
     all-of-contain:
       - '## Web Development'
       - '### Angular UI libraries'

@@ -1,14 +1,13 @@
-name: Lint Awesome List
+name: Check Readme
 
 on:
-  pull_request:
+  push:
     branches:
       - main
-    paths:
-      - 'README.md'
+  pull_request:
 
 jobs:
-  lint:
+  check-readme:
     runs-on: ubuntu-latest
 
     steps:
@@ -16,12 +15,15 @@ jobs:
         uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6
         with:
           fetch-depth: 0
+          ref: ${{ github.head_ref }}
 
-      - name: Install Node.js v24
+      - name: Install Node.js
         uses: actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e # v6
         with:
-          node-version: 24
-          package-manager-cache: false
+          node-version: 24.16.0
 
-      - name: Run Awesome Linter
-        run: npx awesome-lint
+      - name: Setup PNPM
+        uses: ./github/actions/setup-pnpm
+
+      - name: Check URLs
+        run: pnpm run check-urls
