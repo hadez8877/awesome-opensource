@@ -11,6 +11,8 @@
   },
   "devDependencies": {
     "@biomejs/biome": "2.4.15",
+    "@commitlint/cli": "^21.0.2",
+    "@commitlint/config-angular": "^21.0.2",
     "husky": "^9.1.7",
     "is-ci": "^4.1.0",
     "pino-pretty": "^13.1.3",
