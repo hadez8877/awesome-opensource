@@ -7,17 +7,10 @@
       "always",
       [
         "chore",
-        "build",
-        "ci",
         "docs",
         "feat",
         "fix",
-        "perf",
-        "refactor",
-        "revert",
-        "style",
-        "test",
-        "types"
+        "remove"
       ]
     ],
     "scope-case": [0],
