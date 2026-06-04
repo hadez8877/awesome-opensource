@@ -545,7 +545,7 @@
 - [LangUI](https://github.com/CommandCodeAI/langui) - Open-source Tailwind CSS components for AI and GPT-style interfaces.
 - [loading-ui](https://github.com/turbostarter/loading-ui) - Beautiful open-source loading states, skeletons, and animated placeholders built for modern React apps with Tailwind CSS.
 - [shadcn/ui](https://github.com/shadcn-ui/ui) - Copy-paste open-source UI components for React built on Tailwind CSS.
-- [uiverse](https://github.com/uiverse-io/uiverse) - Community-driven open-source UI elements built with HTML and CSS.
+- [uiverse](https://github.com/uiverse-io/galaxy) - Community-driven open-source UI elements built with HTML and CSS.
 
 ### Vue UI Libraries
 
