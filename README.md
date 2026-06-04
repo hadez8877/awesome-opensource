@@ -13,15 +13,16 @@
     <br/><br/>
   </p>
 
-  ![Awesome](https://awesome.re/badge.svg)
-  ![PRs](https://img.shields.io/github/issues-pr/hadez8877/awesome-opensource?color=blue)
-  ![GitHub License](https://img.shields.io/github/license/hadez8877/awesome-opensource)
-  
+![Awesome](https://awesome.re/badge.svg)
+![PRs](https://img.shields.io/github/issues-pr/hadez8877/awesome-opensource?color=blue)
+![GitHub License](https://img.shields.io/github/license/hadez8877/awesome-opensource)
+
 </div>
 
 ## Overview
 
 <!--lint disable awesome-list-item-->
+
 - [Backend / BaaS](#backend--baas)
 - [CLI Tools](#cli-tools)
 - [Databases](#databases)
@@ -67,6 +68,7 @@
 ## CLI Tools
 
 ### Developer Tools
+
 - [bat](https://github.com/sharkdp/bat) - `cat` clone with syntax highlighting and Git integration.
 - [delta](https://github.com/dandavison/delta) - Syntax-highlighting pager for Git and diff outputs.
 - [fd](https://github.com/sharkdp/fd) - Simple, fast, and user-friendly alternative to `find`.
@@ -80,6 +82,7 @@
 - [yq](https://github.com/mikefarah/yq) - Portable YAML, JSON, XML, and TOML processor inspired by jq.
 
 ### File Management & Navigation
+
 - [broot](https://github.com/Canop/broot) - Interactive directory tree navigator with fuzzy search.
 - [fzf](https://github.com/junegunn/fzf) - General-purpose fuzzy finder for the command line.
 - [nnn](https://github.com/jarun/nnn) - Lightweight and extremely fast terminal file browser.
@@ -88,6 +91,7 @@
 - [zoxide](https://github.com/ajeetdsouza/zoxide) - Smarter `cd` command inspired by z and powered by frecency.
 
 ### Package Managers & Runtimes
+
 - [asdf](https://github.com/asdf-vm/asdf) - Extendable version manager supporting multiple runtimes and tools.
 - [Bun](https://github.com/oven-sh/bun) - Fast JavaScript runtime, package manager, and bundler.
 - [Deno](https://github.com/denoland/deno) - Secure JavaScript and TypeScript runtime built with Rust.
@@ -95,6 +99,7 @@
 - [pnpm](https://github.com/pnpm/pnpm) - Fast and disk space-efficient package manager for JavaScript.
 
 ### Productivity & Workflow
+
 - [atuin](https://github.com/atuinsh/atuin) - Shell history sync and search engine with encrypted storage.
 - [Glow](https://github.com/charmbracelet/glow) - Render Markdown files beautifully in the terminal.
 - [gum](https://github.com/charmbracelet/gum) - Tool for building glamorous shell scripts and terminal workflows.
@@ -102,6 +107,7 @@
 - [wtfutil](https://github.com/wtfutil/wtf) - Personal terminal dashboard for displaying developer information.
 
 ### Shells & Terminal Environments
+
 - [Fish Shell](https://github.com/fish-shell/fish-shell) - User-friendly smart shell with autosuggestions and modern defaults.
 - [Nushell](https://github.com/nushell/nushell) - Modern shell built around structured data instead of plain text.
 - [tmux](https://github.com/tmux/tmux) - Terminal multiplexer for managing persistent sessions and panes.
@@ -110,6 +116,7 @@
 - [Zellij](https://github.com/zellij-org/zellij) - Terminal workspace and multiplexer focused on usability and extensibility.
 
 ### System Monitoring & Utilities
+
 - [bottom](https://github.com/ClementTsang/bottom) - Cross-platform graphical process and system monitor inspired by htop.
 - [btop](https://github.com/aristocratos/btop) - Modern and visually rich resource monitor for Linux, macOS, and BSD.
 - [dua](https://github.com/Byron/dua-cli) - Fast disk usage analyzer with an interactive terminal UI.
@@ -120,15 +127,18 @@
 ## Databases
 
 ### Graph Databases
+
 - [Dgraph](https://github.com/hypermodeinc/dgraph) - Distributed graph database with GraphQL-native APIs.
 
 ### Key-Value & Cache Databases
+
 - [Apache Ignite](https://github.com/apache/ignite) - Distributed in-memory database and caching platform.
 - [Dragonfly](https://github.com/dragonflydb/dragonfly) - Modern in-memory datastore compatible with Redis and Memcached APIs.
 - [etcd](https://github.com/etcd-io/etcd) - Distributed key-value store used for Kubernetes coordination and service discovery.
 - [Valkey](https://github.com/valkey-io/valkey) - Community-driven Redis fork focused on fully open-source development.
 
 ### NoSQL Databases
+
 - [ArangoDB](https://github.com/arangodb/arangodb) - Multi-model database supporting graph, document, and key-value data models.
 - [Cassandra](https://github.com/apache/cassandra) - Highly scalable wide-column database built for high availability.
 - [CouchDB](https://github.com/apache/couchdb) - Distributed JSON document database with replication and offline-first capabilities.
@@ -136,6 +146,7 @@
 - [RethinkDB](https://github.com/rethinkdb/rethinkdb) - Real-time distributed database with changefeed support.
 
 ### Relational Databases
+
 - [ClickHouse](https://github.com/ClickHouse/ClickHouse) - High-performance column-oriented database for analytics and observability.
 - [CockroachDB](https://github.com/cockroachdb/cockroach) - Distributed SQL database focused on scalability and fault tolerance.
 - [DuckDB](https://github.com/duckdb/duckdb) - In-process analytical database designed for fast OLAP workloads.
@@ -149,6 +160,7 @@
 - [YugabyteDB](https://github.com/yugabyte/yugabyte-db) - High-performance distributed PostgreSQL-compatible database for scalable applications.
 
 ### Search & Analytics Engines
+
 - [Manticore Search](https://github.com/manticoresoftware/manticoresearch) - Full-text search engine designed for high-performance indexing and querying.
 - [Meilisearch](https://github.com/meilisearch/meilisearch) - Fast and developer-friendly search engine with typo tolerance.
 - [OpenSearch](https://github.com/opensearch-project/OpenSearch) - Community-driven search and analytics engine forked from Elasticsearch.
@@ -156,10 +168,12 @@
 - [Typesense](https://github.com/typesense/typesense) - Open-source instant search engine focused on simplicity and performance.
 
 ### Time-Series Databases
+
 - [QuestDB](https://github.com/questdb/questdb) - High-performance time-series database focused on fast SQL analytics.
 - [TDengine](https://github.com/taosdata/TDengine) - Time-series platform designed for IoT, industrial, and monitoring data.
 
 ### Vector Databases
+
 - [Chroma](https://github.com/chroma-core/chroma) - Lightweight embedding database designed for LLM applications.
 - [LanceDB](https://github.com/lancedb/lancedb) - Embedded vector database optimized for AI applications and local-first workflows.
 - [Milvus](https://github.com/milvus-io/milvus) - Scalable vector database built for machine learning embeddings and AI workloads.
@@ -227,6 +241,7 @@
 ## Mobile Apps
 
 ### Browsers & Internet
+
 - [Cromite](https://github.com/uazo/cromite) - Privacy-focused Chromium fork with ad blocking.
 - [Firefox for Android](https://github.com/mozilla-mobile/firefox-android) - Open-source mobile browser developed by Mozilla.
 - [Fulguris](https://github.com/Slion/Fulguris) - Lightweight privacy-focused Android browser.
@@ -234,6 +249,7 @@
 - [Mull](https://github.com/Divested-Mobile/Mull-Fenix) - Hardened Firefox fork for Android privacy.
 
 ### File Management & Utilities
+
 - [Material Files](https://github.com/zhanghai/MaterialFiles) - Material Design file manager for Android.
 - [Neo Store](https://github.com/NeoApplications/Neo-Store) - Modern F-Droid client for Android.
 - [Obtainium](https://github.com/ImranR98/Obtainium) - App updater directly from GitHub and other sources.
@@ -241,11 +257,13 @@
 - [Termux](https://github.com/termux/termux-app) - Android terminal emulator and Linux environment.
 
 ### Launchers & Customization
+
 - [Kvaesitso](https://github.com/MM2-0/Kvaesitso) - Launcher focused on search and productivity.
 - [Lawnchair](https://github.com/LawnchairLauncher/lawnchair) - Pixel-inspired customizable Android launcher.
 - [Neo Launcher](https://github.com/NeoApplications/Neo-Launcher) - Fork of Lawnchair with enhanced customization.
 
 ### Media & Music
+
 - [Auxio](https://github.com/OxygenCobalt/Auxio) - Local Android music player focused on simplicity and performance.
 - [Gramophone](https://github.com/FoedusProgramme/Gramophone) - Material You inspired local music player for Android.
 - [InnerTune](https://github.com/z-huang/InnerTune) - Modern YouTube Music client for Android.
@@ -259,6 +277,7 @@
 - [Vinyl Music Player](https://github.com/VinylMusicPlayer/VinylMusicPlayer) - Fork of Phonograph with classic Android music player experience.
 
 ### Messaging & Communication
+
 - [Briar](https://github.com/briar/briar) - Peer-to-peer encrypted messaging app.
 - [Element](https://github.com/element-hq/element-android) - Matrix-based secure messaging application.
 - [FairEmail](https://github.com/M66B/FairEmail) - Privacy-oriented email client with extensive customization.
@@ -267,6 +286,7 @@
 - [Session](https://github.com/session-foundation/session-android) - Privacy-focused encrypted messenger without phone numbers.
 
 ### Password Managers & Security
+
 - [Aegis](https://github.com/beemdevelopment/Aegis) - Secure two-factor authentication app.
 - [Authenticator Pro](https://github.com/jamie-mh/AuthenticatorPro) - Two-factor authentication app with backups.
 - [Bitwarden](https://github.com/bitwarden/android) - Open-source password manager for Android.
@@ -274,6 +294,7 @@
 - [Proton Pass](https://github.com/protonpass/android-pass) - Password manager developed by Proton.
 
 ### Productivity & Notes
+
 - [Joplin](https://github.com/laurent22/joplin) - Note-taking and task management application with sync support.
 - [Logseq](https://github.com/logseq/logseq) - Knowledge management and outlining application.
 - [Markor](https://github.com/gsantner/markor) - Markdown editor and note-taking app for Android.
@@ -283,6 +304,7 @@
 - [Tasks.org](https://github.com/tasks/tasks) - Open-source task management app for Android.
 
 ### Video & Streaming
+
 - [Aniyomi](https://github.com/aniyomiorg/aniyomi) - Anime streaming and manga reader forked from Mihon.
 - [Grayjay](https://github.com/futo-org/grayjay-android) - Unified media platform supporting multiple content sources.
 - [Jellyfin Android](https://github.com/jellyfin/jellyfin-android) - Android client for the Jellyfin media server.
@@ -323,7 +345,6 @@
 
 - [Arkenfox user.js](https://github.com/arkenfox/user.js) - Hardened Firefox configuration focused on privacy and security.
 - [GrapheneOS](https://github.com/GrapheneOS/platform_manifest) - Privacy and security-focused Android-based mobile operating system.
-- [LibreWolf](https://github.com/librewolf-community/browser) - Privacy-focused Firefox fork with hardened defaults and telemetry removal.
 - [OpenSnitch](https://github.com/evilsocket/opensnitch) - Application firewall and outbound connection monitor for Linux.
 - [Tor](https://github.com/torproject/tor) - Anonymous overlay network for protecting privacy and resisting surveillance.
 
@@ -359,7 +380,6 @@
 
 ### Developer Platforms & Git Services
 
-- [Forgejo](https://github.com/forgejo/forgejo) - Community-driven lightweight Git hosting platform forked from Gitea.
 - [Gitea](https://github.com/go-gitea/gitea) - Simple, lightweight, and self-hosted Git service.
 - [GitLab CE](https://github.com/gitlabhq/gitlabhq) - Complete DevOps platform with source control and CI/CD features.
 - [Onedev](https://github.com/theonedev/onedev) - All-in-one Git server with CI/CD and issue tracking.
@@ -426,7 +446,6 @@
 
 ### Analytics & Monitoring
 
-- [GlitchTip](https://github.com/glitchtip/glitchtip-backend) - Open-source error tracking platform compatible with Sentry SDKs.
 - [OpenReplay](https://github.com/openreplay/openreplay) - Session replay and product analytics platform for debugging user issues.
 - [Plausible Analytics](https://github.com/plausible/analytics) - Lightweight and privacy-friendly website analytics platform.
 - [Signoz](https://github.com/SigNoz/signoz) - Open-source observability platform for metrics, traces, and logs.
@@ -476,7 +495,7 @@
 - [Angular Material](https://github.com/angular/components) - A Material Design component library for Angular maintained by Google.
 - [PrimeNG](https://github.com/primefaces/primeng) - A rich Angular UI component library with high performance and extensive customization options.
 - [Taiga UI](https://github.com/taiga-family/taiga-ui) - A powerful open source Angular UI kit with a large set of components and tools.
-- [TailAdmin Angular](https://github.com/TailAdmin/angular) - An open-source Angular admin dashboard template built with Tailwind CSS.
+- [TailAdmin Angular](https://github.com/TailAdmin/free-angular-tailwind-dashboard) - An open-source Angular admin dashboard template built with Tailwind CSS.
 
 ### Code Editors
 
