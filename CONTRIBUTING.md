@@ -12,13 +12,13 @@ Thank you for contributing. This list only includes projects that are **genuinel
 
 Only projects under the following licenses will be considered:
 
-| License | SPDX Identifier |
-|---|---|
-| MIT License | `MIT` |
-| Apache License 2.0 | `Apache-2.0` |
-| GNU General Public License v2.0 / v3.0 | `GPL-2.0` / `GPL-3.0` |
-| GNU Lesser General Public License | `LGPL-2.1` / `LGPL-3.0` |
-| GNU Affero General Public License | `AGPL-3.0` |
+| License                                | SPDX Identifier         |
+| -------------------------------------- | ----------------------- |
+| MIT License                            | `MIT`                   |
+| Apache License 2.0                     | `Apache-2.0`            |
+| GNU General Public License v2.0 / v3.0 | `GPL-2.0` / `GPL-3.0`   |
+| GNU Lesser General Public License      | `LGPL-2.1` / `LGPL-3.0` |
+| GNU Affero General Public License      | `AGPL-3.0`              |
 
 Projects with no license, proprietary clauses, BSL, or Commons Clause restrictions will be rejected.
 
@@ -56,35 +56,36 @@ pnpm check-urls
 ```
 
 ### Commit Convention
- 
+
 This project follows the [Conventional Commits](https://www.conventionalcommits.org/) specification (Angular style). All commits must use one of the following types:
- 
-| Type | When to use |
-|---|---|
-| `feat` | Adding a new project to the list |
-| `fix` | Correcting a broken link, typo, or wrong description |
-| `docs` | Changes to README, CONTRIBUTING, or other documentation |
-| `chore` | Maintenance tasks (reformatting, reorganizing categories) |
-| `remove` | Removing a project from the list |
- 
+
+| Type     | When to use                                               |
+| -------- | --------------------------------------------------------- |
+| `feat`   | Adding a new project to the list                          |
+| `fix`    | Correcting a broken link, typo, or wrong description      |
+| `docs`   | Changes to README, CONTRIBUTING, or other documentation   |
+| `chore`  | Maintenance tasks (reformatting, reorganizing categories) |
+| `remove` | Removing a project from the list                          |
+
 **Examples:**
+
 ```
 feat: add Helix editor to code editors section
 fix: update broken link for Flowbite repository
 docs: clarify license criteria in CONTRIBUTING
 remove: drop abandoned project from CLI tools
 ```
- 
+
 Commits that do not follow this convention will be asked to be amended before merging.
- 
+
 Commits must follow the [Conventional Commits](https://www.conventionalcommits.org/) spec (Angular convention):
- 
+
 ```
 feat: add Helix editor to code editors
 fix: correct broken link for Flowbite
 docs: update entry format in CONTRIBUTING
 ```
- 
+
 Common types: `feat`, `fix`, `docs`, `chore`. Pull requests with non-conforming commit messages will be asked to rebase before merging.
 
 ## Entry Format
