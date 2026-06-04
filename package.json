@@ -1,28 +1,24 @@
 {
-	"name": "awesome-opensource",
-	"version": "0.0.0",
-	"description": "A list of powerful open-source projects for web, backend, CLI, and mobile.",
-	"scripts": {
-		"lint": "prettier --check .",
-		"format": "prettier --write .",
-		"fmt": "pnpm run format",
-		"sort-resources": "node src/sort-resources.js",
-		"check-urls": "node src/check-urls.js",
-		"prepare": "is-ci || husky"
-	},
-	"type": "module",
-	"author": "Fabricio Pasapera Viera (@Hadez)",
-	"devDependencies": {
-		"husky": "^9.1.7",
-		"is-ci": "^4.1.0",
-		"prettier": "^3.8.3",
-		"prettier-plugin-organize-imports": "^4.3.0"
-	},
-	"license": "MIT",
-	"packageManager": "pnpm@11.5.0",
-	"dependencies": {
-		"chalk": "^5.6.2",
-		"log-update": "^5.0.1",
-		"sisteransi": "^1.0.5"
-	}
+  "$schema": "https://json.schemastore.org/package.json",
+  "name": "awesome-opensource",
+  "type": "module",
+  "scripts": {
+    "check-urls": "node scripts/url-checker.js",
+    "format": "pnpm run format:code && pnpm run format:imports",
+    "format:code": "biome format --write && prettier -w \"**/*\" --ignore-unknown --cache",
+    "format:imports": "biome check --formatter-enabled=false --write",
+    "prepare": "is-ci || husky"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.4.15",
+    "husky": "^9.1.7",
+    "is-ci": "^4.1.0",
+    "pino-pretty": "^13.1.3",
+    "prettier": "^3.8.3"
+  },
+  "dependencies": {
+    "pino": "^10.3.1"
+  },
+  "license": "MIT",
+  "packageManager": "pnpm@11.5.0"
 }

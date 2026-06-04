@@ -1,3 +1,16 @@
-node_modules/
-pnpm-lock.yaml
-*.md
+# Deep Directories
+**/node_modules
+
+# Directories
+.github
+
+# Formatted by Biome
+**/*.json
+**/*.jsonc
+**/*.js
+**/*.ts
+**/*.tsx
+**/*.jsx
+**/*.mjs
+**/*.cjs
+**/*.css

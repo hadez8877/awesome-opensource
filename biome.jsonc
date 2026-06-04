@@ -1,0 +1,113 @@
+{
+  "$schema": "https://biomejs.dev/schemas/2.4.15/schema.json",
+  "files": {
+    "includes": ["**"]
+  },
+  "vcs": {
+    "enabled": true,
+    "clientKind": "git",
+    "useIgnoreFile": true
+  },
+  "formatter": {
+    "indentStyle": "tab",
+    "indentWidth": 2,
+    "lineWidth": 100,
+    "includes": ["**", "!**/pnpm-lock.yaml"],
+    "expand": "auto"
+  },
+  "assist": {
+    "actions": {
+      "source": {
+        "organizeImports": "off"
+      }
+    }
+  },
+  "linter": {
+    "enabled": true,
+
+    "domains": {
+      "test": "recommended"
+    },
+    "rules": {
+      "recommended": false,
+      "style": {
+        "useNodejsImportProtocol": "error",
+        // Enforce separate type imports for type-only imports to avoid bundling unneeded code
+        "useImportType": "error",
+        "useExportType": "error",
+        "useNumberNamespace": "warn",
+        "noInferrableTypes": "error"
+      },
+      "suspicious": {
+        // This one is specific to catch `console.log`. The rest of logs are permitted
+        "noConsole": {
+          "level": "warn",
+          "options": {
+            "allow": ["error", "warn", "info", "debug"]
+          }
+        },
+        "noVar": "error",
+        "noDoubleEquals": "error",
+        "noDebugger": "error",
+        "noDuplicateCase": "error",
+        "noExplicitAny": "off",
+        // To enable later
+        "noImplicitAnyLet": "off",
+        "noSparseArray": "error"
+      },
+      "correctness": {
+        "noUnusedVariables": {
+          "level": "error",
+          "options": {
+            "ignoreRestSiblings": true
+          }
+        },
+        "noUnusedFunctionParameters": "error",
+        "noUnusedImports": "error",
+        "noUnreachable": "error",
+        "noConstantCondition": "warn",
+        "noConstructorReturn": "error",
+        "noEmptyPattern": "error"
+      },
+      "complexity": {
+        // There are many violations which require manual check
+        "noForEach": "off",
+        "noUselessFragments": "warn",
+        "useFlatMap": "warn",
+        // To enable later, as there are many warnings
+        "useOptionalChain": "off"
+      },
+      "performance": {
+        "noAccumulatingSpread": "warn"
+      }
+    }
+  },
+  "javascript": {
+    "formatter": {
+      "trailingCommas": "none",
+      "quoteStyle": "single",
+      "semicolons": "always"
+    }
+  },
+  "json": {
+    "parser": {
+      "allowComments": true,
+      "allowTrailingCommas": false
+    },
+    "formatter": {
+      "indentStyle": "space",
+      "trailingCommas": "none"
+    }
+  },
+  "overrides": [
+    {
+      // Workaround to format files like npm does
+      "includes": ["**/package.json"],
+      "json": {
+        "formatter": {
+          "expand": "always"
+        }
+      }
+    }
+  ]
+}
