@@ -13,9 +13,13 @@
     <br/><br/>
   </p>
 
-![Awesome](https://awesome.re/badge.svg)
-![PRs](https://img.shields.io/github/issues-pr/hadez8877/awesome-opensource?color=blue)
-![GitHub License](https://img.shields.io/github/license/hadez8877/awesome-opensource)
+</div>
+
+<div align="center">
+
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re/)
+[![License](https://img.shields.io/github/license/hadez8877/awesome-opensource?color=blue)](https://github.com/hadez8877/awesome-opensource/blob/main/LICENSE)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/hadez8877/awesome-opensource/blob/main/CONTRIBUTING.md)
 
 </div>
 
