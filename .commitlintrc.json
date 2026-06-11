@@ -2,17 +2,7 @@
   "$schema": "https://json.schemastore.org/commitlintrc.json",
   "extends": ["@commitlint/config-angular"],
   "rules": {
-    "type-enum": [
-      2,
-      "always",
-      [
-        "chore",
-        "docs",
-        "feat",
-        "fix",
-        "remove"
-      ]
-    ],
+    "type-enum": [2, "always", ["chore", "docs", "feat", "fix", "remove"]],
     "scope-case": [0],
     "subject-exclamation-mark": [0]
   }
