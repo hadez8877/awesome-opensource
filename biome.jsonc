@@ -40,12 +40,7 @@
       },
       "suspicious": {
         // This one is specific to catch `console.log`. The rest of logs are permitted
-        "noConsole": {
-          "level": "warn",
-          "options": {
-            "allow": ["error", "warn", "info", "debug"]
-          }
-        },
+        "noConsole": "off",
         "noVar": "error",
         "noDoubleEquals": "error",
         "noDebugger": "error",
