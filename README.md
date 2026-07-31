@@ -302,6 +302,7 @@
 - [Joplin](https://github.com/laurent22/joplin) - Note-taking and task management application with sync support.
 - [Logseq](https://github.com/logseq/logseq) - Knowledge management and outlining application.
 - [Markor](https://github.com/gsantner/markor) - Markdown editor and note-taking app for Android.
+- [NoteGen](https://github.com/codexu/note-gen) - Local-first Markdown note-taking app with capture, editing, optional sync, and AI-assisted organization.
 - [Notesnook](https://github.com/streetwriters/notesnook) - Privacy-focused encrypted note-taking app.
 - [Quillpad](https://github.com/quillpad/quillpad) - Minimal Material You note-taking app.
 - [Standard Notes](https://github.com/standardnotes/app) - End-to-end encrypted notes application.
