@@ -324,6 +324,7 @@
 - [Chainguard Images](https://github.com/chainguard-images/images) - Minimal and hardened container images focused on supply chain security.
 - [Dockle](https://github.com/goodwithtech/dockle) - Container image linter focused on security best practices.
 - [Kube-bench](https://github.com/aquasecurity/kube-bench) - CIS Kubernetes benchmark compliance checker.
+- [Darkmoon](https://github.com/ASCIT31/Dark-Moon) - Open source (GPL-3.0) autonomous AI penetration testing platform covering web, API, Active Directory and Kubernetes, orchestrating 80+ offensive tools as an MCP host with proof of exploitation and a local privacy gateway (the LLM never sees real IPs or credentials).
 - [Kube-hunter](https://github.com/aquasecurity/kube-hunter) - Kubernetes penetration testing and security auditing tool.
 - [Kubescape](https://github.com/kubescape/kubescape) - Kubernetes security platform for risk analysis and compliance scanning.
 - [Kyverno](https://github.com/kyverno/kyverno) - Kubernetes-native policy engine for security, governance, and compliance.
