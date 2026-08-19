@@ -363,6 +363,7 @@
 - [Responder](https://github.com/lgandx/Responder) - LLMNR, NBT-NS, and MDNS poisoner commonly used in internal network assessments.
 - [sqlmap](https://github.com/sqlmapproject/sqlmap) - Automated SQL injection and database takeover tool.
 - [Wireshark](https://github.com/wireshark/wireshark) - Network protocol analyzer for troubleshooting and packet inspection.
+- [Hetty](https://github.com/dstotijn/hetty) - Open source proxy that allows you to modify packets.
 
 ### Secrets Management & Encryption
 
