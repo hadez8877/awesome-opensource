@@ -23,7 +23,7 @@
 
 </div>
 
-# Contents
+## Contents
 
 <!--lint disable awesome-list-item-->
 
