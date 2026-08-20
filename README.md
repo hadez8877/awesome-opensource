@@ -23,19 +23,21 @@
 
 </div>
 
-## Overview
+# Contents
 
 <!--lint disable awesome-list-item-->
 
-- [Backend / BaaS](#backend--baas)
-- [CLI Tools](#cli-tools)
-- [Databases](#databases)
-- [DevOps](#devops)
-- [Mobile Apps](#mobile-apps)
-- [Security](#security)
-- [Self-Hosted](#self-hosted)
-- [Software / SaaS](#software--saas)
-- [Web Development](#web-development)
+| Category | Description | Shortcut |
+|----------|-------------|----------|
+| Backend / BaaS | Tools and platforms for backend services, APIs, authentication, and Backend-as-a-Service like Firebase, Supabase, and frameworks for Node.js and other runtimes. | [Click here](#backend--baas) |
+| CLI Tools | Command-line utilities for productivity, file management, system monitoring, modern shells, and daily developer workflow automation. | [Click here](#cli-tools) |
+| Databases | Relational, NoSQL, graph, search, vector, and time-series database systems for different use cases and scalability needs. | [Click here](#databases) |
+| DevOps | Infrastructure as code, Kubernetes orchestration, CI/CD, monitoring, networking, and security for modern cloud deployments. | [Click here](#devops) |
+| Mobile Apps | Frameworks and applications for cross-platform mobile development, including browsers, productivity, multimedia, and communication. | [Click here](#mobile-apps) |
+| Security | Security tools for containers, networks, endpoints, privacy, reverse engineering, and vulnerability management. | [Click here](#security) |
+| Self-Hosted | Software you can host on your own infrastructure, including Git platforms, DNS, media servers, monitoring, and file management. | [Click here](#self-hosted) |
+| Software / SaaS | Complete applications for analytics, automation, communication, documentation, storage, and team productivity. | [Click here](#software--saas) |
+| Web Development | Frameworks, UI libraries, code editors, design tools, and resources for frontend and fullstack web development. | [Click here](#web-development) |
 
 ## Backend / BaaS
 
@@ -562,10 +564,10 @@
 
 Contributions are welcome! If you'd like to contribute:
 
-1. Fork this repository and create a new branch: `add/project-name`
+1. Fork this repository and create a new branch: `feat/project-name`
 2. Add your entry to the appropriate section in `README.md` following the format below.
-3. Push to the branch (`git push origin add/project-name`)
-4. Open a Pull Request with a title like `Add: Project Name` and a brief explanation of why it belongs.
+3. Push to the branch (`git push origin feat/project-name`)
+4. Open a Pull Request with a title like `feat: Project Name` and a brief explanation of why it belongs.
 
 For more information on contributing, please refer to our [Contributing Guidelines](CONTRIBUTING.md).
 

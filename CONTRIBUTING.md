@@ -42,9 +42,9 @@ A project must meet **all** of the following:
 
 ## How to Submit a Pull Request
 
-1. Fork this repository and create a new branch: `add/project-name`
+1. Fork this repository and create a new branch: `feat/project-name`
 2. Add your entry to the appropriate section in `README.md` following the format below.
-3. Open a Pull Request with a title like `Add: Project Name` and a brief explanation of why it belongs.
+3. Open a Pull Request with a title like `feat: Project Name` and a brief explanation of why it belongs.
 
 **Important:** Before opening a pull request, you **must** run:
 
