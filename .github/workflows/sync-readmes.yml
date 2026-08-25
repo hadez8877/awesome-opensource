@@ -19,16 +19,19 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6.0.3
         with:
+          persist-credentials: false
           fetch-depth: 0
-          ref: ${{ github.ref_name }}
+          ref: ${{ github.head_ref }}
 
       - name: Install Node.js
         uses: actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e # v6.4.0
         with:
           node-version: 24.16.0
 
-      - name: Run OpenCode
-        uses: sst/opencode/github@2c14fc5586fe0b88e5c04732d2e846769cc35671 # latest
+      - name: Install OpenCode
+        run: curl -fsSL https://opencode.ai/install | bash
+
+      - name: Sync READMEs with OpenCode
         env:
           OPENCODE_API_KEY: ${{ secrets.OPENCODE_API_KEY }}
           OPENCODE_CONFIG_CONTENT: |
@@ -41,9 +44,8 @@ jobs:
                 "task": "allow"
               }
             }
-        with:
-          model: opencode/gemini-3.5-flash
-          prompt: |
+        run: |
+          opencode run --model opencode/gemini-3.5-flash <<'EOF'
             Update README.md files to match the latest English README changes.
 
             Requirements:
@@ -56,6 +58,7 @@ jobs:
             7. Keep locale docs structure aligned with their corresponding English pages.
             8. Do not modify original English source file.
             9. If no locale updates are needed, make no changes.
+          EOF
 
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@4a55954c782fc1ea30b9056cd3e7a2b40ca8887d # v7.2.0

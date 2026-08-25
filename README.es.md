@@ -83,7 +83,7 @@
 
 - [bat](https://github.com/sharkdp/bat) - Clon de cat con resaltado de sintaxis e integracion con Git.
 - [delta](https://github.com/dandavison/delta) - Visor de paginas con resaltado de sintaxis para salidas de Git y diff.
-- [fd](https://github.com/sharkdp/fd) - Alternativa simple, rápida y fácil de usar a ind.
+- [fd](https://github.com/sharkdp/fd) - Alternativa simple, rápida y fácil de usar a `find`.
 - [httpie](https://github.com/httpie/cli) - Cliente HTTP de línea de comandos fácil de usar para APIs y servicios web.
 - [hyperfine](https://github.com/sharkdp/hyperfine) - Herramienta de benchmarking de línea de comandos con análisis estadístico.
 - [jq](https://github.com/jqlang/jq) - Procesador de JSON ligero y flexible para la terminal.
@@ -570,14 +570,14 @@
 
 Las contribuciones son bienvenidas! Si deseas contribuir:
 
-1. Haz un fork de este repositorio y crea una nueva rama: feat/project-name
-2. Agrega tu entrada a la sección apropiada en README.md siguiendo el formato a continuación.
-3. Sube a la rama (git push origin feat/project-name)
-4. Abre un Pull Request con un título como feat: Project Name y una breve explicación de por que pertenece.
+1. Haz un fork de este repositorio y crea una nueva rama: `feat/project-name`
+2. Agrega tu entrada a la sección apropiada en `README.md` siguiendo el formato a continuación.
+3. Sube a la rama (`git push origin feat/project-name`)
+4. Abre un Pull Request con un título como `feat: Project Name` y una breve explicación de por que pertenece.
 
 Para mas informacion sobre contribuir, por favor consulta nuestras [Directrices de Contribución](CONTRIBUTING.md).
 
-- Gracias por contribuir al proyecto! Tu ayuda es muy apreciada.
+- ❤️ Gracias por contribuir al proyecto! Tu ayuda es muy apreciada.
 
 <div align="center">
   
