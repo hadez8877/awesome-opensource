@@ -6,5 +6,5 @@
     "check-urls": "node scripts/url-checker.mjs"
   },
   "license": "CC0-1.0",
-  "packageManager": "pnpm@11.21.0"
+  "packageManager": "pnpm@11.22.0"
 }
