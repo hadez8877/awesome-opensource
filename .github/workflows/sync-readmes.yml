@@ -1,0 +1,67 @@
+name: Sync READMEs
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - README.md
+
+permissions: {}
+
+jobs:
+  main:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # Required by stefanzweifel/git-auto-commit-action to push changes
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6.0.3
+        with:
+          fetch-depth: 0
+          ref: ${{ github.ref_name }}
+
+      - name: Install Node.js
+        uses: actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e # v6.4.0
+        with:
+          node-version: 24.16.0
+
+      - name: Run OpenCode
+        uses: sst/opencode/github@2c14fc5586fe0b88e5c04732d2e846769cc35671 # latest
+        env:
+          OPENCODE_API_KEY: ${{ secrets.OPENCODE_API_KEY }}
+          OPENCODE_CONFIG_CONTENT: |
+            {
+              "permission": {
+                "*": "deny",
+                "read": "allow",
+                "edit": "allow",
+                "glob": "allow",
+                "task": "allow"
+              }
+            }
+        with:
+          model: opencode/gemini-3.5-flash
+          prompt: |
+            Update README.md files to match the latest English README changes.
+
+            Requirements:
+            1. Update all relevant locale READMEs under README.<locale>.md so they reflect these English README changes.
+            2. You MUST use the Task tool for translation work and launch subagents with subagent_type `translator` (Use the skill `translate`).
+            3. Do not translate directly in the primary agent. Use translator subagent output as the source for locale text updates.
+            4. Run translator subagent Task calls in parallel whenever file/locale translation work is independent.
+            5. Use only the minimum tools needed for this task (read/glob, file edits, and translator Task). Do not use shell, web, search, or GitHub tools for translation work.
+            6. Preserve frontmatter keys, internal links, code blocks, and existing locale-specific metadata unless the English change requires an update.
+            7. Keep locale docs structure aligned with their corresponding English pages.
+            8. Do not modify original English source file.
+            9. If no locale updates are needed, make no changes.
+
+      - name: Commit changes
+        uses: stefanzweifel/git-auto-commit-action@4a55954c782fc1ea30b9056cd3e7a2b40ca8887d # v7.2.0
+        with:
+          commit_message: '[ci] readme'
+          branch: ${{ github.head_ref }}
+          commit_user_name: github-actions[bot]
+          commit_user_email: 41898282+github-actions[bot]@users.noreply.github.com
+          commit_author: ${{ github.event.commits[0].author.name }} <${{ github.actor }}@users.noreply.github.com>

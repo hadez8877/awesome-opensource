@@ -1,4 +1,4 @@
-name: Check Readme
+name: Repository quality check
 
 on:
   push:
@@ -6,9 +6,18 @@ on:
       - main
   pull_request:
 
+permissions: {}
+
+env:
+  FORCE_COLOR: true
+
 jobs:
-  check-readme:
+  check:
+    name: Readme check
     runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: read # Checkout only
 
     steps:
       - name: Checkout repository
@@ -24,5 +33,13 @@ jobs:
       - name: Setup PNPM
         uses: ./.github/actions/setup-pnpm
 
+      - name: Check if any README was modified
+        id: changed-files
+        uses: tj-actions/changed-files@9426d40962ed5378910ee2e21d5f8c6fcbf2dd96 # v47.0.6
+        with:
+          files: |
+            README.md
+
       - name: Check URLs
+        if: steps.changed-files.outputs.any_changed == 'true'
         run: pnpm run check-urls
