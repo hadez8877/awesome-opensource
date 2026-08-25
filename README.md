@@ -15,29 +15,35 @@
 
 </div>
 
+<p align="center">
+  <a href="https://awesome.re" rel="nofollow"><img src="https://awesome.re/badge.svg" alt="Awesome Repository"></a>
+  <a href="https://github.com/hadez8877/awesome-opensource/blob/main/LICENSE" rel="nofollow"><img src="https://img.shields.io/github/license/hadez8877/awesome-opensource?color=blue" alt="License"></a>
+  <a href="https://github.com/hadez8877/awesome-opensource/blob/main/CONTRIBUTING.md" rel="nofollow"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome"></a>
+</p>
+
 <div align="center">
-
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re/)
-[![License](https://img.shields.io/github/license/hadez8877/awesome-opensource?color=blue)](https://github.com/hadez8877/awesome-opensource/blob/main/LICENSE)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/hadez8877/awesome-opensource/blob/main/CONTRIBUTING.md)
-
+  <p>
+    <a href="README.md">English</a> |
+    <a href="README.zh-cn.md">简体中文</a> |
+    <a href="README.zh-tw.md">繁體中文</a> |
+    <a href="README.es.md">Español</a> |
+    <a href="README.br.md">Português (Brasil)</a>
+  </p>
 </div>
 
 ## Contents
 
-<!--lint disable awesome-list-item-->
-
-| Category | Description | Shortcut |
-|----------|-------------|----------|
-| Backend / BaaS | Tools and platforms for backend services, APIs, authentication, and Backend-as-a-Service like Firebase, Supabase, and frameworks for Node.js and other runtimes. | [Click here](#backend--baas) |
-| CLI Tools | Command-line utilities for productivity, file management, system monitoring, modern shells, and daily developer workflow automation. | [Click here](#cli-tools) |
-| Databases | Relational, NoSQL, graph, search, vector, and time-series database systems for different use cases and scalability needs. | [Click here](#databases) |
-| DevOps | Infrastructure as code, Kubernetes orchestration, CI/CD, monitoring, networking, and security for modern cloud deployments. | [Click here](#devops) |
-| Mobile Apps | Frameworks and applications for cross-platform mobile development, including browsers, productivity, multimedia, and communication. | [Click here](#mobile-apps) |
-| Security | Security tools for containers, networks, endpoints, privacy, reverse engineering, and vulnerability management. | [Click here](#security) |
-| Self-Hosted | Software you can host on your own infrastructure, including Git platforms, DNS, media servers, monitoring, and file management. | [Click here](#self-hosted) |
-| Software / SaaS | Complete applications for analytics, automation, communication, documentation, storage, and team productivity. | [Click here](#software--saas) |
-| Web Development | Frameworks, UI libraries, code editors, design tools, and resources for frontend and fullstack web development. | [Click here](#web-development) |
+| Category        | Description                                                                                                                                                      | Shortcut                       |
+|-----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------|
+| Backend / BaaS  | Tools and platforms for backend services, APIs, authentication, and Backend-as-a-Service like Firebase, Supabase, and frameworks for Node.js and other runtimes. | [Click here](#backend--baas)   |
+| CLI Tools       | Command-line utilities for productivity, file management, system monitoring, modern shells, and daily developer workflow automation.                             | [Click here](#cli-tools)       |
+| Databases       | Relational, NoSQL, graph, search, vector, and time-series database systems for different use cases and scalability needs.                                        | [Click here](#databases)       |
+| DevOps          | Infrastructure as code, Kubernetes orchestration, CI/CD, monitoring, networking, and security for modern cloud deployments.                                      | [Click here](#devops)          |
+| Mobile Apps     | Frameworks and applications for cross-platform mobile development, including browsers, productivity, multimedia, and communication.                              | [Click here](#mobile-apps)     |
+| Security        | Security tools for containers, networks, endpoints, privacy, reverse engineering, and vulnerability management.                                                  | [Click here](#security)        |
+| Self-Hosted     | Software you can host on your own infrastructure, including Git platforms, DNS, media servers, monitoring, and file management.                                  | [Click here](#self-hosted)     |
+| Software / SaaS | Complete applications for analytics, automation, communication, documentation, storage, and team productivity.                                                   | [Click here](#software--saas)  |
+| Web Development | Frameworks, UI libraries, code editors, design tools, and resources for frontend and fullstack web development.                                                  | [Click here](#web-development) |
 
 ## Backend / BaaS
 
