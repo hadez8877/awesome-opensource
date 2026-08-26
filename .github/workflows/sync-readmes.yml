@@ -6,7 +6,6 @@ on:
       - main
     paths:
       - README.md
-  workflow_dispatch:
 
 permissions: {}
 
