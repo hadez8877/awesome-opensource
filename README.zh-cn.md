@@ -536,6 +536,7 @@
 - [Ionicons](https://github.com/ionic-team/ionicons) - 适用于 Ionic 和通用场景的图标包。
 - [Lucide Animated](https://github.com/pqoqubbw/icons) - 使用 Motion 和 Lucide 构建的精美动画 React 图标集合。
 - [React Icons](https://github.com/react-icons/react-icons) - 作为 React 组件的流行图标包。
+- [Morphicons](https://github.com/guillermolg00/morphicons) - 采用弹簧物理效果的通用图标变形库，用于在基于描边的图标之间进行动画过渡。
 - [Remix Icon](https://github.com/Remix-Design/RemixIcon) - 系统风格的开源图标库。
 - [Simple Icons](https://github.com/simple-icons/simple-icons) - SVG 格式的品牌和 Logo 图标。
 - [Tabler Icons](https://github.com/tabler/tabler-icons) - 大量、一致且活跃维护的图标集。
@@ -547,6 +548,7 @@
 - [Material-UI (MUI)](https://github.com/mui/material-ui) - 基于 Material Design 的 React 组件库，高度可定制且被广泛采用。
 - [NativeBase](https://github.com/GeekyAnts/NativeBase) - 用于在移动端和 Web 上构建一致 UI 的实用优先组件系统。
 - [PrimeReact](https://github.com/primefaces/primereact) - 丰富的、灵活的、设计无关的 React UI 组件完整套件。
+- [Streamdown](https://github.com/vercel/streamdown) - 支持流式 AI 生成内容的 Markdown 渲染 React 组件。
 - [React Bootstrap](https://github.com/react-bootstrap/react-bootstrap) - 为 React 重建的 Bootstrap 组件，不依赖 jQuery。
 - [Semantic UI React](https://github.com/Semantic-Org/Semantic-UI-React) - Semantic UI 的官方 React 集成，提供声明式组件。
 

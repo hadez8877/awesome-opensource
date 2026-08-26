@@ -549,6 +549,7 @@
 - [Material-UI (MUI)](https://github.com/mui/material-ui) - A React component library based on Material Design, highly customizable and widely adopted.
 - [NativeBase](https://github.com/GeekyAnts/NativeBase) - A utility-first component system for building consistent UIs across mobile and web.
 - [PrimeReact](https://github.com/primefaces/primereact) - A comprehensive suite of rich, flexible, and design-agnostic React UI components.
+- [Streamdown](https://github.com/vercel/streamdown) - React component for rendering Markdown with support for streaming AI-generated content.
 - [React Bootstrap](https://github.com/react-bootstrap/react-bootstrap) - Bootstrap components rebuilt for React without jQuery dependency.
 - [Semantic UI React](https://github.com/Semantic-Org/Semantic-UI-React) - The official React integration for Semantic UI with declarative components.
 
