@@ -536,6 +536,7 @@
 - [Ionicons](https://github.com/ionic-team/ionicons) - Paquete de iconos para Ionic y uso general.
 - [Lucide Animated](https://github.com/pqoqubbw/icons) - Hermosa coleccion de iconos animados de React construidos con Motion y Lucide.
 - [React Icons](https://github.com/react-icons/react-icons) - Paquetes de iconos populares como componentes React.
+- [Morphicons](https://github.com/guillermolg00/morphicons) - Libreria universal de morphing de iconos con fisica de resortes para animar entre iconos basados en trazos.
 - [Remix Icon](https://github.com/Remix-Design/RemixIcon) - Libreria de iconos de codigo abierto de estilo de sistema.
 - [Simple Icons](https://github.com/simple-icons/simple-icons) - Iconos de marcas y logotipos en formato SVG.
 - [Tabler Icons](https://github.com/tabler/tabler-icons) - Conjunto de iconos grande, consistente y activamente mantenido.
@@ -547,6 +548,7 @@
 - [Material-UI (MUI)](https://github.com/mui/material-ui) - Libreria de componentes React basada en Material Design, altamente personalizable y ampliamente adoptada.
 - [NativeBase](https://github.com/GeekyAnts/NativeBase) - Sistema de componentes utility-first para construir UIs consistentes en móvil y web.
 - [PrimeReact](https://github.com/primefaces/primereact) - Suite completa de componentes UI de React ricos, flexibles yagnosticos al diseño.
+- [Streamdown](https://github.com/vercel/streamdown) - Componente de React para renderizar Markdown con soporte para streaming de contenido generado por IA.
 - [React Bootstrap](https://github.com/react-bootstrap/react-bootstrap) - Componentes Bootstrap reconstruidos para React sin dependencia de jQuery.
 - [Semantic UI React](https://github.com/Semantic-Org/Semantic-UI-React) - Integracion oficial de React para Semantic UI con componentes declarativos.
 
