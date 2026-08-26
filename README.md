@@ -35,17 +35,77 @@
 
 ## Contents
 
-| Category        | Description                                                                                                                                                      | Shortcut                       |
-|-----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------|
-| Backend / BaaS  | Tools and platforms for backend services, APIs, authentication, and Backend-as-a-Service like Firebase, Supabase, and frameworks for Node.js and other runtimes. | [Click here](#backend--baas)   |
-| CLI Tools       | Command-line utilities for productivity, file management, system monitoring, modern shells, and daily developer workflow automation.                             | [Click here](#cli-tools)       |
-| Databases       | Relational, NoSQL, graph, search, vector, and time-series database systems for different use cases and scalability needs.                                        | [Click here](#databases)       |
-| DevOps          | Infrastructure as code, Kubernetes orchestration, CI/CD, monitoring, networking, and security for modern cloud deployments.                                      | [Click here](#devops)          |
-| Mobile Apps     | Frameworks and applications for cross-platform mobile development, including browsers, productivity, multimedia, and communication.                              | [Click here](#mobile-apps)     |
-| Security        | Security tools for containers, networks, endpoints, privacy, reverse engineering, and vulnerability management.                                                  | [Click here](#security)        |
-| Self-Hosted     | Software you can host on your own infrastructure, including Git platforms, DNS, media servers, monitoring, and file management.                                  | [Click here](#self-hosted)     |
-| Software / SaaS | Complete applications for analytics, automation, communication, documentation, storage, and team productivity.                                                   | [Click here](#software--saas)  |
-| Web Development | Frameworks, UI libraries, code editors, design tools, and resources for frontend and fullstack web development.                                                  | [Click here](#web-development) |
+<!--lint disable awesome-list-item-->
+
+- [Backend / BaaS](#backend--baas)
+  - [API & GraphQL](#api--graphql)
+  - [Authentication & Identity](#authentication--identity)
+  - [Backend as a Service](#backend-as-a-service)
+  - [Frameworks](#frameworks)
+- [CLI Tools](#cli-tools)
+  - [Developer Tools](#developer-tools)
+  - [File Management & Navigation](#file-management--navigation)
+  - [Package Managers & Runtimes](#package-managers--runtimes)
+  - [Productivity & Workflow](#productivity--workflow)
+  - [Shells & Terminal Environments](#shells--terminal-environments)
+  - [System Monitoring & Utilities](#system-monitoring--utilities)
+- [Databases](#databases)
+  - [Graph Databases](#graph-databases)
+  - [Key-Value & Cache Databases](#key-value--cache-databases)
+  - [NoSQL Databases](#nosql-databases)
+  - [Relational Databases](#relational-databases)
+  - [Search & Analytics Engines](#search--analytics-engines)
+  - [Time-Series Databases](#time-series-databases)
+  - [Vector Databases](#vector-databases)
+- [DevOps](#devops)
+  - [Containers & Virtualization](#containers--virtualization)
+  - [Kubernetes & Orchestration](#kubernetes--orchestration)
+  - [CI / CD](#ci--cd)
+  - [Infrastructure as Code](#infrastructure-as-code)
+  - [Monitoring & Observability](#monitoring--observability)
+  - [Networking & Reverse Proxy](#networking--reverse-proxy)
+  - [Secrets & Security](#secrets--security)
+- [Mobile Apps](#mobile-apps)
+  - [Browsers & Internet](#browsers--internet)
+  - [File Management & Utilities](#file-management--utilities)
+  - [Launchers & Customization](#launchers--customization)
+  - [Media & Music](#media--music)
+  - [Messaging & Communication](#messaging--communication)
+  - [Password Managers & Security](#password-managers--security)
+  - [Productivity & Notes](#productivity--notes)
+  - [Video & Streaming](#video--streaming)
+- [Security](#security)
+  - [Container & Kubernetes Security](#container--kubernetes-security)
+  - [Endpoint & Runtime Security](#endpoint--runtime-security)
+  - [Network Security & Monitoring](#network-security--monitoring)
+  - [Privacy & Anonymity](#privacy--anonymity)
+  - [Reverse Engineering & Pentesting](#reverse-engineering--pentesting)
+  - [Secrets Management & Encryption](#secrets-management--encryption)
+  - [Vulnerability Scanning & Analysis](#vulnerability-scanning--analysis)
+- [Self-Hosted](#self-hosted)
+  - [Developer Platforms & Git Services](#developer-platforms--git-services)
+  - [DNS, Networking & Privacy](#dns-networking--privacy)
+  - [Homelab & Server Management](#homelab--server-management)
+  - [Media Servers & Streaming](#media-servers--streaming)
+  - [Monitoring & Uptime](#monitoring--uptime)
+  - [Password Managers & Authentication](#password-managers--authentication)
+  - [Photos & File Management](#photos--file-management)
+  - [RSS, Read-It-Later & Knowledge](#rss-read-it-later--knowledge)
+- [Software / SaaS](#software--saas)
+  - [Analytics & Monitoring](#analytics--monitoring)
+  - [Automation & Internal Tools](#automation--internal-tools)
+  - [Communication & Support](#communication--support)
+  - [Documentation & Knowledge Bases](#documentation--knowledge-bases)
+  - [File Storage & Cloud](#file-storage--cloud)
+  - [Productivity & Collaboration](#productivity--collaboration)
+- [Web Development](#web-development)
+  - [Angular UI libraries](#angular-ui-libraries)
+  - [Code Editors](#code-editors)
+  - [Design Tools](#design-tools)
+  - [Icons](#icons)
+  - [React UI libraries](#react-ui-libraries)
+  - [UI Components](#ui-components)
+  - [Vue UI Libraries](#vue-ui-libraries)
 
 ## Backend / BaaS
 
