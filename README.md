@@ -28,6 +28,7 @@
     <a href="README.zh-tw.md">繁體中文</a> |
     <a href="README.es.md">Español</a> |
     <a href="README.ja.md">日本語</a> |
+    <a href="README.ar.md">العربية</a> |
     <a href="README.br.md">Português (Brasil)</a>
   </p>
 </div>
