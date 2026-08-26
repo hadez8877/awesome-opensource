@@ -6,6 +6,7 @@ on:
       - main
     paths:
       - README.md
+  workflow_dispatch:
 
 permissions: {}
 
@@ -51,7 +52,7 @@ jobs:
               }
             }
         run: |
-          opencode run --model opencode/gemini-3.5-flash <<'EOF'
+          opencode run --model opencode/gemini-3.5-flash-lite <<'EOF'
             Update README.md files to match the latest English README changes.
 
             Requirements:
