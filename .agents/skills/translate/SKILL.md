@@ -5,7 +5,7 @@ description: Translate English documentation to other languages.
 
 # Translate
 
-Run `git diff` and translate changed English doc and UI copy files to other international languages. Translate all languages in parallel to save time.
+Read the README.md and translate changed English doc and UI copy files to other international languages. Translate all languages in parallel to save time.
 
 ## Requirements:
 
