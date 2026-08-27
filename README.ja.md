@@ -619,6 +619,7 @@
 - [8bitcn](https://github.com/TheOrcDev/8bitcn-ui) - レトロ8ビットスタイルのオープンソースUIコンポーネントライブラリ。
 - [Dotmatrix](https://github.com/zzzzshawn/matrix) - shadcnレジストリまたは手動コピーでインストール可能な再利用可能なドットマトリックススタイルローディングアニメーションコンポーネント。
 - [Flowbite](https://github.com/themesberg/flowbite) - Tailwind CSSベースのインタラクティブ要素を持つオープンソースUIコンポーネントライブラリ。
+- [Goey Toast](https://github.com/anl331/goey-toast) - モダンなWebアプリケーション向けの軽量でカスタマイズ可能なトースト通知ライブラリ。
 - [Headless UI](https://github.com/tailwindlabs/headlessui) - Tailwind CSS用に設計された完全にアクセシブルなアンスタイルUIプリミティブ。
 - [LangUI](https://github.com/CommandCodeAI/langui) - AIおよびGPTスタイルインターフェース向けオープンソースTailwind CSSコンポーネント。
 - [loading-ui](https://github.com/turbostarter/loading-ui) - Tailwind CSSで構築されたモダンReactアプリ向けの美しいオープンソースローディングステート、スケルトン、アニメーションプレースホルダー。

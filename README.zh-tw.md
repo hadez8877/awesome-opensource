@@ -619,6 +619,7 @@
 - [8bitcn](https://github.com/TheOrcDev/8bitcn-ui) - 復古 8 位元風格的開源 UI 元件函式庫。
 - [Dotmatrix](https://github.com/zzzzshawn/matrix) - 可重用的 Dotmatrix 風格載入動畫元件，可透過 shadcn 登錄檔或手動複製安裝。
 - [Flowbite](https://github.com/themesberg/flowbite) - 基於 Tailwind CSS 的開源 UI 元件函式庫，包含互動元素。
+- [Goey Toast](https://github.com/anl331/goey-toast) - 適用於現代網頁應用程式的輕量級、可自訂彈出通知函式庫。
 - [Headless UI](https://github.com/tailwindlabs/headlessui) - 專為 Tailwind CSS 設計的完全可存取的無樣式 UI 原語。
 - [LangUI](https://github.com/CommandCodeAI/langui) - 用於 AI 和 GPT 風格介面的開源 Tailwind CSS 元件。
 - [loading-ui](https://github.com/turbostarter/loading-ui) - 專為使用 Tailwind CSS 的現代 React 應用打造的精美開源載入狀態、骨架螢幕和動畫佔位符。

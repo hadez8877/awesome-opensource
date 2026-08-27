@@ -619,6 +619,7 @@
 - [8bitcn](https://github.com/TheOrcDev/8bitcn-ui) - مكتبة مكونات UI بأسلوب 8-Bit مفتوحة المصدر.
 - [Dotmatrix](https://github.com/zzzzshawn/matrix) - مكونات تحميل DOTMATRIX قابلة لإعادة الاستخدام قابلة للتثبيت عبر سجل shadcn أو النسخ اليدوي.
 - [Flowbite](https://github.com/themesberg/flowbite) - مكتبة مكونات UI مفتوحة المصدر مبنية على Tailwind CSS مع عناصر تفاعلية.
+- [Goey Toast](https://github.com/anl331/goey-toast) - مكتبة إشعارات منبثقة خفيفة الوزن وقابلة للتخصيص لتطبيقات الويب الحديثة.
 - [Headless UI](https://github.com/tailwindlabs/headlessui) - بدائل UI غير مصممة قابلة للوصول بالكامل مصممة لـ Tailwind CSS.
 - [LangUI](https://github.com/CommandCodeAI/langui) - مكونات Tailwind CSS مفتوحة المصدر لواجهات الذكاء الاصطناعي وأسلوب GPT.
 - [loading-ui](https://github.com/turbostarter/loading-ui) - حالات تحميل وهمية ومؤشرات ت_positioning جميلة مفتوحة المصدر مصممة لتطبيقات React الحديثة مع Tailwind CSS.

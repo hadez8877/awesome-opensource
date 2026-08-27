@@ -619,6 +619,7 @@
 - [8bitcn](https://github.com/TheOrcDev/8bitcn-ui) - Biblioteca de componentes UI retro estilo 8-bit de código aberto.
 - [Dotmatrix](https://github.com/zzzzshawn/matrix) - Componentes reutilizáveis de animação de carregamento estilo dotmatrix instaláveis via registro shadcn ou cópia manual.
 - [Flowbite](https://github.com/themesberg/flowbite) - Biblioteca de componentes UI de código aberto baseada no Tailwind CSS com elementos interativos.
+- [Goey Toast](https://github.com/anl331/goey-toast) - Biblioteca leve e personalizável de notificações toast para aplicações web modernas.
 - [Headless UI](https://github.com/tailwindlabs/headlessui) - Primitivas UI sem estilo totalmente acessíveis projetadas para Tailwind CSS.
 - [LangUI](https://github.com/CommandCodeAI/langui) - Componentes de código aberto Tailwind CSS para interfaces de IA e estilo GPT.
 - [loading-ui](https://github.com/turbostarter/loading-ui) - Belos estados de carregamento, esqueletos e marcadores de posição animados de código aberto construídos para apps React modernos com Tailwind CSS.
