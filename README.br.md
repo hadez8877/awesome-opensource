@@ -35,17 +35,77 @@
 
 ## Conteúdo
 
-| Categoria       | Descrição                                                                                                                                                           | Atalho                          |
-|-----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------|
-| Backend / BaaS  | Ferramentas e plataformas para serviços backend, APIs, autenticação e Backend-as-a-Service como Firebase, Supabase e frameworks para Node.js e outros runtimes.   | [Clique aqui](#backend--baas)   |
-| Ferramentas CLI | Utilitários de linha de comando para produtividade, gerenciamento de arquivos, monitoramento do sistema, shells modernos e automação do fluxo de trabalho diário. | [Clique aqui](#ferramentas-cli) |
-| Banco de dados   | Sistemas de banco de dados relacionais, NoSQL, grafos, busca, vetoriais e de séries temporais para diferentes casos de uso e necessidades de escalabilidade.      | [Clique aqui](#banco-de-dados)  |
-| DevOps          | Infraestrutura como código, orquestração com Kubernetes, CI/CD, monitoramento, redes e segurança para implantações modernas na nuvem.                              | [Clique aqui](#devops)          |
-| Apps móveis     | Frameworks e aplicações para desenvolvimento móvel multiplataforma, incluindo navegadores, produtividade, multimídia e comunicação.                                | [Clique aqui](#apps-móveis)     |
-| Segurança       | Ferramentas de segurança para contêineres, redes, endpoints, engenharia reversa e gerenciamento de vulnerabilidades.                                               | [Clique aqui](#segurança)       |
-| Self-Hosted     | Software que você pode hospedar em sua própria infraestrutura, incluindo plataformas Git, DNS, servidores de mídia, monitoramento e gerenciamento de arquivos.      | [Clique aqui](#self-hosted)     |
-| Software / SaaS | Aplicações completas para análise, automação, comunicação, documentação, armazenamento e produtividade em equipe.                                                  | [Clique aqui](#software--saas)  |
-| Desenvolvimento Web | Frameworks, bibliotecas UI, editores de código, ferramentas de design e recursos para desenvolvimento web frontend e fullstack.                                 | [Clique aqui](#desenvolvimento-web) |
+<!--lint disable awesome-list-item-->
+
+- [Backend / BaaS](#backend--baas)
+  - [API & GraphQL](#api--graphql)
+  - [Autenticação & Identidade](#autenticação--identidade)
+  - [Backend como Serviço](#backend-como-serviço)
+  - [Frameworks](#frameworks)
+- [Ferramentas CLI](#ferramentas-cli)
+  - [Ferramentas de Desenvolvimento](#ferramentas-de-desenvolvimento)
+  - [Gerenciamento de Arquivos & Navegação](#gerenciamento-de-arquivos--navegação)
+  - [Gerenciadores de Pacotes & Runtimes](#gerenciadores-de-pacotes--runtimes)
+  - [Produtividade & Fluxo de Trabalho](#produtividade--fluxo-de-trabalho)
+  - [Shells & Ambientes de Terminal](#shells--ambientes-de-terminal)
+  - [Monitoramento de Sistema & Utilidades](#monitoramento-de-sistema--utilidades)
+- [Banco de Dados](#banco-de-dados)
+  - [Banco de Dados em Grafo](#banco-de-dados-em-grafo)
+  - [Banco de Dados Key-Value & Cache](#banco-de-dados-key-value--cache)
+  - [Bancos de Dados NoSQL](#bancos-de-dados-nosql)
+  - [Bancos de Dados Relacionais](#bancos-de-dados-relacionais)
+  - [Motores de Busca & Análise](#motores-de-busca--análise)
+  - [Banco de Dados em Série Temporal](#banco-de-dados-em-série-temporal)
+  - [Banco de Dados Vetorial](#banco-de-dados-vetorial)
+- [DevOps](#devops)
+  - [Containers & Virtualização](#containers--virtualização)
+  - [Kubernetes & Orquestração](#kubernetes--orquestração)
+  - [CI / CD](#ci--cd)
+  - [Infraestrutura como Código](#infraestrutura-como-código)
+  - [Monitoramento & Observabilidade](#monitoramento--observabilidade)
+  - [Redes & Proxy Reverso](#redes--proxy-reverso)
+  - [Segredos & Segurança](#segredos--segurança)
+- [Aplicativos Mobile](#aplicativos-mobile)
+  - [Navegadores & Internet](#navegadores--internet)
+  - [Gerenciamento de Arquivos & Utilidades](#gerenciamento-de-arquivos--utilidades)
+  - [Launchers & Personalização](#launchers--personalização)
+  - [Mídia & Música](#mídia--música)
+  - [Mensagens & Comunicação](#mensagens--comunicação)
+  - [Gerenciadores de Senha & Segurança](#gerenciadores-de-senha--segurança)
+  - [Produtividade & Anotações](#produtividade--anotações)
+  - [Vídeo & Streaming](#vídeo--streaming)
+- [Segurança](#segurança)
+  - [Segurança de Container & Kubernetes](#segurança-de-container--kubernetes)
+  - [Segurança de Endpoint & Runtime](#segurança-de-endpoint--runtime)
+  - [Segurança & Monitoramento de Rede](#segurança--monitoramento-de-rede)
+  - [Privacidade & Anonimato](#privacidade--anonimato)
+  - [Engenharia Reversa & Pentesting](#engenharia-reversa--pentesting)
+  - [Gerenciamento de Segredos & Criptografia](#gerenciamento-de-segredos--criptografia)
+  - [Varredura & Análise de Vulnerabilidades](#varredura--análise-de-vulnerabilidades)
+- [Auto-hospedagem](#auto-hospedagem)
+  - [Plataformas de Desenvolvimento & Serviços Git](#plataformas-de-desenvolvimento--serviços-git)
+  - [DNS, Redes & Privacidade](#dns-redes--privacidade)
+  - [Homelab & Gerenciamento de Servidores](#homelab--gerenciamento-de-servidores)
+  - [Servidores de Mídia & Streaming](#servidores-de-mídia--streaming)
+  - [Monitoramento & Uptime](#monitoramento--uptime)
+  - [Gerenciadores de Senha & Autenticação](#gerenciadores-de-senha--autenticação)
+  - [Fotos & Gerenciamento de Arquivos](#fotos--gerenciamento-de-arquivos)
+  - [RSS, Leitura Posterior & Conhecimento](#rss-leitura-posterior--conhecimento)
+- [Software / SaaS](#software--saas)
+  - [Análises & Monitoramento](#análises--monitoramento)
+  - [Automação & Ferramentas Internas](#automação--ferramentas-internas)
+  - [Comunicação & Suporte](#comunicação--suporte)
+  - [Documentação & Bases de Conhecimento](#documentação--bases-de-conhecimento)
+  - [Armazenamento de Arquivos & Nuvem](#armazenamento-de-arquivos--nuvem)
+  - [Produtividade & Colaboração](#produtividade--colaboração)
+- [Desenvolvimento Web](#desenvolvimento-web)
+  - [Bibliotecas UI para Angular](#bibliotecas-ui-para-angular)
+  - [Editores de Código](#editores-de-código)
+  - [Ferramentas de Design](#ferramentas-de-design)
+  - [Ícones](#ícones)
+  - [Bibliotecas UI para React](#bibliotecas-ui-para-react)
+  - [Componentes UI](#componentes-ui)
+  - [Bibliotecas UI para Vue](#bibliotecas-ui-para-vue)
 
 ## Backend / BaaS
 
