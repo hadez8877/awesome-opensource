@@ -34,8 +34,8 @@ const extractUrls = (content) => {
  */
 async function getAddedUrls(range, currentUrls) {
 	const args = range
-		? ['diff', '--unified=0', range, '--', readmePath]
-		: ['diff', '--unified=0', '--', readmePath];
+		? ['diff', '--unified=0', range, '--', readmePath] // If is a PR, check the diff
+		: ['diff', '--unified=0', '--', readmePath]; // If is not a PR, check uncommitted changes
 
 	const { stdout } = await execFileAsync('git', args);
 	const addedLines = stdout
@@ -48,13 +48,15 @@ async function getAddedUrls(range, currentUrls) {
 };
 
 async function checkUrl(url) {
-	return fetch(url, {
-    method: 'HEAD',
-    signal: AbortSignal.timeout(10000)
-  })
-    .then(({ status, ok }) => ({ url, status, ok }))
-    .catch(() => ({ url, status: null, ok: false }));
-}
+	return Promise.race([
+		fetch(url, { method: 'HEAD' })
+			.then(({ status, ok }) => ({ url, status, ok })),
+		new Promise((resolve) => {
+			setTimeout(() => resolve({ url, status: undefined, ok: false }), 10000);
+		})
+	])
+		.catch(() => ({ url, status: undefined, ok: false }));
+};
 
 /**
  * Collects errors for all GitHub URLs found in the README.

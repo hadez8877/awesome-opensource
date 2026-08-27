@@ -3,7 +3,7 @@
   "name": "awesome-opensource",
   "type": "module",
   "scripts": {
-    "check-urls": "node scripts/url-checker.mjs"
+    "readme:check-urls": "node scripts/url-checker.mjs"
   },
   "license": "CC0-1.0",
   "packageManager": "pnpm@11.22.0"

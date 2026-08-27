@@ -17,8 +17,8 @@ async function checkReadmeURLs() {
 	
 	console.log(`Found ${plural ? 'these' : 'a'} broken URL${plural ? 's' : ''} in the README:`);
 	console.table(reportRows);
-	
-	process.exit(1);
+
+	process.exitCode = 1;
 };
 
 await checkReadmeURLs();
