@@ -1,4 +1,4 @@
-name: Sync READMEs
+name: Sync README i18n
 
 on:
   push:
@@ -37,7 +37,7 @@ jobs:
       - name: Install OpenCode
         run: curl -fsSL https://opencode.ai/install | bash
 
-      - name: Sync READMEs with OpenCode
+      - name: Sync README i18n with OpenCode
         env:
           OPENCODE_API_KEY: ${{ secrets.OPENCODE_API_KEY }}
           OPENCODE_CONFIG_CONTENT: |
