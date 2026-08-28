@@ -48,14 +48,9 @@ async function getAddedUrls(range, currentUrls) {
 };
 
 async function checkUrl(url) {
-	return Promise.race([
-		fetch(url, { method: 'HEAD' })
-			.then(({ status, ok }) => ({ url, status, ok })),
-		new Promise((resolve) => {
-			setTimeout(() => resolve({ url, status: undefined, ok: false }), 10000);
-		})
-	])
-		.catch(() => ({ url, status: undefined, ok: false }));
+	return fetch(url, { method: 'HEAD', signal: AbortSignal.timeout(10000) })
+		.then(({ status, ok }) => ({ url, status, ok }))
+		.catch(() => ({ url, status: null, ok: false }));
 };
 
 /**
@@ -74,7 +69,7 @@ export async function collectUrlErrors() {
 	}
 
 	const results = await Promise.all(urlsToCheck.map(checkUrl));
-	const urlErrors = results.filter(({ ok }) => !ok).flat();
+	const urlErrors = results.filter(({ ok }) => !ok);
 
 	return urlErrors;
 };
