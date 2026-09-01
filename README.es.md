@@ -127,7 +127,6 @@
 - [PocketBase](https://github.com/pocketbase/pocketbase) - Backend embebido con SQLite, autenticación y API REST, completamente de codigo abierto.
 - [Supabase](https://github.com/supabase/supabase) - Alternativa de codigo abierto a Firebase construida sobre PostgreSQL.
 - [UnDB](https://github.com/undb-io/undb) - Base de datos no-code y BaaS autoalojada (basada en SQLite, tipo Airtable).
-- [UnDB](https://github.com/undb-io/undb) - Base de datos no-code y BaaS autoalojada (basada en SQLite, tipo Airtable).
 
 ### Frameworks
 
@@ -434,7 +433,6 @@
 - [Responder](https://github.com/lgandx/Responder) - Envenenador LLMNR, NBT-NS y MDNS comunmente utilizado en evaluaciones de red interna.
 - [sqlmap](https://github.com/sqlmapproject/sqlmap) - Herramienta automatizada de inyeccion SQL y takeover de bases de datos.
 - [Wireshark](https://github.com/wireshark/wireshark) - Analizador de protocolos de red para solucion de problemas e inspeccion de paquetes.
-- [Hetty](https://github.com/dstotijn/hetty) - Proxy de codigo abierto que permite modificar paquetes.
 - [Hetty](https://github.com/dstotijn/hetty) - Proxy de codigo abierto que permite modificar paquetes.
 
 ### Gestion de Secretos & Encriptacion
