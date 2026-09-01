@@ -618,6 +618,7 @@
 
 - [8bitcn](https://github.com/TheOrcDev/8bitcn-ui) - 复古 8 位风格的开源 UI 组件库。
 - [Dotmatrix](https://github.com/zzzzshawn/matrix) - 可复用的 Dotmatrix 风格加载动画组件，可通过 shadcn 注册表或手动复制安装。
+- [Drawably](https://github.com/Danilaa1/drawably) - 带有动画钢笔素描笔触和每次挂载时全新随机效果的手绘风格 UI 控件。
 - [Flowbite](https://github.com/themesberg/flowbite) - 基于 Tailwind CSS 的开源 UI 组件库，包含交互元素。
 - [Goey Toast](https://github.com/anl331/goey-toast) - 适用于现代 Web 应用的轻量级、可定制 toast 通知库。
 - [Headless UI](https://github.com/tailwindlabs/headlessui) - 专为 Tailwind CSS 设计的完全可访问的无样式 UI 原语。

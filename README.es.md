@@ -127,6 +127,7 @@
 - [PocketBase](https://github.com/pocketbase/pocketbase) - Backend embebido con SQLite, autenticación y API REST, completamente de codigo abierto.
 - [Supabase](https://github.com/supabase/supabase) - Alternativa de codigo abierto a Firebase construida sobre PostgreSQL.
 - [UnDB](https://github.com/undb-io/undb) - Base de datos no-code y BaaS autoalojada (basada en SQLite, tipo Airtable).
+- [UnDB](https://github.com/undb-io/undb) - Base de datos no-code y BaaS autoalojada (basada en SQLite, tipo Airtable).
 
 ### Frameworks
 
@@ -434,6 +435,7 @@
 - [sqlmap](https://github.com/sqlmapproject/sqlmap) - Herramienta automatizada de inyeccion SQL y takeover de bases de datos.
 - [Wireshark](https://github.com/wireshark/wireshark) - Analizador de protocolos de red para solucion de problemas e inspeccion de paquetes.
 - [Hetty](https://github.com/dstotijn/hetty) - Proxy de codigo abierto que permite modificar paquetes.
+- [Hetty](https://github.com/dstotijn/hetty) - Proxy de codigo abierto que permite modificar paquetes.
 
 ### Gestion de Secretos & Encriptacion
 
@@ -618,6 +620,7 @@
 
 - [8bitcn](https://github.com/TheOrcDev/8bitcn-ui) - Libreria de componentes UI retro estilo 8-bit de codigo abierto.
 - [Dotmatrix](https://github.com/zzzzshawn/matrix) - Componentes de animacion de carga reutilizables estilo dotmatrix instalables via registro shadcn o copia manual.
+- [Drawably](https://github.com/Danilaa1/drawably) - Controles UI dibujados a mano con trazos animados estilo boceto y aleatoriedad renovada en cada montaje.
 - [Flowbite](https://github.com/themesberg/flowbite) - Libreria de componentes UI de codigo abierto basada en Tailwind CSS con elementos interactivos.
 - [Goey Toast](https://github.com/anl331/goey-toast) - Biblioteca ligera y personalizable de notificaciones toast para aplicaciones web modernas.
 - [Headless UI](https://github.com/tailwindlabs/headlessui) - Primitivas UI sin estilo completamente accesibles diseñadas para Tailwind CSS.
