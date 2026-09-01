@@ -618,6 +618,7 @@
 
 - [8bitcn](https://github.com/TheOrcDev/8bitcn-ui) - Retro 8-bit styled open-source UI component library.
 - [Dotmatrix](https://github.com/zzzzshawn/matrix) - Reusable dotmatrix-style loading animation components installable via shadcn registry or manual copy.
+- [Drawably](https://github.com/Danilaa1/drawably) - Hand-drawn UI controls with animated pen-sketch strokes and fresh randomness on every mount.
 - [Flowbite](https://github.com/themesberg/flowbite) - Open-source UI component library based on Tailwind CSS with interactive elements.
 - [Goey Toast](https://github.com/anl331/goey-toast) - Lightweight, customizable toast notification library for modern web applications.
 - [Headless UI](https://github.com/tailwindlabs/headlessui) - Fully accessible unstyled UI primitives designed for Tailwind CSS.
