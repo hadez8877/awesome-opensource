@@ -34,6 +34,17 @@ jobs:
           client-id: ${{ vars.HADEZ_CLIENT_ID }}
           app-secret: ${{ secrets.HADEZ_APP_SECRET }}
 
+      - name: Get README English diff
+        id: readme-changes
+        run: |
+          DIFF=$(git diff "${{ github.event.before }}" "${{ github.sha }}" -- README.md || true)
+          {
+            echo "diff<<EOF"
+            echo "$DIFF"
+            echo "EOF"
+          } >> "$GITHUB_OUTPUT"
+          
+
       - name: Install OpenCode
         run: curl -fsSL https://opencode.ai/install | bash
 
@@ -53,6 +64,11 @@ jobs:
         run: |
           opencode run --model opencode/gemini-3.5-flash-lite <<'EOF'
             Update README.md files to match the latest English README changes.
+
+            Changed English README content:
+            <changed_readme_content>
+            ${{ steps.readme-changes.outputs.diff }}
+            </changed_readme_content>
 
             Requirements:
             1. Update all relevant locale READMEs under README.<locale>.md so they reflect these English README changes.
