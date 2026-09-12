@@ -270,6 +270,7 @@
 - [Argo CD](https://github.com/argoproj/argo-cd) - Kubernetes 的宣告式 GitOps 持續交付工具。
 - [Flux](https://github.com/fluxcd/flux2) - GitOps 工具包，用於保持 Kubernetes 叢集與 Git 儲存庫同步。
 - [Helm](https://github.com/helm/helm) - Kubernetes 應用的套件管理器。
+- [Ivy Tendril](https://github.com/Ivy-Interactive/Ivy-Tendril) - 具備代理功能的開源軟體工廠，擁有出色的 UI，可為你處理平行 Git worktrees，並配備程式化驗證與快速審查迴圈。
 - [k3s](https://github.com/k3s-io/k3s) - 針對邊緣和 IoT 工作負載優化的輕量級 Kubernetes 發行版。
 - [Kubernetes](https://github.com/kubernetes/kubernetes) - 領先的開源容器編排平台。
 - [Rancher](https://github.com/rancher/rancher) - 用於多叢集操作的 Kubernetes 管理平台。
