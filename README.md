@@ -270,6 +270,7 @@
 - [Argo CD](https://github.com/argoproj/argo-cd) - Declarative GitOps continuous delivery tool for Kubernetes.
 - [Flux](https://github.com/fluxcd/flux2) - GitOps toolkit for keeping Kubernetes clusters in sync with Git repositories.
 - [Helm](https://github.com/helm/helm) - Package manager for Kubernetes applications.
+- [Ivy Tendril](https://github.com/Ivy-Interactive/Ivy-Tendril) - Open-source agentic software factory with an amazing UI that handles parallel Git worktrees for you, complete with programmatic verifications and fast review loops.
 - [k3s](https://github.com/k3s-io/k3s) - Lightweight Kubernetes distribution optimized for edge and IoT workloads.
 - [Kubernetes](https://github.com/kubernetes/kubernetes) - The leading open-source container orchestration platform.
 - [Rancher](https://github.com/rancher/rancher) - Kubernetes management platform for multi-cluster operations.
