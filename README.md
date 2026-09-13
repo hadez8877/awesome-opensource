@@ -154,6 +154,7 @@
 - [ripgrep](https://github.com/BurntSushi/ripgrep) - Extremely fast recursive search tool respecting `.gitignore`.
 - [xh](https://github.com/ducaale/xh) - Friendly and fast HTTP client designed as an alternative to HTTPie.
 - [yq](https://github.com/mikefarah/yq) - Portable YAML, JSON, XML, and TOML processor inspired by jq.
+- [YYLO](https://github.com/yylo-dev/yylo) - Command-line orchestrator for coding agents with typed task, validation, merge, and release-readiness boundaries.
 
 ### File Management & Navigation
 
