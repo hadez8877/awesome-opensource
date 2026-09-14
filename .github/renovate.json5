@@ -1,19 +1,23 @@
 {
 	"$schema": "https://docs.renovatebot.com/renovate-schema.json",
 	"extends": [
-		"config:recommended",
-		"schedule:weekly",
-		":disablePeerDependencies",
-		"regexManagers:biomeVersions",
-		"helpers:pinGitHubActionDigestsToSemver"
-	],
-	"labels": ["dependencies"],
-	"rangeStrategy": "bump",
-	"postUpdateOptions": ["pnpmDedupe"],
-	"lockFileMaintenance": {
-		"enabled": true
-	},
-	"ignorePaths": ["**/node_modules/**"],
+    "config:recommended",
+    "schedule:weekly",
+    ":disablePeerDependencies",
+    ":disableDependencyDashboard",
+    "customManagers:biomeVersions",
+    "helpers:pinGitHubActionDigestsToSemver"
+  ],
+  "labels": ["dependencies"],
+  "rangeStrategy": "bump",
+  "postUpdateOptions": ["pnpmDedupe"],
+  "toolSettings": {
+    "nodeMaxMemory": 3072
+  },
+  "lockFileMaintenance": {
+    "enabled": true
+  },
+  "ignorePaths": ["**/node_modules/**"],
 	"packageRules": [
 		//#region Infra groups
 		{
