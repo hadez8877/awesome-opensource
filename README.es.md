@@ -50,6 +50,7 @@
   - [Shells & Entornos de Terminal](#shells--entornos-de-terminal)
   - [Monitoreo de Sistema & Utilidades](#monitoreo-de-sistema--utilidades)
 - [Bases de Datos](#bases-de-datos)
+  - [Clientes & Herramientas de Administración](#clientes--herramientas-de-administracion)
   - [Bases de Datos de Grafo](#bases-de-datos-de-grafo)
   - [Bases de Datos Clave-Valor & Caché](#bases-de-datos-clave-valor--cache)
   - [Bases de Datos NoSQL](#bases-de-datos-nosql)
@@ -199,6 +200,12 @@
 - [procs](https://github.com/dalance/procs) - Reemplazo moderno para ps con salida coloreada y estructurada.
 
 ## Bases de datos
+
+### Clientes & Herramientas de Administración
+
+- [Adminer](https://github.com/vrana/adminer) - Herramienta de gestión de bases de datos que se distribuye como un único archivo PHP.
+- [DBeaver](https://github.com/dbeaver/dbeaver) - Cliente de bases de datos de escritorio que soporta una amplia gama de motores SQL y NoSQL.
+- [LibreDB Studio](https://github.com/libredb/libredb-studio) - IDE SQL autoalojado que se ejecuta en el navegador y se conecta a dieciséis motores de bases de datos.
 
 ### Bases de datos de Grafos
 

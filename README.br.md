@@ -50,6 +50,7 @@
   - [Shells & Ambientes de Terminal](#shells--ambientes-de-terminal)
   - [Monitoramento de Sistema & Utilidades](#monitoramento-de-sistema--utilidades)
 - [Banco de Dados](#banco-de-dados)
+  - [Clientes & Ferramentas de Administração](#clientes--ferramentas-de-administração)
   - [Banco de Dados em Grafo](#banco-de-dados-em-grafo)
   - [Banco de Dados Key-Value & Cache](#banco-de-dados-key-value--cache)
   - [Bancos de Dados NoSQL](#bancos-de-dados-nosql)
@@ -199,6 +200,12 @@
 - [procs](https://github.com/dalance/procs) - Substituto moderno para o ps com saída colorida e estruturada.
 
 ## Banco de dados
+
+### Clientes & Ferramentas de Administração
+
+- [Adminer](https://github.com/vrana/adminer) - Ferramenta de gerenciamento de banco de dados fornecida como um único arquivo PHP.
+- [DBeaver](https://github.com/dbeaver/dbeaver) - Cliente de banco de dados para desktop com suporte a uma ampla variedade de motores SQL e NoSQL.
+- [LibreDB Studio](https://github.com/libredb/libredb-studio) - IDE SQL auto-hospedada que roda no navegador e se conecta a dezesseis motores de banco de dados.
 
 ### Banco de dados de Grafos
 

@@ -50,6 +50,7 @@
   - [Shell 与终端环境](#shell-与终端环境)
   - [系统监控与实用工具](#系统监控与实用工具)
 - [数据库](#数据库)
+  - [客户端与管理工具](#客户端与管理工具)
   - [图数据库](#图数据库)
   - [键值与缓存数据库](#键值与缓存数据库)
   - [NoSQL 数据库](#nosql-数据库)
@@ -199,6 +200,12 @@
 - [procs](https://github.com/dalance/procs) - `ps` 的现代化替代品，输出支持彩色和结构化显示。
 
 ## 数据库
+
+### 客户端与管理工具
+
+- [Adminer](https://github.com/vrana/adminer) - 以单个 PHP 文件形式提供的数据库管理工具。
+- [DBeaver](https://github.com/dbeaver/dbeaver) - 支持多种 SQL 和 NoSQL 引擎的桌面数据库客户端。
+- [LibreDB Studio](https://github.com/libredb/libredb-studio) - 在浏览器中运行并连接到十六种数据库引擎的自托管 SQL IDE。
 
 ### 图数据库
 

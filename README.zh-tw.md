@@ -50,6 +50,7 @@
   - [Shell 與終端機環境](#shell-與終端機環境)
   - [系統監控與實用工具](#系統監控與實用工具)
 - [資料庫](#資料庫)
+  - [客戶端與管理工具](#客戶端與管理工具)
   - [圖資料庫](#圖資料庫)
   - [鍵值與快取資料庫](#鍵值與快取資料庫)
   - [NoSQL 資料庫](#nosql-資料庫)
@@ -199,6 +200,12 @@
 - [procs](https://github.com/dalance/procs) - `ps` 的現代化替代品，輸出支援彩色和結構化顯示。
 
 ## 資料庫
+
+### 客戶端與管理工具
+
+- [Adminer](https://github.com/vrana/adminer) - 以單一 PHP 檔案提供的資料庫管理工具。
+- [DBeaver](https://github.com/dbeaver/dbeaver) - 支援多種 SQL 與 NoSQL 引擎的桌面資料庫客戶端。
+- [LibreDB Studio](https://github.com/libredb/libredb-studio) - 可在瀏覽器中執行並連接至 16 種資料庫引擎的自架設 SQL IDE。
 
 ### 圖資料庫
 
