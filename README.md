@@ -50,6 +50,7 @@
   - [Shells & Terminal Environments](#shells--terminal-environments)
   - [System Monitoring & Utilities](#system-monitoring--utilities)
 - [Databases](#databases)
+  - [Clients & Admin Tools](#clients--admin-tools)
   - [Graph Databases](#graph-databases)
   - [Key-Value & Cache Databases](#key-value--cache-databases)
   - [NoSQL Databases](#nosql-databases)
@@ -200,6 +201,12 @@
 - [procs](https://github.com/dalance/procs) - Modern replacement for `ps` with colored and structured output.
 
 ## Databases
+
+### Clients & Admin Tools
+
+- [Adminer](https://github.com/vrana/adminer) - Database management tool that ships as a single PHP file.
+- [DBeaver](https://github.com/dbeaver/dbeaver) - Desktop database client supporting a wide range of SQL and NoSQL engines.
+- [LibreDB Studio](https://github.com/libredb/libredb-studio) - Self-hosted SQL IDE that runs in the browser and connects to sixteen database engines.
 
 ### Graph Databases
 
