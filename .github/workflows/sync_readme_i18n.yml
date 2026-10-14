@@ -62,7 +62,7 @@ jobs:
               }
             }
         run: |
-          opencode run --model opencode/gemini-3.5-flash-lite <<'EOF'
+          opencode run --model qwen/qwen3.8-27b <<'EOF'
             Update README.md files to match the latest English README changes.
 
             Changed English README content:
