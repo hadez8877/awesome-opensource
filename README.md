@@ -272,7 +272,7 @@
 - [Incus](https://github.com/lxc/incus) - Modern community-driven container and virtual machine manager forked from LXD.
 - [LXC](https://github.com/lxc/lxc) - Lightweight Linux container runtime with low-level system container support.
 - [Podman](https://github.com/containers/podman) - Daemonless container engine focused on security and OCI compatibility.
-- [Spinifex](https://github.com/mulgadc/spinifex) - Self-hosted, AWS-compatible cloud platform that runs EC2, EBS, S3, VPC and IAM on KVM.
+- [Spinifex](https://github.com/mulgadc/spinifex) - Self-hosted, AWS-compatible cloud platform that runs EC2, EBS, S3, VPC and IAM on KVM. 
 
 ### Kubernetes & Orchestration
 
