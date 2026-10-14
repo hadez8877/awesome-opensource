@@ -62,7 +62,7 @@ jobs:
               }
             }
         run: |
-          opencode run --model nvidia/z-ai/glm-5.3-flash <<'EOF'
+          opencode run --model console-nvidia/z-ai/glm-5.3-flash <<'EOF'
             Update README.md files to match the latest English README changes.
 
             Changed English README content:
