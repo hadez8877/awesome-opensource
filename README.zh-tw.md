@@ -271,6 +271,8 @@
 - [Incus](https://github.com/lxc/incus) - 從 LXD 分支而來的社群驅動的現代化容器和虛擬機管理器。
 - [LXC](https://github.com/lxc/lxc) - 輕量級 Linux 容器運行時，支援低階系統容器。
 - [Podman](https://github.com/containers/podman) - 注重安全和 OCI 相容性的無守護行程容器引擎。
+- [Spinifex](https://github.com/mulgadc/spinifex) - 相容於 AWS 的自架設雲端平台，在 KVM 上運行 EC2、EBS、S3、VPC 和 IAM。
+
 
 ### Kubernetes 與編排
 

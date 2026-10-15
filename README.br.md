@@ -271,6 +271,8 @@
 - [Incus](https://github.com/lxc/incus) - Gerenciador moderno de contêineres e máquinas virtuais impulsionado pela comunidade derivado do LXD.
 - [LXC](https://github.com/lxc/lxc) - Runtime de contêineres Linux leve com suporte a contêineres de sistema de baixo nível.
 - [Podman](https://github.com/containers/podman) - Motor de contêineres sem daemon focado em segurança e compatibilidade com OCI.
+- [Spinifex](https://github.com/mulgadc/spinifex) - Plataforma de nuvem auto-hospedada e compatível com AWS que executa EC2, EBS, S3, VPC e IAM sobre KVM.
+
 
 ### Kubernetes & Orquestração
 

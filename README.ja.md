@@ -271,6 +271,8 @@
 - [Incus](https://github.com/lxc/incus) - LXDからフォークされたモダンなコミュニティ主導コンテナ＆仮想マシンマネージャ。
 - [LXC](https://github.com/lxc/lxc) - 低レベルシステムコンテナサポートを持つ軽量Linuxコンテナランタイム。
 - [Podman](https://github.com/containers/podman) - セキュリティとOCI互換性に焦点を当てたデーモンレスコンテナエンジン。
+- [Spinifex](https://github.com/mulgadc/spinifex) - KVM上でEC2、EBS、S3、VPC、IAMを実行するセルフホストAWS互換クラウドプラットフォーム。
+
 
 ### Kubernetes & オーケストレーション
 

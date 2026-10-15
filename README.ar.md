@@ -271,6 +271,8 @@
 - [Incus](https://github.com/lxc/incus) - مدير حديث للحاويات والآلات الافتراضية تقوده المجتمع من Fork من LXD.
 - [LXC](https://github.com/lxc/lxc) - بيئة تشغيل حاويات Linux خفيفة مع دعم حاويات النظام منخفض المستوى.
 - [Podman](https://github.com/containers/podman) - محرك حاويات بدون daemon يركز على الأمان والتوافق مع OCI.
+- [Spinifex](https://github.com/mulgadc/spinifex) - منصة سحابية مُستضافة ذاتياً ومتوافقة مع AWS تشغّل EC2 وEBS وS3 وVPC وIAM على KVM.
+
 
 ### Kubernetes والتنسيق
 
