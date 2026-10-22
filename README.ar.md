@@ -150,6 +150,7 @@
 - [httpie](https://github.com/httpie/cli) - عميل HTTP سطر أوامر سهل الاستخدام لواجهات برمجة التطبيقات والخدمات الإلكترونية.
 - [hyperfine](https://github.com/sharkdp/hyperfine) - أداة قياس أداء سطر أوامر مع تحليل إحصائي.
 - [jq](https://github.com/jqlang/jq) - معالج JSON خفيف ومرن للطرفيات.
+- [Keploy](https://github.com/keploy/keploy) - منصة مفتوحة المصدر لاختبار واجهات برمجة التطبيقات (API) تُنشئ تلقائياً حالات الاختبار والبيانات الوهمية من حركة المرور الحقيقية.
 - [lazydocker](https://github.com/jesseduffield/lazydocker) - واجهة طرفية لـ Docker وإدارة الحاويات.
 - [lazygit](https://github.com/jesseduffield/lazygit) - واجهة طرفية بسيطة لعمليات Git.
 - [ripgrep](https://github.com/BurntSushi/ripgrep) - أداة بحث تكراري فائقة السرعة تحترم `.gitignore`.

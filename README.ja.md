@@ -150,6 +150,7 @@
 - [httpie](https://github.com/httpie/cli) - APIおよびWebサービス向けのヒューマンフレンドリーなコマンドラインHTTPクライアント。
 - [hyperfine](https://github.com/sharkdp/hyperfine) - 統計分析付きのコマンドラインベンチマークツール。
 - [jq](https://github.com/jqlang/jq) - ターミナル向けの軽量で柔軟なJSONプロセッサ。
+- [Keploy](https://github.com/keploy/keploy) - 実際のトラフィックからテストケースとデータモックを自動生成するオープンソースAPIテストプラットフォーム。
 - [lazydocker](https://github.com/jesseduffield/lazydocker) - Dockerおよびコンテナ管理向けのターミナルUI。
 - [lazygit](https://github.com/jesseduffield/lazygit) - Git操作のためのシンプルなターミナルUI。
 - [ripgrep](https://github.com/BurntSushi/ripgrep) - `.gitignore`を尊重する超高速再帰検索ツール。

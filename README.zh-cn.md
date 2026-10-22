@@ -150,6 +150,7 @@
 - [httpie](https://github.com/httpie/cli) - 对用户友好的命令行 HTTP 客户端，适用于 API 和 Web 服务。
 - [hyperfine](https://github.com/sharkdp/hyperfine) - 带有统计分析功能的命令行基准测试工具。
 - [jq](https://github.com/jqlang/jq) - 轻量灵活的终端 JSON 处理器。
+- [Keploy](https://github.com/keploy/keploy) - 开源 API 测试平台，可从真实流量自动生成测试用例和数据模拟。
 - [lazydocker](https://github.com/jesseduffield/lazydocker) - Docker 和容器管理的终端 UI。
 - [lazygit](https://github.com/jesseduffield/lazygit) - 简单的 Git 操作终端 UI。
 - [ripgrep](https://github.com/BurntSushi/ripgrep) - 极速递归搜索工具，遵循 `.gitignore` 规则。

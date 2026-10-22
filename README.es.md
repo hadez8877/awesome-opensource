@@ -150,6 +150,7 @@
 - [httpie](https://github.com/httpie/cli) - Cliente HTTP de línea de comandos fácil de usar para APIs y servicios web.
 - [hyperfine](https://github.com/sharkdp/hyperfine) - Herramienta de benchmarking de línea de comandos con análisis estadístico.
 - [jq](https://github.com/jqlang/jq) - Procesador de JSON ligero y flexible para la terminal.
+- [Keploy](https://github.com/keploy/keploy) - Plataforma de pruebas de API de codigo abierto que genera automáticamente casos de prueba y mocks de datos a partir de tráfico real.
 - [lazydocker](https://github.com/jesseduffield/lazydocker) - Interfaz de terminal para Docker y gestion de contenedores.
 - [lazygit](https://github.com/jesseduffield/lazygit) - Interfaz simple de terminal para operaciones de Git.
 - [ripgrep](https://github.com/BurntSushi/ripgrep) - Herramienta de búsqueda recursiva ultrarrápida que respeta .gitignore.
